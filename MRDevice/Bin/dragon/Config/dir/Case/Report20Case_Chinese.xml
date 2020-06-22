@@ -1,0 +1,547 @@
+﻿<?xml version="1.0"?>
+<report20 version="3.5.4.0">
+	<case device="DR">
+		<existed>
+			<part name="头部">
+				<content caption="头颅平片未见病变">
+					<description>头颅形态、大小正常，颅板骨质结构完整，未见骨质增生、硬化或破坏。颅板血管沟影及脑回压迹清晰，颅缝未见增宽，颅内未见异常钙化。蝶鞍大小、形态、骨质未见异常改变。</description>
+					<diagnose>头颅平片未见病变</diagnose>
+				</content>
+				<content caption="颅底未见明确异常">
+					<description>中颅窝骨质结构完整，未见骨折。双侧破裂孔、卵圆孔、圆孔及棘孔对称、等大，边缘清晰，其余所见颅底骨未见明确异常。</description>
+					<diagnose>颅底未见明确异常 </diagnose>
+				</content>
+				<content caption="头颅切线位未见骨折">
+					<description>头颅标志物处颅板骨质结构完整，未见骨折。颅板血管沟影及脑回压迹清晰，颅缝未见增宽。</description>
+					<diagnose>头颅切线位未见骨折</diagnose>
+				</content>
+				<content caption="双侧颧弓未见明确异常">
+					<description>双侧颧弓形态、大小正常，骨质完整，骨皮质光滑、连续，骨小梁清晰，未见明确异常。</description>
+					<diagnose>双侧颧弓未见明确异常</diagnose>
+				</content>
+				<content caption="鼻骨未见明确骨折">
+					<description>鼻骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见明显骨折线；鼻额缝显示清晰，未见分离。</description>
+					<diagnose>鼻骨未见明确骨折</diagnose>
+				</content>
+				<content caption="上/下颌骨未见明确异常">
+					<description>上/下颌骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见明确异常。</description>
+					<diagnose>上/下颌骨未见明确异常</diagnose>
+				</content>
+				<content caption="蝶鞍未见病变">
+					<description>蝶鞍形态、大小正常，骨质完整，未见骨质增生、硬化或破坏，前、后床突及鞍底未见扩大，鞍区未见软组织肿物影及异常钙化灶；蝶窦形态正常，未见受压，透光度正常。</description>
+					<diagnose>蝶鞍未见病变</diagnose>
+				</content>
+				<content caption="鼻咽部未见异常">
+					<description>鼻咽腔透光度良好，显示清晰，鼻咽顶壁及后壁软组织连续呈凹面向下，局部未见软组织增厚或肿块形成。</description>
+					<diagnose>鼻咽部未见异常</diagnose>
+				</content>
+				<content caption="副鼻窦未见异常">
+					<description>双上颌窦清晰，窦壁骨质完整，未见骨质增生、硬化或破坏，窦腔未见混浊，窦壁粘膜未见增厚；前组筛窦显示清晰，未见混浊，窦壁骨质完整；双额窦发育良好，未见异常。</description>
+					<diagnose>副鼻窦未见异常</diagnose>
+				</content>
+				<content caption="双侧内听道未见异常">
+					<description>双侧内听道显示清晰，骨壁骨质完整，边缘光滑，未见骨质增生、硬化或破坏。双侧内听道开口等大、对称，未见扩大，未见软组织肿物影。</description>
+					<diagnose>双侧内听道未见异常</diagnose>
+				</content>
+				<content caption="双侧茎突未见异常">
+					<description>双侧茎突显示清晰，双侧对称，均长约3.5cm/左侧为cm，右侧为cm，骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏。</description>
+					<diagnose>双侧茎突未见异常</diagnose>
+				</content>
+				<content caption="双侧颞下颌关节未见病变">
+					<description>双侧颞下颌关节构成骨骨质完整，未见骨质增生、硬化或破坏，关节面清晰，光滑，关节间隙对称，张口、闭口位下颌骨髁状突位置正常；双侧颞下颌关节关系正常。</description>
+					<diagnose>双侧颞下颌关节未见病变</diagnose>
+				</content>
+				<content caption="双侧眼眶骨质未见异常">
+					<description> 双侧眼眶对称，眶壁骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；蝶骨小翼及眶上裂均未见异常。</description>
+					<diagnose>双侧眼眶骨质未见异常</diagnose>
+				</content>
+				<content caption="头颅术后改变">
+					<description>头颅术后查：颅骨骨质部分缺如，边缘清晰；未见明确骨质疏松、破坏及增生现象；软组织未见正常。</description>
+					<diagnose>头颅术后改变</diagnose>
+				</content>
+				<content caption="蝶鞍内占位病变">
+					<description>蝶鞍形态明显扩大，大小约为 cmX cm，呈气球样改变。蝶鞍骨皮质吸收，鞍底下沉，变薄，鞍背及后床突消失。鞍区内未见钙化影。蝶窦受压变小，后壁变薄。颅板血管影清楚，脑回压迹较多，余未见异常。</description>
+					<diagnose>蝶鞍内占位病变，考虑垂体瘤，建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="鼻咽癌,侵犯颅底">
+					<description>左/右侧中颅窝骨质结构包括卵圆孔后缘，破裂孔外缘，蝶骨大翼及岩骨尖均见明显骨质破坏，边缘清晰，无硬化边，局部软组织增厚。蝶窦透亮度减低。对侧中颅窝骨质结构尚好。</description>
+					<diagnose>结合临床，考虑鼻咽癌侵犯左/右侧颅底</diagnose>
+				</content>
+				<content caption="腺样体肥大">
+					<description>鼻咽腔透光度良好，显示清晰，鼻咽顶壁及后壁软组织明显增厚，向鼻后腔凸起约 mm，边缘清晰，鼻后腔明显变窄。邻近骨质未见异常。</description>
+					<diagnose>腺样体肥大</diagnose>
+				</content>
+				<content caption="上颌窦炎">
+					<description>左右双侧上颌窦发育良好，左右双侧上颌窦密度增高，窦壁骨质硬化，粘膜增厚，窦腔不大，骨壁未见骨质破坏。对侧上颌窦密度正常。余组副鼻窦未见异常。</description>
+					<diagnose>左右双侧上颌窦慢性炎症表现</diagnose>
+				</content>
+				<content caption="上颌窦囊肿">
+					<description>左右上颌窦下部见密度增高影，边缘清晰，周围有透亮带。对侧上颌窦气化良好，密度均匀，窦壁光整；其余各副鼻窦未见异常。</description>
+					<diagnose>左右上颌窦囊肿</diagnose>
+				</content>
+				<content caption="慢性中耳乳突炎">
+					<description>左/右侧乳突呈坚实型，乳突气房混浊，间隔增粗，鼓室盖及乙状窦前壁骨质完整，未见破坏。上鼓室明显扩大，透亮度增加，骨壁骨质硬化、破坏，鼓窦入口及乳突窦亦见扩大。对侧乳突呈气化型，气房气化良好，间隔清晰，上鼓室、鼓窦入口及乳突窦清晰正常，未见骨质硬化或破坏。</description>
+					<diagnose>左/右侧慢性中耳乳突炎，上鼓室胆脂瘤形成。</diagnose>
+				</content>
+			</part>
+			<part name="胸部">
+				<content caption="胸部正侧位正常">
+					<description>胸廓对称，气管居中，纵隔不宽；双侧肺野清晰，肺纹理走向规则，未见实质性病变；心影大小形态正常；双侧膈面光滑，肋膈角锐利。</description>
+					<diagnose>双肺及心膈未见异常</diagnose>
+				</content>
+				<content caption="心脏三位片正常">
+					<description>胸廓对称，气管居中，纵隔不宽；双侧肺野清晰，肺纹理走向规则，未见实质性病变；心影大小形态正常，各房室未见增大，食道左房压迹显示清晰，未见加深或后移；双侧膈面光滑，肋膈角锐利。</description>
+					<diagnose>双肺及心膈未见异常</diagnose>
+				</content>
+				<content caption="慢性支气管炎">
+					<description>双侧肺野纹理增多、粗乱，以中下肺野为著，未见明显渗出性病变，两肺门影稍增浓。纵隔不宽，心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>结合临床，符合慢性支气管炎表现。</diagnose>
+				</content>
+				<content caption="支气管扩张症合并感染">
+					<description>双肺纹理增多，左右上中下肺野可见散在斑片状渗出病灶，局部肺叶透光度下降，肺纹理紊乱，部分支气管呈"双轨征"，并可见多个小囊泡影，两肺门影不浓。纵隔不宽，心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>结合临床，符合支气管扩张症合并感染。</diagnose>
+				</content>
+				<content caption="慢性支气管炎、肺气肿">
+					<description>胸廓呈桶形，双肺肺气肿征，双肺野透亮度增高，肺纹理增多、粗乱，左右肺上中下叶见散在斑片状渗出灶。左右肺门影增浓。心影呈斜位，主动脉迂曲、增宽，结部钙化。两膈面较低，欠光滑，双侧肋膈角变钝。</description>
+					<diagnose>慢性支气管炎、肺气肿伴肺感染，请治疗后复查。</diagnose>
+				</content>
+				<content caption="肺内感染">
+					<description>双肺野纹理增多、粗乱，左右肺上中下肺野可见斑片状渗出灶，密度较均匀，边缘模糊，左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>左右肺感染，请治疗后复查。</diagnose>
+				</content>
+				<content caption="支气管肺炎">
+					<description>双肺野纹理增多、粗乱，双中下肺野可见散在斑片状渗出灶，密度较均匀，主要沿肺纹理分布，两肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>支气管肺炎，请治疗后复查。</diagnose>
+				</content>
+				<content caption="大叶性肺炎">
+					<description>左右肺上中下肺叶呈实变影，密度均匀，边缘清晰，其内肺纹理显示模糊、部分消失，叶间裂未见移位，左右侧肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>左右肺上中下叶大叶性肺炎，请治疗后复查。</diagnose>
+				</content>
+				<content caption="肺间质性肺炎">
+					<description>双肺野纹理增多、粗乱，左右肺上中下肺野可见散在小斑片状及小囊状渗出灶呈弥漫性分布，密度较均匀，左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose> 左右肺间质性肺炎，请治疗后复查。</diagnose>
+				</content>
+				<content caption="过敏性肺炎">
+					<description>双肺野纹理增多、粗乱，(左右双)(上中下)肺野可见多个散在团块状及云絮状模糊阴影，阴影密度均匀，分布不均匀，(左右双)肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>结合临床，考虑过敏性肺炎。</diagnose>
+				</content>
+				<content caption="支原体肺炎">
+					<description>双肺野纹理增多、粗乱，左右肺上中下肺野可见散在团块状模糊阴影，密度较均匀，左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>结合临床，考虑支原体肺炎。</diagnose>
+				</content>
+				<content caption="病毒性肺炎">
+					<description>双肺野纹理增多、粗乱，左右肺上中下肺野可见散在小结节状状渗出灶呈弥漫性分布，密度较均匀，左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>结合临床，考虑病毒性肺炎。</diagnose>
+				</content>
+				<content caption="肺结核原发综合征">
+					<description>描述</description>
+					<diagnose>结合临床，考虑左右肺结核原发综合征。</diagnose>
+				</content>
+				<content caption="正常">
+					<description>左右肺尖可见一斑片状阴影及条索影与肺门相连，形成一"哑铃状"软组织密度影，边缘较清晰，肺门影增浓。其余肺野未见异常。纵隔不宽，心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>正常</diagnose>
+				</content>
+				<content caption="肺浸润型肺结核">
+					<description>左右肺尖部可见斑片状渗出灶，密度较均匀，其内可见数个小空洞，左右肺门影增浓。其余肺野未见异常。纵隔不宽，心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>左右肺浸润型肺结核。</diagnose>
+				</content>
+				<content caption="肺慢性纤维空洞型肺结核">
+					<description>左右肺尖部肺野见较多斑片状、条索状阴影及斑点状钙化灶，其中见数个不规则的小空洞，直径多在2cm以下，空洞壁厚约3mm～4mm，内壁欠规则，空洞内未见液平，邻近胸膜增厚、粘连，左右肺门增浓、变形，上提呈"垂柳状"。左右膈面较光滑，左右侧肋膈角变钝。</description>
+					<diagnose>左右肺慢性纤维空洞型肺结核。</diagnose>
+				</content>
+				<content caption="肺陈旧结核灶">
+					<description> 左右肺尖部肺野可见散在纤维条索状阴影及小点状钙化灶，双肺纹理增多，未见渗出性病变。两肺门影不浓。心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>左右肺陈旧结核灶。</diagnose>
+				</content>
+				<content caption="胸膜增厚">
+					<description>双肺纹理增多，未见实质性病变。两肺门影不浓。心影大小形态正常。两膈面光滑，左右侧肋膈角变钝。</description>
+					<diagnose>左右侧胸膜增厚。</diagnose>
+				</content>
+				<content caption="周围型肺癌">
+					<description>左右肺上中下肺野见一类圆形软组织密度阴影，大小约为cmXcmXcm， 边缘较清晰，部分呈分叶状，可见毛刺征，阴影密度较均匀，未见明显空洞或钙化灶。邻近叶间裂未见移位。左右肺门影增浓，肺门角存在。其余肺野未见异常。心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>考虑左右肺周围型肺癌；建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="中央型肺癌">
+					<description>左右肺门见一软组织肿物影，大小约为cmXcmXcm，边缘清晰，略呈分叶状，密度较均匀，内无空洞，肺门角消失，结构模糊。其余肺野未见异常。纵隔及心影未见移位。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>考虑左右肺中央型肺癌；建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="中央型肺癌并阻塞性肺炎">
+					<description> 左右肺门见一软组织肿物影，大小约为cmXcmXcm，，边缘较清晰，略呈分叶状，密度较均匀，其内未见空洞，肺门角消失，结构模糊。上中下肺野见斑片状模糊阴影。对侧肺野未见异常。心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>考虑左右肺中央型肺癌并上中下叶肺阻塞性炎症；建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="中央型肺癌并肺阻塞性不张">
+					<description>左右肺门见一软组织肿物影，大小约为cmXcmXcm，边缘清晰，略呈分叶状，密度较均匀，内无空洞，肺门角消失，结构模糊。左右肺上中下肺野呈大片实变影，水平叶间裂向上移位，近段下突，呈"S"形改变。其余肺野未见异常。纵隔及心影未见移位。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>考虑左右肺中央型肺癌并上中下叶肺阻塞性不张；建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="肺转移癌">
+					<description>左右肺肺野见多个类圆形结节影，大小不一，直径多在2cm以下，最大一个直径约为cm，边缘清晰，密度均匀，内未见空洞及钙化。双肺门未见结节影。双侧膈上所见肋骨骨质完整，未见骨质破坏。心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>考虑肺转移癌；建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="肺良性占位性病变">
+					<description>左右肺上中下肺野见一类圆形软组织密度阴影，大小约为cmXcmXcm， 边缘光滑、清晰，密度均匀，其内未见空洞或钙化灶。邻近叶间裂未见移位。双肺门影不浓，肺门角存在。其余肺野未见异常。心影大小形态正常。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>左右肺良性占位性病变，考虑，建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="间质性肺水肿">
+					<description>双中下肺野可见数条克氏B线形成，局部肺纹理紊乱、模糊，两肺门影增浓，心影增大呈"主动脉型"，心胸比约为0.55，左室段较饱满，心尖向左下移位。上腔静脉稍增宽，主动脉增宽、迂曲。心前、心后间隙变窄。两膈面及肋膈角显示欠清晰，肋膈角稍变钝。</description>
+					<diagnose>结合临床，考虑间质性肺水肿形成。</diagnose>
+				</content>
+				<content caption="尘肺">
+					<description>双肺野可见散在弥漫性小结节阴影，直径多在2mm～5mm左右，边缘清晰，双肺门影增浓。纵隔不宽，心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>结合病史，符合尘肺表现。</diagnose>
+				</content>
+				<content caption="气胸">
+					<description>左右肺野外带可见肺叶压缩带边缘，肺叶压缩约，左右肺门影增浓。心影及纵隔向对侧轻度移位。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>左右侧气胸。</diagnose>
+				</content>
+				<content caption="液气胸">
+					<description>左右肺野外带可见肺叶压缩带边缘，肺叶压缩约，左右肺野可见液气平面，约与第 后肋相平，左右膈及肋膈角消失，左右肺门影增浓。心影及纵隔向对侧轻度移位。两膈面光滑。</description>
+					<diagnose>左右侧液气胸，上中下肺叶压缩约，大中少量胸腔积液</diagnose>
+				</content>
+				<content caption="创伤性湿肺">
+					<description> 双肺野纹理增多、粗乱，左右肺野可见斑片状模糊阴影，密度较均匀，左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>结合临床，考虑左右肺创伤性湿肺。</diagnose>
+				</content>
+				<content caption="胸腔积液">
+					<description>左右肺中下肺野呈大片密实影，上缘清晰，呈外高内低弧形线影，约与第后肋相平，左右膈面及肋膈角消失。左右肺门影较浓。心影大小形态正常，纵隔心影稍向对侧移位。</description>
+					<diagnose>左右侧大中少量胸腔积液。</diagnose>
+				</content>
+				<content caption="急性肺脓肿">
+					<description>双肺纹理增多、增粗。左右肺上中下肺野可见大片状模糊阴影，其内见厚壁空洞，壁厚约mm，外缘模糊，内可见液气平面。左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>考虑左右肺急性肺脓肿。</diagnose>
+				</content>
+				<content caption="慢性肺脓肿">
+					<description>双肺纹理增多、增粗。左右肺上中下肺野可见一厚壁空洞，外缘较清晰，壁厚约mm，其内可见液气平面。左右肺门影增浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>考虑左右肺慢性肺脓肿。</diagnose>
+				</content>
+				<content caption="胸壁占位性病变">
+					<description>左右侧胸壁可见一约cmXcm大小半圆形软组织肿物影，肿物边缘清晰，密度均匀，呈宽基底，紧贴外胸壁，呈钝角相交，邻近肋骨骨质完整，未见骨质增生、硬化或破坏。其余肺野未见异常，双肺门影不浓。心影大小形态正常。两膈面光滑，肋膈角清锐。</description>
+					<diagnose>左右胸壁占位性病变，考虑，建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="纵隔占位病变">
+					<description>胸廓对称，双肺纹理走向规则。前中后纵隔可见一个软组织密度阴影，大小约cmXcmXcm，边缘较清晰，密度均匀，其内未见空洞或钙化，阴影与纵隔呈钝角相交，基底紧贴纵隔。邻近肋骨及胸椎骨质未见异常。心影大小形态正常。双侧膈面光滑，肋膈角锐利。</description>
+					<diagnose>前中后纵隔占位病变，考虑 肿瘤。建议CT进一步检查。</diagnose>
+				</content>
+				<content caption="主动脉硬化">
+					<description>双肺纹理增多，未见实质性病变。两肺门影不浓。心影呈斜位，心脏不大。升主动脉增宽，迂曲，结部可见弧形钙化。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>主动脉硬化。</diagnose>
+				</content>
+				<content caption="左心增大，主动脉硬化">
+					<description>双肺纹理增多，未见实质性病变。两肺门影不浓。心影增大呈"主动脉型"，心胸比约0.56，左室段较饱满，心尖向左下移位。升主动脉增宽，迂曲，结部钙化。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>左心增大，主动脉硬化。</diagnose>
+				</content>
+				<content caption="风湿性心脏病二尖瓣狭窄">
+					<description>双肺肺淤血征，双肺纹理增多，模糊，两肺门影增浓、模糊，右下肺动脉增粗，心影增大呈"二尖瓣型"，心胸比约为0.60。左心缘见四弓影，右心缘见双房影。肺动脉段较饱满。食道左房压迹明显加深并后移位。心前间隙变窄，心后间隙消失，主动脉结增宽。两膈面光滑，肋膈角稍变钝。</description>
+					<diagnose>风湿性心脏病二尖瓣狭窄表现。</diagnose>
+				</content>
+				<content caption="高血压性心脏病">
+					<description>双肺野纹理增多，未见明显实质性病变。两肺门影不浓。心影增大呈"主动脉型"，心胸比约0.56，心尖圆隆。升主动脉增宽，迂曲，结部钙化。两膈面光滑，肋膈角锐利。</description>
+					<diagnose>结合临床，符合高血压性心脏病。</diagnose>
+				</content>
+				<content caption="肺原性心脏病">
+					<description>胸廓呈桶形，双肺野透亮度增高，双肺纹理增多、粗乱，未见渗出性病变。两肺门影较浓，右下肺动脉增粗，管径大于1.5cm，心影向两侧轻度增大呈"二尖瓣型"，心胸比约0.55，肺动脉段突出。食道左房压迹未见明显加深或后移，心前胸骨后间隙变窄，心后食管前间隙存在。两膈面较低，欠光滑，双侧肋膈角变钝。</description>
+					<diagnose>结合临床，符合肺原性心脏病。</diagnose>
+				</content>
+				<content caption="左心功能衰竭并肺泡性肺水肿">
+					<description> 双肺纹理增多、模糊。两肺门影增浓，见两侧对称性片状模糊阴影由肺门向外伸展，密度淡薄，较均匀。心影显著增大呈"普大型"，心胸比约为0.65。左室段饱满，心尖向左下移位。上腔静脉增宽，主动脉增宽屈曲。食道左房压迹明显后移。心后间隙变窄。两膈面光滑，肋膈角稍变钝。</description>
+					<diagnose>结合临床，符合左心功能衰竭并肺泡性肺水肿。</diagnose>
+				</content>
+				<content caption="右心衰竭。">
+					<description>双肺纹理增多、模糊。两肺门影增浓，心影显著增大呈"普大型"，心胸比约为0.65。心尖圆钝、上抬，右心缘明显膨隆。上腔静脉影增宽，食道左房压迹未见明显后移。心前间隙变窄。两膈面光滑，肋膈角稍变钝。</description>
+					<diagnose>结合临床，符合右心功能衰竭。</diagnose>
+				</content>
+			</part>
+			<part name="腹部">
+				<content caption="腹部泌尿系未见阳性结石">
+					<description>双侧肾脏及腰大肌外形显示清晰，双肾区、双侧输尿管行程及膀胱区均未见阳性结石影。</description>
+					<diagnose>腹部泌尿系未见阳性结石。</diagnose>
+				</content>
+				<content caption="腹部未见异常">
+					<description>腹部可见散在肠气及内容物分布，未见肠管扩张或液平，双侧腹脂线清晰，两膈下未见游离气体。</description>
+					<diagnose>腹部未见肠梗阻及消化道穿孔表现。</diagnose>
+				</content>
+				<content caption="小肠高位梗阻">
+					<description>膈下未见游离气体。左上腹部见数个气液平，肠腔扩张，并见密集肠粘膜皱襞。脏器轮廓正常。余腹部见散在小肠及结肠气体充盈。腹部未见明显软组织肿物影。双侧腹脂线清晰，两膈下未见游离气体。</description>
+					<diagnose>小肠高位梗阻。</diagnose>
+				</content>
+				<content caption="小肠低位梗阻">
+					<description>中下腹部见小肠广泛扩张积气，有长短不等的液气平面。部分肠袢气柱较高，液平较宽。余腹部见散在小肠及结肠气体充盈。腹部未见明显软组织肿物影。双侧腹脂线清晰，两膈下未见游离气体。</description>
+					<diagnose>小肠低位梗阻。</diagnose>
+				</content>
+				<content caption="考虑肾结石">
+					<description>双肾及腰大肌影显示清晰，左右侧肾区内可见一大小约cmXcm阳性结石影。余腹部泌尿系未见阳性结石。</description>
+					<diagnose> 左右肾结石，建议静脉肾盂造影检查。</diagnose>
+				</content>
+				<content caption="输尿管结石">
+					<description>双肾及腰大肌影显示清晰，左右侧输尿管上中下段可见一大小约cmXcm梭形结石影，边缘光滑，密度均匀。余腹部泌尿系未见阳性结石。</description>
+					<diagnose>左右侧输尿管上中下段结石，建议静脉肾盂造影检查。</diagnose>
+				</content>
+				<content caption="膀胱结石">
+					<description>双肾及腰大肌影显示清晰，膀胱区内可见一大小约cmXcm类圆形结石影，边缘光滑，密度均匀。余腹部泌尿系未见阳性结石。</description>
+					<diagnose>膀胱结石，建议静脉肾盂造影检查</diagnose>
+				</content>
+				<content caption="后尿道结石">
+					<description>双肾及腰大肌影显示清晰，后尿道可见一大小约cmXcm类圆形结石影，边缘光滑，密度均匀。余腹部泌尿系未见阳性结石。</description>
+					<diagnose>后尿道结石。</diagnose>
+				</content>
+				<content caption="绞窄性肠梗阻">
+					<description> 膈下未见游离气体。腹腔见大量气液平，呈阶梯状排列，肠腔扩张明显，并见假肿瘤征及咖啡豆征。余腹部见散在小肠及结肠气体充盈。腹部未见明显软组织肿物影。双侧腹脂线清晰，两膈下未见游离气体。</description>
+					<diagnose>绞窄性肠梗阻。</diagnose>
+				</content>
+				<content caption="宫内置环位置正常">
+					<description>节育环位于耻骨联合上　ｃｍ偏左右，呈“”形，未见异常。</description>
+					<diagnose>宫内置环位置正常</diagnose>
+				</content>
+			</part>
+			<part name="脊柱">
+				<content caption="颈椎未见异常">
+					<description>颈椎生理曲度存在；各颈椎椎体骨质完整，边缘光滑清晰，未见骨折及滑脱；各颈椎椎间隙等宽，未见变窄，各颈椎椎间孔等宽，无变形或狭窄，椎弓峡部骨质完整、连续，未见异常。</description>
+					<diagnose>颈椎未见异常。</diagnose>
+				</content>
+				<content caption="环枢椎关节未见骨折及脱位">
+					<description>枢椎齿状突骨质完整，未见骨折，齿状突与环椎侧块关系对称，关节间隙未见变窄。</description>
+					<diagnose>环枢椎关节未见骨折及脱位。</diagnose>
+				</content>
+				<content caption="胸椎未见骨折及滑脱">
+					<description>胸椎生理曲度存在；各胸椎椎体骨质完整，边缘光滑清晰，未见骨折及滑脱；各胸椎椎间隙等宽，未见变窄，附件清晰正常。</description>
+					<diagnose>胸椎未见骨折及滑脱。</diagnose>
+				</content>
+				<content caption="腰椎未见骨折及滑脱">
+					<description>  腰椎生理曲度存在；各腰椎椎体骨质完整，边缘光滑清晰，未见骨折及滑脱，过伸过屈位腰椎前后缘线连续，腰椎未见滑脱；各腰椎椎间隙等宽，未见变窄，附件清晰正常。</description>
+					<diagnose>腰椎未见骨折及滑脱。</diagnose>
+				</content>
+				<content caption="骶、尾椎未见骨折">
+					<description>骶、尾椎生理曲度存在，各节骶、尾椎椎体骨质完整，骨皮质光滑、连续，双侧骶孔对称、等大，边缘清晰，未见骨折。</description>
+					<diagnose>骶、尾椎未见骨折。</diagnose>
+				</content>
+				<content caption="颈椎退行性变">
+					<description> 颈椎生理曲度较直；各颈椎椎体骨质疏松，第～ 颈椎椎体前后缘上下角骨质增生、变尖，边缘硬化；C / 椎间隙变窄，相应左右侧椎间孔变窄，前纵、项韧带可见条形钙化。</description>
+					<diagnose>颈椎退行性变。</diagnose>
+				</content>
+				<content caption="胸椎退行性变">
+					<description>胸椎生理曲度存在；各胸椎椎体骨质疏松，第 ～ 胸椎椎体前缘上下角骨质增生、变尖，边缘硬化；各胸椎椎间隙未见变窄，附件清晰，未见异常。</description>
+					<diagnose>胸椎退行性变。</diagnose>
+				</content>
+				<content caption="腰椎退行性变">
+					<description>腰椎生理曲度较直；各腰椎椎体骨质疏松，第 ～ 腰椎椎体前缘上下角骨质增生、变尖，边缘硬化；L / 椎间隙变窄，附件清晰，未见异常。</description>
+					<diagnose> 腰椎退行性变 。</diagnose>
+				</content>
+				<content caption="椎体压缩性骨折">
+					<description>椎第 椎体呈楔形改变，骨皮质断裂、皱折，邻近椎间隙未见变窄，其余 椎各椎体未见骨折及滑脱，椎间隙等宽，未见变窄。</description>
+					<diagnose>椎第 椎体压缩性骨折。</diagnose>
+				</content>
+				<content caption="环枢椎关节半脱位">
+					<description>齿状突骨质完整，未见骨折，齿状突与环椎侧块关节间隙失对称，左右侧变窄，较对侧狭窄约2.5mm。</description>
+					<diagnose>环枢椎关节半脱位。</diagnose>
+				</content>
+				<content caption="强直性脊柱炎">
+					<description>颈椎、胸椎及腰椎曲度变直，各椎体均可见不同程度增生变尖，椎间隙尚正常。各椎体前后缘韧带增厚，呈条状粘连，部分椎体边缘呈竹节状改变，尤以腰椎表现较为明显。两侧骶髂关节骨质侵蚀，关节面破坏，间隙变窄，呈强直性改变。颈椎、腰椎诸小关节骨性融合，关节间隙消失。</description>
+					<diagnose>结合临床，符合强直性脊柱炎。</diagnose>
+				</content>
+				<content caption="胸/腰椎结核">
+					<description>胸/腰椎生理曲线变直；第 - 胸/腰椎骨质疏松，见斑片点状及不规则骨质破坏区，边缘不清；两椎体呈楔形相嵌状，椎间隙变窄；局部见梭形软组织肿块影，呈弧形向两侧突出，内见斑点状密度增高钙化影；余椎体、椎间隙、附件未见异常。</description>
+					<diagnose>第 、 胸/腰椎结核。</diagnose>
+				</content>
+				<content caption="腰椎骶化">
+					<description>第五腰椎横突肥大，右侧与骶骨形成假关节；其余椎体骨质结构完整，未见明确增生及破坏；椎间隙、附件未见异常。</description>
+					<diagnose>腰椎骶化</diagnose>
+				</content>
+				<content caption="第5腰椎峡部裂">
+					<description>腰椎双斜位：腰椎生理曲度存在，椎列连续，各椎体边缘骨质变尖，无骨质破坏，各椎间隙不窄，第5腰椎双侧椎弓峡部各见一透光线条状影，似“狗带项圈征”；其余椎体骨质结构完整，未见明确增生及破坏；椎间隙、附件未见异常。</description>
+					<diagnose>第5腰椎峡部裂</diagnose>
+				</content>
+				<content caption="第5腰椎滑脱、腰椎退行性变">
+					<description>腰椎生理曲度变直；椎列至骶骨处不连续，第5腰椎以上椎体向前移约0.5cm；第3--5腰椎体缘见唇刺状骨质增生影；第5腰椎/第1骶骨椎间隙呈前后等宽状变窄；第5腰椎/第1骶骨椎间隙相应椎体终板骨质增生、硬化；其余椎体椎间隙、附件未见异常。</description>
+					<diagnose>第5腰椎滑脱、腰椎退行性变</diagnose>
+				</content>
+				<content caption="第5腰椎滑脱钢板内固定术后、腰椎退行性变">
+					<description>“第5腰椎滑脱行STB钢板内固定术后”现复查：   腰椎生理曲度存在；椎列至骶骨处不连续，第5腰椎以上椎体向前移约0.2cm；见内固定之钢板影，未见明确松动及折断现象；腰椎骨质普遍疏松；第3--5腰椎体缘见唇刺状骨质增生影；第5腰椎/第1骶骨椎间隙呈前后等宽状变窄；第5腰椎/第1骶骨椎间隙相应椎体终板骨质增生、硬化；其余椎体椎间隙、附件未见异常。</description>
+					<diagnose>第5腰椎滑脱钢板内固定术后、腰椎退行性变</diagnose>
+				</content>
+			</part>
+			<part name="四肢">
+				<content caption="双侧胸锁关节未见骨折及脱位">
+					<description>双侧胸锁关节构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨折；双侧胸锁关节间隙等宽，关节关系正常。</description>
+					<diagnose> 双侧胸锁关节未见骨折及脱位。</diagnose>
+				</content>
+				<content caption="肩关节未见异常">
+					<description>左右肩关节构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；肩关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右肩关节未见异常。</diagnose>
+				</content>
+				<content caption="肱骨骨质未见异常">
+					<description>左右肱骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；关节间隙等宽，关节关系正常。</description>
+					<diagnose> 左右肱骨骨质未见异常。</diagnose>
+				</content>
+				<content caption="肘关节正常">
+					<description>左右肘关节构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；肘关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右肘未见骨、关节病变。</diagnose>
+				</content>
+				<content caption="腕关节正常">
+					<description>左右腕关节构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；腕肘关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右腕未见骨、关节病变。</diagnose>
+				</content>
+				<content caption="手正常">
+					<description>左右手各构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；手掌各关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右手骨质未见异常。</diagnose>
+				</content>
+				<content caption="髋关节正常">
+					<description>左右髋关节构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；髋关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右髋关节未见异常。</diagnose>
+				</content>
+				<content caption="股骨正常">
+					<description>左右股骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右股骨骨质未见异常。</diagnose>
+				</content>
+				<content caption="膝关节正常">
+					<description>左右膝关节构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；膝关节间隙等宽，关节关系正常。   </description>
+					<diagnose>左右膝未见异常。</diagnose>
+				</content>
+				<content caption="胫腓骨正常">
+					<description>左右胫、腓骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；关节间隙等宽，关节关系正常。 </description>
+					<diagnose>左右胫、腓骨骨质未见异常。</diagnose>
+				</content>
+				<content caption="足正常">
+					<description>左右足各构成骨骨质完整，骨皮质光滑、连续，骨小梁清晰，未见骨质增生、硬化或破坏；各关节间隙等宽，关节关系正常。</description>
+					<diagnose>左右足骨质未见异常。</diagnose>
+				</content>
+				<content caption="骨质疏松">
+					<description>片中所示诸骨骨密度降低，骨皮质变薄，骨小梁稀疏、变细；软组织未见异常；其它未见异常。 </description>
+					<diagnose>骨质疏松</diagnose>
+				</content>
+				<content caption="膝关节骨质增生">
+					<description>左右双侧膝关节构成骨骨质完整，关节面及边缘骨质增生、变尖；膝关节间隙未见变窄。</description>
+					<diagnose>左右双膝关节骨质增生。</diagnose>
+				</content>
+				<content caption="膝关节退行性变">
+					<description>左右双侧膝关节构成骨骨质疏松，关节面及边缘骨质增生、硬化；膝关节间隙变窄。</description>
+					<diagnose>左右双侧膝关节退行性变。</diagnose>
+				</content>
+				<content caption="股骨头无菌性坏死">
+					<description>左右双侧股骨头变扁；其内见小囊状及新月形骨质破坏区，边缘不清，密度不均。双侧髋关节关节间隙变化不大。余骨盆组成各骨及软组织未见异常。</description>
+					<diagnose>左右双侧双股骨头无菌性坏死</diagnose>
+				</content>
+				<content caption="股骨头缺血性坏死伴髋关节半脱位">
+					<description>左右双侧股骨头变扁，中心密度增高，可见碎裂的坏死骨片。关节面下可见小囊状及新月形透光区。左股骨颈变短、增粗，呈蕈样改变。髋关节间隙变窄，髋关节颈耻线及髂颈线欠连续，呈半脱位表现。对侧髋关节未见明显异常。</description>
+					<diagnose>左右双侧股骨头缺血性坏死伴髋关节半脱位。</diagnose>
+				</content>
+				<content caption="手类风湿性关节炎">
+					<description>双手掌构成骨轻度/明显骨质疏松，双侧腕骨、桡尺骨茎突可见多个小囊状骨质破坏，腕关节面模糊、狭窄。双手指近节指间关节肿胀，指间关节间隙稍变窄，部分关节面下见小囊状骨质破坏，未见脱位。</description>
+					<diagnose>符合双手类风湿性关节炎表现。</diagnose>
+				</content>
+				<content caption="足类风湿性关节炎">
+					<description>双足构成骨轻度/明显骨质疏松，双足各跖骨及各节趾骨可见多个小囊状骨质破坏，边缘较清晰。双足各足趾近节趾间关节肿胀，趾间关节间隙稍变窄，部分关节面下见小囊状骨质破坏，未见脱位。 </description>
+					<diagnose>符合双足类风湿性关节炎表现。</diagnose>
+				</content>
+				<content caption="致密性髂骨炎">
+					<description>两侧骶髂关节髂骨侧可见半月状骨质增生密度增高影，以中下部明显；关节间隙未见明确狭窄；软组织未见肿胀；余未见异常。</description>
+					<diagnose>两侧致密性髂骨炎。</diagnose>
+				</content>
+				<content caption="骶髂关节结核">
+					<description>左右双侧骶髂关节骨质稍疏松；可见斑点状、斑片状密度减低骨质破坏区及少部分骨质硬化；病灶以骶髂关节中下部明显，骶、髂骨同时被破坏；关节面模糊、毛糙，关节间隙增宽；软组织影增浓；余未见异常。</description>
+					<diagnose>左右双侧骶髂关节结核。</diagnose>
+				</content>
+				<content caption="髋关节结核">
+					<description>左右侧髋关节骨质疏松，见斑点状、斑片状密度减低骨质破坏区，以股骨头骨骺、颈部及髋臼上方明显；关节面见带状低密度区；股骨头骨骺稍大；关节间隙狭窄；周围软组织稍肿胀；余未见异常。 </description>
+					<diagnose>左右侧髋关节结核。</diagnose>
+				</content>
+				<content caption="髋关节结核">
+					<description>左右侧髋关节骨质疏松，见斑点状、斑片状密度减低骨质破坏区，以股骨头骨骺、颈部及髋臼上方明显；关节面见带状低密度区；股骨头骨骺稍大；关节间隙狭窄；周围软组织稍肿胀；余未见异常。 </description>
+					<diagnose> 左右侧髋关节结核。</diagnose>
+				</content>
+				<content caption="肩关节前脱位">
+					<description>左右肱骨头向内下移位，肱骨头位于喙突下；余未见异常。</description>
+					<diagnose>左右肩关节前脱位。</diagnose>
+				</content>
+				<content caption="肘关节后脱位">
+					<description>左右肘关节之尺桡骨向后移位，且向外稍移位。各骨未见明确骨折线，余未见异常。</description>
+					<diagnose>左右肘关节后脱位。</diagnose>
+				</content>
+				<content caption="尺桡关节半脱位">
+					<description>构成左右下尺桡关节之尺骨向下、外稍移位；关节间隙增宽；各骨未见明确骨折；软组织未见肿胀；余未见异常。</description>
+					<diagnose>左右下尺桡关节半脱位。</diagnose>
+				</content>
+				<content caption="髋关节先天性脱位">
+					<description>左右股骨头向外上方脱出，位于Perkin氏方格上方，申通氏（Shenton）线不连续；股骨头骨骺稍小，不规则；髋臼顶发肓不良，髋臼角加大；余未见异常。</description>
+					<diagnose>左右髋关节先天性脱位。</diagnose>
+				</content>
+				<content caption="髋关节后脱位">
+					<description>左右股骨头向后外上脱出，股骨内收。余未见异常。</description>
+					<diagnose> 左右髋关节后脱位</diagnose>
+				</content>
+				<content caption="髌骨粉碎性骨折">
+					<description>左右髌骨粉碎性折断；其内外见稍分离骨碎片影；膝关节未见脱位；余未见异常。 </description>
+					<diagnose>左右髌骨粉碎性骨折。</diagnose>
+				</content>
+				<content caption="髌骨横断骨折">
+					<description>左右髌骨见一横行骨折线影；断端上部髌骨向上移位；膝关节未见脱位；余未见异常。</description>
+					<diagnose>左右髌骨横断骨折。</diagnose>
+				</content>
+				<content caption="骨折">
+					<description>左右侧 骨上中下段可见 形骨折线，骨折端向内外侧成角，远折端向上近端移位，部分骨皮质嵌插。对侧关节关系尚正常。左右侧？骨上中下段骨折。</description>
+					<diagnose>左右侧 骨上中下段骨折。</diagnose>
+				</content>
+				<content caption="粉碎性骨折">
+					<description>左右侧 骨上中下段可见多条骨折线，对线对位差，骨折端可见多个碎骨折片，远端向内外成角，向近端移位，部分骨皮质嵌插。对侧关节关系尚正常。</description>
+					<diagnose>左右侧 骨上中下段粉碎性骨折。</diagnose>
+				</content>
+				<content caption="锁骨骨折">
+					<description>左右锁骨内中外1/3段折断；外侧断段向内下移位，断端对线尚可；右肩关节未见脱位；余未见异常。</description>
+					<diagnose>左右锁骨骨折</diagnose>
+				</content>
+				<content caption="肱骨外科颈骨折">
+					<description>左右肱骨外科颈可见一斜形透光骨折线影；断端对位对线尚可；肩关节未见脱位；余未见异常。</description>
+					<diagnose>左右肱骨外科颈骨折</diagnose>
+				</content>
+				<content caption="肱骨髁间骨折">
+					<description>左右肱骨髁间见“T”或“Y”形透光骨折线，骨折线达关节面；肱骨两侧髁稍分离；周围软组织明显肿胀；余未见异常。</description>
+					<diagnose>左右肱骨髁间骨折</diagnose>
+				</content>
+				<content caption="Colles骨折">
+					<description>左右侧桡骨远端距桡腕关节面约2cm处可见一横行骨折线，骨折向掌侧成角，远折端向桡背侧移位，部分骨皮质嵌插重叠。内侧尺骨茎突撕脱性骨折。对侧桡腕关节关系尚正常。</description>
+					<diagnose>左右侧桡骨远端Colles骨折，并尺骨茎突撕脱性骨折。</diagnose>
+				</content>
+				<content caption="骨盆多发性骨折">
+					<description>左右耻骨上下支及左右坐骨上下支折断；断端对位对线尚可；未见耻骨联合、左右骶髂关节分离；两髂骨及骶骨未见明确骨折；双髋关节未见脱位；余未见异常</description>
+					<diagnose>骨盆多发性骨折。</diagnose>
+				</content>
+				<content caption="股骨颈骨折">
+					<description>左右侧股骨颈可见一横行骨折线，股骨颈缩短，远折端向外上方移位，部分骨皮质嵌插。对侧髋关节关系尚正常。</description>
+					<diagnose>左右侧股骨颈骨折。</diagnose>
+				</content>
+				<content caption="骨粗隆间斜型骨折">
+					<description>左右股骨粗隆间呈斜型折断；骨折远端向外上稍移位，两断端向外稍成角；对侧髋关节未见脱位；余未见异常。</description>
+					<diagnose>左右侧股骨粗隆间斜型骨折</diagnose>
+				</content>
+				<content caption="胫骨平台骨折">
+					<description>左右侧胫骨平台可见 形骨折线，骨折线通过左右侧膝关节面，部分骨皮质嵌插。膝关节间隙未见明显变窄。</description>
+					<diagnose>左右侧胫骨平台骨折。</diagnose>
+				</content>
+				<content caption="骨囊肿">
+					<description>左右 骨 段可见一约4.0x3.8cm骨质破坏区，边缘清晰；周边见增白硬化边缘；外侧骨皮质未见断裂及凹陷；余未见异常。   </description>
+					<diagnose> 左右 骨骨囊肿。</diagnose>
+				</content>
+				<content caption="骨肉瘤">
+					<description>左右侧 骨干骺端可见斑片状和棉花团状密度增高影，边缘模糊，骨干边缘似可见层状骨膜反应；余骨未见明确异常；关节间隙未见异常。</description>
+					<diagnose>左右侧 骨骨肉瘤。</diagnose>
+				</content>
+				<content caption="骨软骨瘤">
+					<description>左右 骨下端内外侧见一宽基底骨突起；基底部骨皮质及骨小梁与母骨相连续；顶部密度稍低，呈菜花状，可见浓白色钙化；病灶呈背离关节生长；软组织未见肿胀；余未见异常。</description>
+					<diagnose>左右 骨软骨瘤</diagnose>
+				</content>
+				<content caption="骨内生软骨瘤">
+					<description>左右侧 指 节指骨体部外侧见类圆形骨破坏区，呈膨胀性生长；其边缘骨皮质膨胀变薄，并可见一薄层骨质增生硬化现象；其内可见砂粒样密度增高影，内侧骨皮质不连续；余指骨未见骨质增生及破坏；软组织未见异常；余未见异常。 </description>
+					<diagnose>左右侧 指 节指骨内生软骨瘤</diagnose>
+				</content>
+				<content caption="骨软骨肉瘤">
+					<description>左右 骨上中下段内外侧可见大量骨质破坏，周围团组织肿大明显，余未见异常。</description>
+					<diagnose>左右 骨软骨肉瘤</diagnose>
+				</content>
+				<content caption="骨巨细胞瘤。">
+					<description>左右侧 骨干骺端可见多个囊状皂泡样骨质破坏区，病灶以 侧部明显，呈偏侧性生长，边缘无硬化；病灶横径大于纵径，关节面尚连续；局部骨皮质变薄；未见明确钙化影；软组织未见肿胀，余未见明显异常。</description>
+					<diagnose>左右侧 骨骨巨细胞瘤。</diagnose>
+				</content>
+			</part>
+		</existed>
+		<using>
+			<part name="四肢"></part><part name="胸部"></part><part name="腹部"></part><part name="脊柱"></part><part name="头部"></part></using>
+	</case>
+</report20>

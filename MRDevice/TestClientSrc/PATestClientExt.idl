@@ -1,0 +1,50 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+cpp_quote("#ifndef __GENERALDEFINE_IDL__")
+cpp_quote("#define __GENERALDEFINE_IDL__")
+#include "GeneralDefine.idl"
+cpp_quote("#endif")
+
+
+// #include "IGeneralInterface.idl"
+// #include "IGeneralEvent.idl"
+// #include "IGeneralSys.idl"
+// #include "IPing.idl"
+// #include "IUserGuidanceEvent.idl"
+// #include "IUserWorkingMode.idl"
+// 
+// #include "PATypes.idl"
+// 
+// #include "IPAGeneral.idl"
+// #include "IPAPrint.idl"
+// #include "IPAPrintEvent.idl"
+// #include "IPABurn.idl"
+// #include "IPABurnEvent.idl"
+// #include "IPATransfer.idl"
+// #include "IPATransferEvent.idl"
+// 
+
+#include "DBStructDefine.h"
+#include "IDBPIM.idl"
+#include "IDBConfig.idl"
+#include "IDBSession.idl"
+
+
+[
+	uuid(C7B51006-FA51-466f-AAD8-BDEC5BDC543F),
+	version(1.0),
+	helpstring("PATestClientLibExt 1.0 Type Library")
+]
+library PATestClientLibExt
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+#include "CoDBPIM.idl"
+#include "CoDBConfig.idl"
+#include "CoDBSession.idl"
+#include "CoIS.idl"
+
+// #include "CoPA.idl"
+};

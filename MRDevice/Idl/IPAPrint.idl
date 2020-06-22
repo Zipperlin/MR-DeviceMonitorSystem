@@ -1,0 +1,20 @@
+	[
+		object,
+		uuid(8BABE658-3016-47d2-B183-6E83C1BB05B4),
+	
+		helpstring("IPAPrint Interface"),
+		pointer_default(unique)
+	]
+	interface IPAPrint : IUnknown
+	{
+		[helpstring("method Print ")] HRESULT Print([in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsImageUIDList);
+
+		[helpstring("method ShowFCProgressBar ")] HRESULT ShowFCProgressBar([in] BOOL bShow);
+	
+		[helpstring("method GetPrintJobList")] HRESULT GetPrintJobList([out, size_is(,*pLen)] JobInfo** ppJobInfoList, [out] long* pLen);
+		[helpstring("method GetPrintNetworkNodes")] HRESULT GetPrintNetworkNodes([out, size_is(,*pLen)] NetworkNode** ppNodesList, [out] long* pLen);
+		[helpstring("method GetPrintErrorMsg")] HRESULT GetPrintErrorMsg([in] int iErrCode , [out] BSTR* bsErrMsg);
+	
+		[helpstring("method GetPrintSubModuleState")] HRESULT GetPrintSubModuleState([out] SubModuleState* pSubModuleState);
+
+	};

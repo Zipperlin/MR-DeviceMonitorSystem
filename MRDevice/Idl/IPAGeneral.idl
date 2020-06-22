@@ -1,0 +1,42 @@
+
+	[
+		object,
+		uuid(2BDBA172-2C6C-4ed4-8274-E67EF25722BE),
+	
+		helpstring("IPAGeneral Interface"),
+		pointer_default(unique)
+	]
+	interface IPAGeneral : IUnknown
+	{	
+		
+		// Get whether patients, studys or series are used (Job state is Submitted or Executing) in P&A, by their UID
+		[helpstring("method GetPatientStudySeriesOccupyState")] HRESULT GetPatientStudySeriesImageOccupyState([in] PatientAdminUIDType enumUIDType, [in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsUIDList, [out] BOOL* pbOccupied);
+
+		// Notify P&A to Send UG
+		[helpstring("method ReportUserGuidance")] HRESULT ReportUserGuidance([in] LONG iMessageID, [in] USER_GUIDANCE_TYPE enumType, [in] USER_GUIDANCE_PRIORITY enumPrior, [in] BOOL bActive);
+
+		// Job Operation
+		[helpstring("method GetJobList")] HRESULT GetJobList([out, size_is(,*pLen)] JobInfo** ppJobList, [out] long* pLen);
+		[helpstring("method MoveJOb")] HRESULT MoveJob([in] BSTR bsJobID, [in] BOOL bForward);
+		[helpstring("method CancelJobs")] HRESULT CancelJobs([in, size_is(lNum)] BSTR* pbsJobIDs, [in] long lNum);
+		[helpstring("method DeleteJobs")] HRESULT DeleteJobs([in, size_is(lNum)] BSTR* pbsJobIDs, [in] long lNum);
+
+
+		// History Job Operation
+		[helpstring("method GetHistoryJobCount")] HRESULT GetHistoryJobCount([out] DWORD* pdwCount);
+		[helpstring("method GetHistoryJobs")] HRESULT GetHistoryJobs([in] DWORD dwStartIndex, [in, out] DWORD* pdwCount, [out, size_is(,*pdwCount)] JobInfo** ppJobList);
+		[helpstring("method GetHistoryJobInfo")] HRESULT GetHistoryJobInfo([in] BSTR bsJobID, [out] JobInfo* pJobInfo);
+		[helpstring("method GetHistoryJobPSSIInfo")] HRESULT GetHistoryJobPSSIInfo([in] BSTR bsJobID, [out] long* pLen, [out, size_is(,*pLen)] PSSIInfo** ppPSSIList);
+		[helpstring("method GetHistoryJobNetworkNodeInfo")] HRESULT GetHistoryJobNetworkNodeInfo([in] BSTR bsJobID, [out] long* pLen, [out, size_is(,*pLen)] NetworkNode** ppNodeList);
+		[helpstring("method GetHistoryJobDetailInfo")] HRESULT GetHistoryJobDetailInfo([in] BSTR bsJobID, [out] long* pLen, [out, size_is(,*pLen)] JobDetailStruct** ppDetailList);
+		[helpstring("method GetHistoryJobDiscImportImageInfo")] HRESULT GetHistoryJobDiscImportImageInfo([in] BSTR bsJobID, [out] long* pLen, [out, size_is(,*pLen)] DiscImport_SeriesStruct** ppDISSList);
+		[helpstring("method DeleteHistoryJobs")] HRESULT DeleteHistoryJobs([in] long lNum, [in, size_is(lNum)] BSTR* pbsJobIDList);
+		[helpstring("method DeleteAllHistoryJobs")] HRESULT DeleteAllHistoryJobs();
+
+		//<< P&A data base operation
+		[helpstring("method CompactDB")] HRESULT CompactDB([in] BOOL bBackUp);
+	};
+
+
+		
+

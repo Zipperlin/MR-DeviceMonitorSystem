@@ -1,0 +1,124 @@
+// PrintQueueManager.idl : IDL source for PrintQueueManager.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (PrintQueueManager.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+	typedef [uuid(EBDB1D93-98E1-41ac-89F4-170AFC0BA702), helpstring("Print job status")] 
+	enum
+	{	
+		PRINT_JOB_READY,  
+		PRINT_JOB_PRINTING,  
+		PRINT_JOB_COMPLETE,
+		PRINT_JOB_FAILURE,
+		PRINT_JOB_SUSPEND
+    }PQ_EPrintJobStatus;   
+
+
+	typedef [uuid(CDA41990-3455-4c09-B0D5-25B403BF1E66), helpstring("Print job status change")] 
+	enum
+	{	
+		STATUS_CHANGE_NEW_JOB,
+		STATUS_CHANGE_SUSPEND_2_READY,
+		STATUS_CHANGE_READY_2_PRINTING,
+		STATUS_CHANGE_PRINTING_2_COMPLETE,
+		STATUS_CHANGE_PRINTING_2_FAILURE,
+		STATUS_CHANGE_PRINTING_2_SUSPEND,
+		STATUS_CHANGE_FAILURE_2_READY,
+		STATUS_CHANGE_ONEFILM_COMPLETE,
+		STATUS_CHANGE_JOB_REMOVE,
+		STATUS_CHANGE_JOB_REMOVEALL,
+		STATUS_CHANGE_JOB_MOVEDOWN,
+		STATUS_CHANGE_JOB_MOVEUP,
+		STATUS_CHANGE_JOB_MOVE2TOP,
+		STATUS_CHANGE_JOB_STOP_PRINTING,
+		STATUS_CHANGE_JOB_STOP_NOT_PRINTING
+    }PQ_EPrintJobStatusChange;   
+
+
+	[
+		object,
+		uuid(FF599785-6256-41B4-B0FF-78FE7BD53C80),
+		dual,
+		helpstring("IPrintQueue Interface"),
+		pointer_default(unique)
+	]
+	interface IPrintQueue : IDispatch
+	{
+		[id(1), helpstring("method GetJobUIDList")] HRESULT GetJobUIDList([out,retval] VARIANT* pUIDList);
+		[id(2), helpstring("method GetPrintJob")] HRESULT GetPrintJob([in] BSTR jobUID, [out,retval] LPDISPATCH* pPrintJob);
+		[id(3), helpstring("method SetReprintParameter")] HRESULT SetReprintParameter([in] long reprintTimes, [in] long timeInterval, [out,retval] long* pResult);
+		[id(4), helpstring("method Suspend")] HRESULT Suspend([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(5), helpstring("method Resume")] HRESULT Resume([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(6), helpstring("method Move2Top")] HRESULT Move2Top([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(7), helpstring("method MoveUp")] HRESULT MoveUp([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(8), helpstring("method MoveDown")] HRESULT MoveDown([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(9), helpstring("method Remove")] HRESULT Remove([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(10), helpstring("method RemoveAll")] HRESULT RemoveAll([out,retval] long* pResult);
+		[id(11), helpstring("method Submit")] HRESULT Submit([in] VARIANT vp, [out,retval] long* pResult);
+		[id(12), helpstring("method Relive")] HRESULT Relive([in] BSTR jobUID, [out,retval] long* pResult);
+		[id(13), helpstring("method Connect2Printer")] HRESULT Connect2Printer([in]BSTR HostAE,[in]BSTR ServerAE,[in]long ServerPort,[in]BSTR ServerIP,[out,retval] long* pResult);
+		[id(14), helpstring("method Connect2GrayPrinter")] HRESULT Connect2GrayPrinter([in]BSTR HostAE,[in]BSTR ServerAE,[in]long ServerPort,[in]BSTR ServerIP,[out,retval] long* pResult);
+		[id(15), helpstring("method Connect2ColorPrinter")] HRESULT Connect2ColorPrinter([in]BSTR HostAE,[in]BSTR ServerAE,[in]long ServerPort,[in]BSTR ServerIP,[out,retval] long* pResult);
+		[id(16), helpstring("method RunPQ")] HRESULT RunPQ(void);
+	};
+
+	[
+		object,
+		uuid(E7C906C2-210C-4b21-B5C5-ABC2D519DB0E),
+		dual,
+		helpstring("IPrintJob Interface"),
+		pointer_default(unique)
+	]
+	interface IPrintJob : IDispatch
+	{
+		[propget, id(1), helpstring("property JobUID")] HRESULT JobUID([out, retval] BSTR *pVal);
+		[propget, id(2), helpstring("property PatientName")] HRESULT PatientName([out, retval] BSTR *pVal);
+		[propget, id(3), helpstring("property PatientID")] HRESULT PatientID([out, retval] BSTR *pVal);
+		[propget, id(4), helpstring("property StudyID")] HRESULT StudyID([out, retval] BSTR *pVal);
+		[propget, id(5), helpstring("property TimeStamp")] HRESULT TimeStamp([out, retval] BSTR *pVal);
+		[propget, id(6), helpstring("property Status")] HRESULT Status([out, retval] PQ_EPrintJobStatus *pVal);
+		[propget, id(7), helpstring("property CopyNum")] HRESULT CopyNum([out, retval] long *pVal);
+		[propget, id(8), helpstring("property FilmCount")] HRESULT FilmCount([out, retval] long *pVal);
+		[propget, id(9), helpstring("property CurrentFilm")] HRESULT CurrentFilm([out, retval] long *pVal);
+		[propget, id(10), helpstring("property ReprintComplete")] HRESULT ReprintComplete([out, retval] BOOL *pVal);
+	};
+
+
+[
+	uuid(C4AF7CD8-CB34-4F2D-9B45-1A612832D3E5),
+	version(1.0),
+	helpstring("PrintQueueManager 1.0 Type Library")
+]
+library PRINTQUEUEMANAGERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(718D4637-708B-4FEA-88B7-BB51332525AF),
+		helpstring("_IPrintQueueEvents Interface")
+	]
+	dispinterface _IPrintQueueChangeEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("method StateChangeNotify")] HRESULT StateChangeNotify([in] BSTR jobUID, [in] PQ_EPrintJobStatusChange operation);
+		[id(2), helpstring("method ErrorOutput")] HRESULT ErrorOutput([in] BSTR jobUID, [in] BSTR errorMsg);
+	};
+
+	[
+		uuid(65DA6714-B467-4195-B211-231022BB00C2),
+		helpstring("PrintQueue Class")
+	]
+	coclass PrintQueue
+	{
+		[default] interface IPrintQueue;
+		interface IPrintJob;
+		[default, source] dispinterface _IPrintQueueChangeEvents;
+	};
+};

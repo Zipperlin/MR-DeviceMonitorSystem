@@ -1,0 +1,22 @@
+    [
+		object,
+		uuid(5117A6B0-DD8B-4fef-A71D-E119B16EA736),
+	
+		helpstring("IPADiscImportEvent Interface"),
+		pointer_default(unique)
+	]
+	interface IPADiscImportEvent : IUnknown
+	{
+		[helpstring("method ReportDiscImportWorkStatus")] HRESULT ReportDiscImportWorkStatus([in]SubModule enumSubModule,[in]SubModuleState enumSubModuleStatus);
+
+		[helpstring("method ReportDiscImportDiscInfo")] HRESULT ReportDiscImportDiscInfo([in] BOOL bReady);
+		[helpstring("method ReportDiscImportDiscInfoState")] HRESULT ReportDiscImportDiscInfoState([in] BSTR bsState);
+
+
+		[helpstring("method ReportDiscImportSeriesStateChanged")] HRESULT ReportDiscImportSeriesStateChanged([in] DiscImport_SeriesStateStruct* pState);
+		[helpstring("method ReportDiscImportSeriesProgressChanged")] HRESULT ReportDiscImportSeriesProgressChanged([in] DiscImport_SeriesProgressStruct* pProgress);
+		[helpstring("method ReportDiscImportSeriesDetailChanged")] HRESULT ReportDiscImportSeriesDetailChanged([in] DiscImport_SeriesDetailStruct* pDetail);
+	
+		[helpstring("method ReportDiscImportOneImageImported")] HRESULT ReportDiscImportOneImageImported();
+		[helpstring("method ReportDiscImportOneJobFinished")] HRESULT ReportDiscImportOneJobFinished();
+	};

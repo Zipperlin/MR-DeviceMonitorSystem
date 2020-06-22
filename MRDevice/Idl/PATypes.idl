@@ -1,0 +1,497 @@
+typedef enum _SubModule
+{
+	enumSubModule_PRINT			= 0,
+	enumSubModule_TRANSFER		= 1,
+	enumSubModule_BURN			= 2,
+	enumSubModule_DISCIMPORT	= 3,
+	enumSubModule_WLMPPS		= 4
+}SubModule;
+
+typedef enum _SubModuleState
+{
+	enumSubModuleState_UnInited				= 0,
+	enumSubModuleState_Ready				= 1,
+	enumSubModuleState_Work					= 2,
+	enumSubModuleState_UnInitializing		= 3,
+	enumSubModuleState_Error				= 4
+}SubModuleState;
+
+
+typedef enum _JobState
+{
+	enumJobState_Submitted			= 0,
+	enumJobState_Executing			= 1,
+	enumJobState_Completed			= 2,
+	enumJobState_Cancelled			= 3,
+	enumJobState_Failed			= 4
+}JobState;
+
+typedef enum _FilmComposerStatus
+{
+	enumFilmComposerUNKNOW			= 0,
+	enumFilmComposerPRINTING		= 1,
+	enumFilmComposerIdle	        = 2,
+} FilmComposerStatus;
+
+typedef enum _JobProgressUsing
+{
+	enumJobProgressUsing_None			= 0,
+	enumJobProgressUsing_CompletedTotal			= 1,
+	enumJobProgressUsing_Percentage			= 2,
+
+}JobProgressUsing;
+
+typedef enum _JobDetailUsing
+{
+	enumJobDetailUsing_None				= 0,
+	enumJobDetailUsing_UGID				= 1,
+	enumJobDetailUsing_DetailInfo			= 2,
+}JobDetailUsing;
+
+typedef enum _JobType
+{
+	enumJobType_InitJob			= 0,
+	enumJobType_PrintJob		= 1,
+	enumJobType_BurnJob			= 2,
+	enumJobType_AutoSendJob		= 3,
+	enumJobType_ManualSendJob	= 4,
+	enumJobType_DiscImportJob	= 5
+
+}JobType;
+
+typedef struct _tagJobInfo
+{
+	BSTR bsJobID;
+
+	BSTR bsIndex;
+	BSTR bsType;
+	JobType	enumType;
+	BSTR bsSubmitTime;
+
+	BSTR bsState;
+	BSTR bsPhase;			// Useless
+	BSTR bsProgress;
+	BSTR bsDetail;			// Useless for history job
+}JobInfo;
+
+
+typedef enum _tagFileConflictHandle
+{
+	enumLeaveOldOne				= 0,
+	enumUpdateOldOne			= 1,
+	enumLeaveOldOneAlways		= 2,
+	enumUpdateOldOneAlways		= 3,
+	enumAbort					= 4,
+	enumUnSet					= 5
+} FileConflictHandle;
+	
+typedef enum _PABurnMediaType
+{
+	enumBurnMediaType_CD			= 0,
+	enumBurnMediaType_DVD			= 1,
+	enumBurnMediaType_UnSet			= 2,
+	enumBurnMediaType_Unknow		= 3
+}PABurnMediaType;
+
+typedef enum _PatientAdminUIDType
+{
+	enumPatientAdminUIDType_Unknow			= 0,
+	enumPatientAdminUIDType_Patient			= 1,
+	enumPatientAdminUIDType_Study			= 2,
+	enumPatientAdminUIDType_Series			= 3,
+	enumPatientAdminUIDType_Image			= 4
+}PatientAdminUIDType;
+
+
+typedef struct _tagBurnSpeedInfo
+{
+	BSTR bsSpeedInfo;
+	LONG lSpeed;
+}BurnSpeedInfo;
+
+typedef struct _tagBurnMediaInfo
+{
+	BSTR bsMediaType;
+	BSTR bsMediaSize;
+	BOOL bEmptyMedia;
+}BurnMediaInfo;
+
+typedef struct _tagBurnSettings
+{
+	BSTR bsDeviceName;
+	BSTR bsDiscName;
+	BOOL bFilesSet;
+	DWORD dwFileCount;
+	DWORD dwTotalFileSizeHighPart;
+	DWORD dwTotalFileSizeLowPart;
+}BurnSettings;
+
+
+typedef enum _tagFileSelection
+{
+	enumFileSelection_CurrentPatient	= 0,
+	enumFileSelection_CurrentStudy		= 1,
+	enumFileSelection_CurrentRun		= 2
+}FileSelection;
+
+typedef enum _tagImageSelection
+{
+	enumImageSelection_All				= 0,
+	enumImageSelection_Flagged			= 1,
+	enumImageSelection_Unflagged		= 2
+}ImageSelection;
+
+typedef struct _tagNetworkNode
+{
+	BOOL bDefault;
+	BSTR bsCalledAE;
+	BSTR bsIP;
+	BSTR bsPort;
+	BSTR bsCallingAE;
+	BOOL bRaw;
+	BOOL bProcessed;
+	BOOL bSendPS;
+}NetworkNode;
+
+typedef enum _tagDownscaleCriterion
+{
+	enumDownscaleCriterion_Unknow		= 0,
+	enumDownscaleCriterion_1024_12_16	= 1,
+	enumDownscaleCriterion_512_8_8		= 2
+}DownscaleCriterion;
+
+typedef struct _tagPrintJobSettings
+{
+	FileSelection enumFileSelection;
+	ImageSelection enumImageSelection;
+}PrintJobSettings;
+
+
+typedef struct _tagTransferJobSettings
+{	
+	FileSelection enumFileSelection;
+	ImageSelection enumImageSelection;
+	BSTR bsCalledAE;
+	DownscaleCriterion enumDownscaleCriterion;
+}TransferJobSettings;
+
+typedef struct _tagTransferJobSettingsByUID
+{	
+	BOOL bSelected;
+	BSTR bsCalledAE;
+	BOOL bRaw;
+	BOOL bProcessed;
+	BOOL bSendPS;
+}TransferJobSettingsByUID;
+
+typedef struct _tagBurnJobSettings
+{
+	FileSelection enumFileSelection;
+	ImageSelection enumImageSelection;
+
+	DownscaleCriterion enumDownscaleCriterion;
+	BSTR bsDeviceName;
+	LONG lBurnSpeed;
+}BurnJobSettings;
+
+// Burn Job by Patient Admin
+typedef struct _tagBurnJobSettingsByPA
+{
+	LONG lBurnSpeed;
+
+	BOOL bBMP;
+	BOOL bJPEG;
+}BurnJobSettingsByPA;
+
+typedef struct _tagJobProgressStruct
+{
+	BSTR bsJobUID;
+	JobProgressUsing enumJobProgressUsing;
+	UINT uiCompleted;
+	UINT uiTotal;
+	DWORD dwPercentage;
+}JobProgressStruct;
+
+typedef struct _tagJobDetailStruct
+{
+	BSTR bsJobID;
+	BSTR bsTime;
+	BSTR bsDetail;
+}JobDetailStruct;
+
+
+typedef struct _tagBurnPatientInfoStruct
+{
+	BSTR	bsPatientName;
+	BSTR	bsPatientID;
+	INT		iGender; 
+	DATE	dtBirthDate; 
+}BurnPatientInfoStruct;
+
+typedef struct _tagBurnStudyInfoStruct
+{
+	BSTR	bsPatientName;
+	BSTR	bsPatientID;
+    INT		iStudyID;
+    DATE	dtStartStudyDateTime;
+}BurnStudyInfoStruct;
+
+typedef struct _tagBurnSeriesInfoStruct
+{
+	BSTR	bsPatientName;
+	BSTR	bsPatientID;
+    INT		iStudyID;
+	INT		iSeriesID; 
+}BurnSeriesInfoStruct;
+
+typedef struct _tagBurnImageInfoStruct
+{
+	BSTR	bsPatientName;
+	BSTR	bsPatientID;
+    INT		iStudyID;
+	INT		iSeriesID; 
+	INT		iImageID;
+}BurnImageInfoStruct;
+
+
+typedef struct _tagDiscImportPatientInfo
+{
+	BSTR		bsPatientUID;
+
+	BSTR		bsPatientID;
+	BSTR		bsPatientName;
+	INT			iPatientGender;			// 0: Male, 1: Female, 2: Other
+	DATE		dtBirthDate;			// Only Date is useful, Time is useless
+	UINT		uStudyNum;
+}DiscImportPatientInfo;
+
+typedef struct _tagDiscImportStudyInfo
+{
+	BSTR		bsStudyUID;
+	BSTR		bsPatientUID;
+
+	BSTR		bsStudyID;
+	DATE		dtStudyDateTime;
+	BSTR		bsRefPhisicianName;
+	BSTR		bsStudyDescription;
+	UINT		uSeriesNum;
+}DiscImportStudyInfo;
+
+typedef struct _tagDiscImportSeriesInfo
+{
+	BSTR		bsSeriesUID;
+	BSTR		bsStudyUID;
+
+	BSTR		bsSeriesID;
+	BSTR		bsAprRegionName;
+	UINT		uImageNum;				// the Image Number of the Series
+}DiscImportSeriesInfo;
+
+typedef struct _tagDiscImporImageInfo
+{
+	BSTR		bsImageUID;
+	BSTR		bsSeriesUID;
+
+	BSTR		bsImageID;
+ 	BSTR		bsAprOrganName;
+	UINT		uRows;
+	UINT		uColumns;
+}DiscImportImageInfo;
+
+
+typedef struct _tagPSSIInfo				// Patient, Study, Series and Image info
+{
+	BSTR		bsPatientID;
+	BSTR		bsPatientName;
+
+	BSTR		bsStudyID;
+	BSTR		bsSeriesID;
+	BSTR		bsImageID;
+}PSSIInfo;
+
+
+typedef struct _tagDiscImport_SeriesStruct
+{
+	// 导入前序列信息
+	BSTR						bsJobID;
+	BSTR						bsIndex;
+
+	BSTR						bsPatientID;
+	BSTR						bsPatientName;
+	BSTR						bsStudyID;
+	BSTR						bsSeriesID;
+	BSTR						bsImageID;
+
+	// 状态
+	BSTR						bsState;
+
+	// 进度
+	BSTR						bsProgress;
+
+	// 详细信息
+	BSTR						bsDetailInfo;
+
+}DiscImport_SeriesStruct;
+
+typedef struct _tagDiscImport_SeriesStateStruct
+{
+	BSTR						bsJobID;
+	BSTR						bsIndex;
+
+	BSTR						bsState;
+
+}DiscImport_SeriesStateStruct;
+
+typedef struct _tagDiscImport_SeriesProgressStruct
+{
+	BSTR						bsJobID;
+	BSTR						bsIndex;
+
+	// 进度
+	BSTR						bsProgress;
+
+}DiscImport_SeriesProgressStruct;
+
+typedef struct _tagDiscImport_SeriesDetailStruct
+{
+	BSTR						bsJobID;
+
+	BSTR						bsIndex;
+
+	// 详细信息
+	BSTR						bsDetailInfo;
+
+}DiscImport_SeriesDetailStruct;
+
+
+typedef enum _WorkListStatus
+{
+	enumWorkListStatus_NotImported		= 0,	// 未导入
+	enumWorkListStatus_Imported			= 1,	// 已导入
+	enumWorkListStatus_InProgress		= 2,	// 已导入，处理中
+	enumWorkListStatus_Discontinued		= 3,	// 已导入，已终止
+	enumWorkListStatus_Completed		= 4		// 已导入，已完成
+}WorkListStatus;
+
+
+typedef struct _tagWorkListStruct
+{
+// For WorkList Display
+
+	WorkListStatus enumStatus;
+
+	BSTR	bsSSAETitle;
+	BSTR	bsSPSDateTime;
+	BSTR	bsSPSDescription;
+	BSTR	bsSPSID;
+
+	BSTR	bsSPPhisicianName;
+	BSTR	bsPatientName;
+	BSTR	bsPatientID;
+	BSTR	bsAccessionNumber;
+	BSTR	bsPatientBirthDate;
+	INT		iPatientSex;          // As DB, 0=Male, 1=Female, 2=Other
+	BSTR	bsRefPhisicianName;
+	BSTR	bsRPID;
+	BSTR	bsRPDescription;
+	BSTR	bsStudyInstanceUID;
+
+	BSTR	bsOtherPatientIDs;
+	BSTR	bsOtherPatientNames;
+	BSTR	bsPatientAge;
+	BSTR	bsOccupation;
+	BSTR	bsPatientSize;
+	BSTR	bsPatientWeight;
+	BSTR	bsEthnicGroup;
+	BSTR	bsPatientComments;
+
+	//CharacterSet;
+
+}WorkListStruct;
+
+typedef struct _MppsSetResult
+{
+	BSTR				bsStudyUID;
+	WorkListStatus		enumStatus;
+	BOOL				bResult;		// TRUE: succeed, FALSE: failed
+
+}MppsSetResult;
+
+typedef enum _PatientBirthDateAgeUsing
+{
+	enumBirthDateAgeUsing_None						= 0,
+	enumBirthDateAgeUsing_BirthDate					= 1,
+	enumBirthDateAgeUsing_Age						= 2,
+	enumBirthDateAgeUsing_Both						= 3,
+}PatientBirthDateAgeUsing;
+
+typedef struct _tagWLPatientStudyStruct
+{
+	BSTR	bsStudyInstanceUID;
+
+// For Patient Creation
+
+	BSTR	bsPatientID;
+	BSTR	bsPatientFirstName;
+	BSTR	bsPatientMidName;
+	BSTR	bsPatientLastName;
+
+	PatientBirthDateAgeUsing	enumBirthDateAgeUsing;
+	INT		iPatientAge;
+	INT		iPatientAgeUnit;
+	DATE	dtPatientBirthDate;
+
+	DATE	dtRegDateTime;			// P&A make it
+	INT		iPatientSex;			// As DB, 0=Male, 1=Female, 2=Other
+	BSTR	bsOtherPatientName;
+	BSTR	bsOtherPatientIDs;
+	BSTR	bsEthnicGroup;
+	BSTR	bsOccupation;
+	BSTR	bsPatientComment;
+
+
+// For Study Creation
+	DATE	dtStudyDateTime;		// P&A Make it by the current Date/Time when importing
+	BSTR	bsRefferingPhsicianName;
+	BSTR	bsOperatorName;
+	BSTR	bsPerformingPhysicianName;
+    BSTR	bsPatientSize;
+	BSTR	bsPatientWeight;
+	BSTR	bsStudyDescription;
+	BSTR	bsPatientHistory;
+	BSTR	bsAccessionNumber;
+
+}WLPatientStudyStruct;
+
+
+typedef enum _WLQuerySPSStartDate
+{
+	enumWLQuery_SPS_SD_UnUse				= 0,
+	enumWLQuery_SPS_SD_Today				= 1,
+	enumWLQuery_SPS_SD_LastTwoDays			= 2,
+	enumWLQuery_SPS_SD_LastOneWeek			= 3,
+	enumWLQuery_SPS_SD_LastOneMonth			= 4,
+	enumWLQuery_SPS_SD_LastOneYear			= 5,
+	enumWLQuery_SPS_SD_All					= 6
+
+}WLQuerySPSStartDate;
+
+
+typedef struct _WorkListQueryCond
+{
+	WLQuerySPSStartDate			enumWLQuerySPSStartDate;
+
+}WorkListQueryCond;
+
+
+typedef struct _WLPatientStudyStatusInDB
+{
+	BOOL		bStudyExists;
+
+	BOOL		bPatientExists;
+	BSTR		bsPatientUID;
+	BSTR		bsPatientID;
+	BSTR		bsPatientFullName;
+	INT			iPatientSex;			// Same with DB
+
+}WLPatientStudyStatusInDB;

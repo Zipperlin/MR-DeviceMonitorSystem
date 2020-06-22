@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<report20>
+<system>
+<residentpath>""</residentpath>
+<language></language>
+</system>
+
+<library>
+<case>
+<exited>
+</exited>
+<using>
+</using>
+</case>
+<template>
+<exited>
+</exited>
+<using>
+</using>
+<default>
+</default>
+</template>
+</library>
+</report20>

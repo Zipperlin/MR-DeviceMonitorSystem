@@ -1,0 +1,15 @@
+    [
+		object,
+		uuid(137677CA-B2ED-42f1-814D-78E13C0D6D9E),
+	
+		helpstring("IPAPrintEvent Interface"),
+		pointer_default(unique)
+	]
+	interface IPAPrintEvent : IUnknown
+	{
+		[helpstring("method ReportPrintWorkStatus")] HRESULT ReportPrintWorkStatus([in]SubModule enumSubModule,[in]SubModuleState enumSubUnitStatus);
+		[helpstring("method ReportPrintFilmComposerStatus")] HRESULT ReportPrintFilmComposerStatus([in]FilmComposerStatus enumFilmComposerStatus);
+		[helpstring("method ReportPrintFilmComposerStartUp")] HRESULT ReportPrintFilmComposerStartUp();
+
+		[helpstring("method ReportEnableFilmComposer")] HRESULT ReportEnableFilmComposer(BOOL bEnable);
+	};

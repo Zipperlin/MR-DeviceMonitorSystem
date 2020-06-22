@@ -1,0 +1,17 @@
+    [
+		object,
+		uuid(9A3FB2C6-0432-4f71-832B-DF9C79CE2CE4),
+	
+		helpstring("IPAGeneralEvent Interface"),
+		pointer_default(unique)
+	]
+	interface IPAGeneralEvent : IUnknown
+	{
+		// Job Information Report
+		[helpstring("method ReportJobQueueChanged")] HRESULT ReportJobQueueChanged();
+		[helpstring("method ReportJobState")] HRESULT ReportJobState([in] BSTR bsJobID, [in] BSTR bsJobSate);
+		[helpstring("method ReportJobPhase")] HRESULT ReportJobPhase([in] BSTR bsJobID, [in] BSTR bsJobPhase);
+		[helpstring("method ReportJobProgress")] HRESULT ReportJobProgress([in] BSTR bsJobID, [in] BSTR bsJobProgress);
+		[helpstring("method ReportJobDetail")] HRESULT ReportJobDetail([in] JobDetailStruct* JobDetail);
+
+	};

@@ -1,0 +1,40 @@
+	[
+		object,
+		uuid(F36663B9-BE3C-4ca0-B36A-90AE3FC5528A),
+	
+		helpstring("IPABurn Interface"),
+		pointer_default(unique)
+	]
+	interface IPABurn : IUnknown
+	{
+		// For set
+		
+		// For Get
+		[helpstring("method GetDevices")] HRESULT GetDevices([out, size_is(,*pLen)] BSTR** ppbsDevices, [out] long* pLen);
+		[helpstring("method GetDeviceMediaInfo")] HRESULT GetCurrentDeviceMediaInfo();
+
+		[helpstring("method GetBurnSubModuleState")] HRESULT GetBurnSubModuleState([out] SubModuleState* pSubModuleState);
+
+		// For Set
+		[helpstring("method SetBurnDevice")] HRESULT SetBurnDevice([in] BSTR bsDeviceName);
+
+		// For UIControl
+		[helpstring("method BurnByPA")] HRESULT BurnByPA([in] BurnJobSettingsByPA* pBurnJobSettingsByPA);
+
+		[helpstring("method BurnPrepare")] HRESULT BurnPrepare([in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsUIDList, [in] PatientAdminUIDType enumUIDType);
+		[helpstring("method CancelBurnPrepare")] HRESULT CancelBurnPrepare();
+
+		[helpstring("method GetEstimatedSize")] HRESULT GetEstimatedSize([in] BOOL bBMP, [in] BOOL bJPEG, [out] unsigned long* plSizeInMega);
+
+		[helpstring("method SetBurnMediaCheckRetry")] HRESULT SetBurnMediaCheckRetry(BOOL bRetry);
+		
+		[helpstring("method GetBurnJobInfo")] HRESULT GetBurnJobInfo([in] BSTR bsJobID, [out] JobInfo* pJobInfo, [out, size_is(,*pPSSILen)] PSSIInfo** ppPSSIList, [out] long* pPSSILen, [out, size_is(,*pDetailLen)] JobDetailStruct** ppDetailList, [out] long* pDetailLen);
+
+		[helpstring("method IsUnfinishedBurnJobExist")] HRESULT IsUnfinishedBurnJobExist([out] BOOL* pbExist);
+
+		[helpstring("method GetBurnErrorMsg")] HRESULT GetBurnErrorMsg([in] int iErrCode , [out] BSTR* bsErrMsg);
+	};
+
+
+		
+

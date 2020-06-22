@@ -1,0 +1,1571 @@
+<?xml version="1.0"?>
+<UILayout>
+	<layout name="controlpane">
+		<item id="1218" left="9" top="551" width="252" height="21" visible="false"/><!--position-->
+		<item id="1215" left="9" top="570" width="247" height="46" visible="true"/><!--group 1-->
+		<item id="1094" left="16" top="576" width="32" height="34" icon="common\save.ico" visible="true" type="button"/><!--save-->
+		<item id="1068" left="51" top="576" width="32" height="34" icon="common\report.ico" visible="true" type="button"/><!--report-->
+		<item id="1025" left="86" top="576" width="32" height="34" icon="common\print.ico" visible="true" type="button"/>
+		<item id="1216" left="9" top="628" width="247" height="46" visible="true"/><!--group 2-->
+		<item id="1074" left="16" top="634" width="32" height="34" icon="common\info.ico" visible="true" type="button"/>
+		<item id="1192" left="51" top="634" width="32" height="34" icon="common\expand.ico" visible="true" type="button"/>
+		<item id="1198" left="86" top="634" width="32" height="34" icon="common\SERIES_LIST.ico" visible="true" type="button"/>
+		<item id="1217" left="9" top="686" width="247" height="46" visible="true"/><!--group: common tool-->
+		<item id="1201" left="16" top="692" width="32" height="34" icon="common\selector.ico" visible="true" type="button"/>
+		<item id="1003" left="51" top="692" width="32" height="34" icon="common\wl.ico" visible="true" type="button"/>
+		<item id="1004" left="86" top="692" width="32" height="34" icon="common\move.ico" visible="true" type="button"/>
+		<item id="1029" left="121" top="692" width="32" height="34" icon="common\zoom.ico" visible="true" type="button"/>
+		<item id="1386" left="156" top="692" width="32" height="34" visible="true"/><!--enhancement-->
+		<item id="1036" left="218" top="692" width="32" height="34" icon="common\rotate.ico" visible="true" type="button"/>
+		<item id="1219" left="9" top="744" width="247" height="46" visible="true"/><!--group: Annotation Tool-->
+		<item id="1045" left="16" top="750" width="32" height="34" icon="common\polygon.ico" visible="true" type="button"/>
+		<item id="1043" left="16" top="750" width="32" height="34" icon="common\rect.ico" visible="false" type="button"/>
+		<item id="1044" left="16" top="750" width="32" height="34" icon="common\ellipse.ico" visible="false" type="button"/>
+		<item id="1233" left="48" top="750" width="14" height="34" visible="true"/><!--pop down button 1-->
+		<item id="1050" left="72" top="750" width="32" height="34" icon="common\text.ico" visible="true" type="button"/>
+		<item id="1048" left="72" top="750" width="32" height="34" icon="common\arrow.ico" visible="false" type="button"/>
+		<item id="1234" left="104" top="750" width="14" height="34" visible="true"/><!--pop down button 2-->
+		<item id="1042" left="128" top="750" width="32" height="34" icon="common\length.ico" visible="true" type="button"/>
+		<item id="1257" left="128" top="750" width="32" height="34" icon="common\ScaleLine.ico" visible="false" type="button"/><!--scale line-->
+		<item id="1049" left="128" top="750" width="32" height="34" icon="common\angle.ico" visible="false" type="button"/>
+		<item id="1051" left="128" top="750" width="32" height="34" icon="common\ct value.ico" visible="false" type="button"/>
+		<item id="1164" left="128" top="750" width="32" height="34" icon="common\Profile.ico" visible="false" type="button"/>
+		<item id="1165" left="128" top="750" width="32" height="34" icon="common\histogram.ico" visible="false" type="button"/>
+		<item id="1236" left="160" top="750" width="14" height="34" visible="true"/><!--pop down button 3-->
+		<item id="1230" left="204" top="750" width="32" height="34" visible="true"/>
+		<!--grid-->
+		<item id="1231" left="204" top="750" width="32" height="34" icon="common\grid_space.ico" visible="false" type="button"/>
+		<!--Grid space-->
+		<item id="1248" left="204" top="750" width="32" height="34" icon="common\grid_origin.ico" visible="false" type="button"/>
+		<!--Grid origin-->
+		<item id="1253" left="236" top="750" width="14" height="34" visible="true"/>
+		<!--pop down button 4 for grid-->
+		<item id="1222" left="13" top="813" width="239" height="86" visible="true"/><!--group: WW and WL-->
+		<item id="1220" left="26" top="834" width="110" height="26" visible="true"/><!--static: WW text-->
+		<item id="1202" left="140" top="834" width="100" height="26" visible="true"/><!--WW modify button-->
+		<item id="1195" left="24" top="869" width="100" height="19" visible="true"/><!--info hide or display-->
+		<item id="1034" left="140" top="908" width="100" height="26" visible="true"/><!--reset all-->
+		<item id="1203" left="19" top="943" width="221" height="56" visible="false"/><!--timer-->
+		<item id="1072" left="121" top="576" width="32" height="34" icon="common\send.ico" visible="false"/><!--send to remote-->
+	</layout>
+	<layout name="SmartView_CSaveDialog">
+		<item id="88888" left="400" top="320" width="460" height="310" visible="true"/><!--parent-->
+		<item id="1247" left="30" top="15" width="110" height="15" visible="true"/><!--save as-->
+		<item id="1238" left="140" top="11" width="165" height="400" visible="true"/><!--combo SaveType-->
+		<item id="1246" left="30" top="11" width="395" height="15" visible="true"/><!--title for batch save-->
+		<item id="1240" left="30" top="60" width="395" height="66" visible="true"/><!--GroupBox destination-->
+		<item id="1074" left="30" top="43" width="395" height="26" visible="true"/><!--Destination Static-->
+		<item id="1212" left="40" top="88" width="80" height="19" visible="true"/><!--radio Local-->
+		<item id="1214" left="140" top="88" width="80" height="19" visible="true"/><!--radio CDDVD-->
+		<item id="1213" left="240" top="88" width="80" height="19" visible="true"/><!--radio USB-->
+		<item id="1237" left="340" top="88" width="80" height="19" visible="true"/><!--radio REMOTE Server-->
+		<item id="1239" left="30" top="138" width="395" height="93" visible="true"/><!--GroupBox otherChoice-->
+		<item id="1232" left="34" top="158" width="387" height="65" visible="true"/><!--listBox usbList remote list-->
+		<item id="1769" left="34" top="158" width="387" height="65" visible="false"/><!--listBox recorder list-->
+		<item id="1" left="90" top="240" width="120" height="26" visible="true"/><!--save-->
+		<item id="2" left="250" top="240" width="120" height="26" visible="true"/><!--cancel-->
+	</layout>
+	<layout name="SmartView_CFileNameSelector">
+	  <item id="88888" left="390" top="320" width="480" height="310" visible="true"/><!--parent-->
+	  <item id="1" left="205" top="230" width="120" height="30" visible="true" /><!--OK-->
+	  <item id="2" left="340" top="230" width="120" height="30" visible="true" /><!--Cancel--> 
+	  <item id="1250" left="18" top="18" width="423" height="25" visible="true" /> <!--static file name-->
+	  <item id="1258" left="18" top="45" width="436" height="30" visible="true" /> <!--edit file name-->
+	  <item id="1252" left="18" top="103" width="428" height="25" visible="true" /> <!--static dir name-->
+	  <item id="1259" left="18" top="130" width="385" height="30" visible="true" /> <!--edit dir name-->
+	  <item id="1260" left="419" top="130" width="35" height="30" visible="true" /> <!--button browse dir-->
+	  <item id="1261" left="18" top="188" width="440" height="2" visible="true" /> <!--static seperator-->
+	</layout>
+	<layout name="SmartView_CCustomWLDlg">
+		<item id="1" left="40" top="109" width="88" height="26" visible="true"/>
+		<item id="2" left="170" top="109" width="88" height="26" visible="true"/>
+		<item id="1228" left="119" top="26" width="98" height="26" visible="true"/>
+		<item id="1117" left="119" top="62" width="98" height="26" visible="true"/>
+		<item id="1250" left="54" top="30" width="58" height="26" visible="true"/>
+		<item id="1252" left="54" top="66" width="47" height="26" visible="true"/>
+		<item id="88888" left="450" top="380" width="295" height="187" visible="true"/>
+	</layout>
+	<layout name="SmartView_CGridSpaceInputDlg">
+		<item id="1250" left="10" top="15" width="100" height="26" visible="true"/>
+		<!--grid spacing title-->
+		<item id="1251" left="120" top="15" width="70" height="26" visible="true"/>
+		<!--input edit-->
+		<item id="1252" left="10" top="53" width="194" height="2" visible="true"/>
+		<!--seperate-->
+		<item id="1" left="10" top="65" width="88" height="26" visible="true"/>
+		<!--ok-->
+		<item id="2" left="115" top="65" width="88" height="26" visible="true"/>
+		<!--cancel-->
+		<item id="88888" left="500" top="400" width="220" height="138" visible="true"/>
+		<!--itself-->
+	</layout>
+	<layout name="SmartView_CGridOriginSelectDlg">
+		<item id="1250" left="10" top="15" width="150" height="26" visible="true"/>
+		<!--grid origin title-->
+		<item id="1255" left="30" top="35" width="80" height="26" visible="true"/>
+		<!--center radio-->
+		<item id="1256" left="110" top="35" width="100" height="26" visible="true"/>
+		<!--left bottom radio-->
+		<item id="1252" left="10" top="65" width="194" height="2" visible="true"/>
+		<!--seperate-->
+		<item id="1" left="10" top="75" width="88" height="26" visible="true"/>
+		<!--ok-->
+		<item id="2" left="115" top="75" width="88" height="26" visible="true"/>
+		<!--cancel-->
+		<item id="88888" left="538" top="400" width="220" height="140" visible="true"/>
+		<!--itself-->
+	</layout>
+	<layout name="CSaveFileDialogInImageWnd">
+		<item id="1" left="68" top="227" width="88" height="26" visible="true"/>
+		<item id="2" left="247" top="227" width="88" height="26" visible="true"/>
+		<item id="3198" left="40" top="17" width="331" height="21" visible="true"/>
+		<item id="3207" left="40" top="30" width="331" height="81" visible="true"/>
+		<item id="3199" left="51" top="56" width="68" height="34" visible="true"/>
+		<item id="3200" left="133" top="56" width="68" height="34" visible="true"/>
+		<item id="3201" left="215" top="56" width="68" height="34" visible="true"/>
+		<item id="3202" left="298" top="56" width="68" height="34" visible="true"/>
+		<item id="3203" left="39" top="120" width="331" height="21" visible="true"/>
+		<item id="3242" left="40" top="134" width="331" height="82" visible="true"/>
+		<item id="3204" left="42" top="143" width="324" height="71" visible="true"/>
+	</layout>
+	<layout name="ImageWnd_NDicomInfoDlg">
+		<item id="88888" left="240" top="185" width="559" height="602" visible="true"/>
+		<item id="1" left="440" top="522" width="100" height="30" visible="true"/><!--Button Ok-->
+		<item id="3205" left="320" top="522" width="100" height="30" visible="true"/><!--Button Save-->
+		<item id="3206" left="200" top="522" width="100" height="30" visible="true"/><!--Button Film-->
+		<item id="3237" left="12" top="6" width="527" height="109" visible="true"/>
+		<item id="3238" left="12" top="111" width="263" height="386" visible="true"/>
+		<item id="3239" left="277" top="111" width="263" height="386" visible="true"/>
+		<item id="3209" left="23" top="54" width="117" height="15" visible="true"/>
+		<item id="3211" left="23" top="131" width="117" height="15" visible="true"/>
+		<item id="3210" left="23" top="84" width="117" height="15" visible="true"/>
+		<item id="3208" left="23" top="24" width="117" height="15" visible="true"/>
+		<item id="3212" left="23" top="161" width="117" height="15" visible="true"/>
+		<item id="3213" left="23" top="191" width="117" height="15" visible="true"/>
+		<item id="3214" left="23" top="221" width="117" height="15" visible="true"/>
+		<item id="3215" left="23" top="251" width="117" height="15" visible="true"/>
+		<item id="3216" left="23" top="281" width="117" height="15" visible="true"/>
+		<item id="3217" left="23" top="313" width="117" height="15" visible="true"/>
+		<item id="3218" left="23" top="343" width="117" height="15" visible="true"/>
+		<item id="3221" left="23" top="437" width="117" height="15" visible="true"/>
+		<item id="3219" left="23" top="375" width="117" height="15" visible="true"/>
+		<item id="3220" left="23" top="405" width="117" height="15" visible="true"/>
+		<item id="3163" left="145" top="21" width="119" height="23" visible="true"/>
+		<item id="3168" left="145" top="81" width="119" height="23" visible="true"/>
+		<item id="3165" left="145" top="51" width="119" height="23" visible="true"/>
+		<item id="3170" left="145" top="128" width="119" height="23" visible="true"/>
+		<item id="3171" left="145" top="158" width="119" height="23" visible="true"/>
+		<item id="3172" left="145" top="188" width="119" height="23" visible="true"/>
+		<item id="3173" left="145" top="218" width="119" height="23" visible="true"/>
+		<item id="3174" left="145" top="248" width="119" height="23" visible="true"/>
+		<item id="3175" left="145" top="278" width="119" height="23" visible="true"/>
+		<item id="3176" left="145" top="309" width="119" height="23" visible="true"/>
+		<item id="3177" left="145" top="339" width="119" height="23" visible="true"/>
+		<item id="3178" left="145" top="433" width="119" height="23" visible="true"/>
+		<item id="3179" left="145" top="371" width="119" height="23" visible="true"/>
+		<item id="3180" left="145" top="401" width="119" height="23" visible="true"/>
+		<item id="3222" left="288" top="24" width="117" height="15" visible="true"/>
+		<item id="3223" left="288" top="54" width="117" height="15" visible="true"/>
+		<item id="3224" left="288" top="84" width="117" height="15" visible="true"/>
+		<item id="3236" left="288" top="469" width="117" height="15" visible="true"/>
+		<item id="3225" left="288" top="131" width="117" height="15" visible="true"/>
+		<item id="3226" left="288" top="161" width="117" height="15" visible="true"/>
+		<item id="3227" left="288" top="191" width="117" height="15" visible="true"/>
+		<item id="3228" left="288" top="221" width="117" height="15" visible="true"/>
+		<item id="3229" left="288" top="251" width="117" height="15" visible="true"/>
+		<item id="3230" left="288" top="281" width="117" height="15" visible="true"/>
+		<item id="3231" left="288" top="313" width="117" height="15" visible="true"/>
+		<item id="3232" left="288" top="343" width="117" height="15" visible="true"/>
+		<item id="3233" left="288" top="375" width="117" height="15" visible="true"/>
+		<item id="3234" left="288" top="405" width="117" height="15" visible="true"/>
+		<item id="3235" left="288" top="437" width="117" height="15" visible="true"/>
+		<item id="3181" left="410" top="309" width="119" height="23" visible="true"/>
+		<item id="3183" left="410" top="128" width="119" height="23" visible="true"/>
+		<item id="3184" left="410" top="158" width="119" height="23" visible="true"/>
+		<item id="3185" left="410" top="188" width="119" height="23" visible="true"/>
+		<item id="3186" left="410" top="218" width="119" height="23" visible="true"/>
+		<item id="3187" left="410" top="248" width="119" height="23" visible="true"/>
+		<item id="3188" left="410" top="278" width="119" height="23" visible="true"/>
+		<item id="3189" left="410" top="339" width="119" height="23" visible="true"/>
+		<item id="3192" left="410" top="371" width="119" height="23" visible="true"/>
+		<item id="3194" left="410" top="401" width="119" height="23" visible="true"/>
+		<item id="3195" left="410" top="433" width="119" height="23" visible="true"/>
+		<item id="3196" left="410" top="465" width="119" height="23" visible="true"/>
+		<item id="3169" left="410" top="81" width="119" height="23" visible="true"/>
+		<item id="3164" left="410" top="21" width="119" height="23" visible="true"/>
+		<item id="3166" left="410" top="51" width="119" height="23" visible="true"/>
+	</layout>
+	
+<layout name="ImageWnd_NInfoConfigureDlg">
+	<item id="3240" left="30" top="8" width="80" height="16" visible="true"/>
+	<item id="12037" left="120" top="6" width="60" height="1020" visible="true"/>
+	<item id="3241" left="215" top="8" width="45" height="16" visible="true"/>	
+	<item id="12035" left="270" top="6" width="160" height="1020" visible="true"/>
+	
+	<item id="11004" left="385" top="6" width="230" height="15" visible="false"/>
+	<item id="10003" left="3" top="33" width="188" height="146" visible="true"/>
+	<item id="10004" left="3" top="201" width="188" height="146" visible="true"/>
+	<item id="10005" left="465" top="36" width="188" height="146" visible="true"/>
+	<item id="10006" left="465" top="201" width="188" height="146" visible="true"/>
+	<item id="10002" left="220" top="32" width="216" height="315" visible="true"/>
+
+	<item id="11013" left="193" top="40" width="26" height="28" visible="true"/>
+	<item id="12032" left="193" top="68" width="26" height="28" visible="true"/>
+	<item id="11015" left="193" top="96" width="26" height="28" visible="true"/>	
+	<item id="12065" left="193" top="124" width="26" height="28" visible="true"/>
+	<item id="12073" left="193" top="152" width="26" height="28" visible="true"/>
+
+	<item id="12036" left="193" top="206" width="26" height="28" visible="true"/>
+	<item id="12038" left="193" top="234" width="26" height="28" visible="true"/>
+	<item id="12066" left="193" top="262" width="26" height="28" visible="true"/>
+	<item id="12067" left="193" top="290" width="26" height="28" visible="true"/>
+	<item id="12074" left="193" top="318" width="26" height="28" visible="true"/>
+	
+	<item id="12017" left="438" top="40" width="26" height="28" visible="true"/>
+	<item id="12033" left="438" top="68" width="26" height="28" visible="true"/>	
+	<item id="12069" left="438" top="96" width="26" height="28" visible="true"/>	
+	<item id="12070" left="438" top="124" width="26" height="28" visible="true"/>
+	<item id="12075" left="438" top="152" width="26" height="28" visible="true"/>
+
+	<item id="12021" left="438" top="206" width="26" height="28" visible="true"/>
+	<item id="12022" left="438" top="234" width="26" height="28" visible="true"/>	
+	<item id="12071" left="438" top="262" width="26" height="28" visible="true"/>
+	<item id="12072" left="438" top="290" width="26" height="28" visible="true"/>
+	<item id="12076" left="438" top="318" width="26" height="28" visible="true"/>
+
+	<item id="12047" left="245" top="32" width="200" height="315" visible="true"/>
+	<item id="12053" left="5" top="201" width="200" height="146" visible="true"/>	
+	<item id="12048" left="5" top="33" width="200" height="146" visible="true"/>
+	<item id="12051" left="465" top="36" width="200" height="146" visible="true"/>
+	<item id="12057" left="465" top="201" width="200" height="146" visible="true"/>
+	
+	<item id="1" left="296" top="356" width="63" height="25" visible="true"/>
+	<item id="2" left="398" top="356" width="63" height="25" visible="true"/>	
+	<item id="12040" left="195" top="356" width="63" height="25" visible="true"/>
+	</layout>	
+	
+	<layout name="2dpane">
+		<item id="12104" left="91" top="30" width="39" height="39" icon="2d\serieslayout_12.ico" visible="true" type="button"/>
+		<item id="12105" left="131" top="30" width="39" height="39" icon="2d\serieslayout_21.ico" visible="true" type="button"/>
+		<item id="12106" left="172" top="30" width="39" height="39" icon="2d\serieslayout_13.ico" visible="true" type="button"/>
+		<item id="12109" left="212" top="30" width="39" height="39" icon="2d\serieslayout_22.ico" visible="true" type="button"/>
+		<item id="12115" left="23" top="233" width="42" height="39" icon="2d\flip_vertical.ico" visible="true" type="button"/>
+		<item id="12114" left="81" top="233" width="42" height="39" icon="2d\flip_horizintal.ico" visible="true" type="button"/>
+		<item id="12116" left="138" top="233" width="42" height="39" icon="2d\flip_clockwise.ico" visible="true" type="button"/>
+		<item id="12117" left="23" top="313" width="42" height="39" icon="2d\select_single.ico" visible="true" type="button"/>
+		<item id="12118" left="110" top="313" width="42" height="39" icon="2d\select_series.ico" visible="true" type="button"/>
+		<item id="12123" left="198" top="313" width="42" height="39" icon="2d\select_all.ico" visible="true" type="button"/>
+		<item id="11014" left="6" top="30" width="80" height="39" visible="true"/><!--Compare Series-->
+		<item id="12101" left="25" top="585" width="238" height="26" visible="true"/>
+		<item id="12120" left="23" top="581" width="240" height="26" visible="true"/>
+		<item id="12121" left="2" top="488" width="238" height="26" visible="true"/>
+		<item id="12122" left="2" top="428" width="238" height="26" visible="true"/>
+		<item id="12135" left="2" top="555" width="238" height="68" visible="true"/>
+		<item id="12136" left="2" top="555" width="238" height="68" visible="true"/>
+		<item id="12137" left="14" top="251" width="235" height="68" visible="false"/>
+		<item id="12138" left="14" top="349" width="235" height="64" visible="false"/>
+		<item id="65535" left="14" top="349" width="235" height="64" visible="false"/>
+		<item id="12139" left="23" top="478" width="240" height="68" visible="true"/>
+		<item id="12140" left="23" top="459" width="240" height="64" visible="true"/>
+		<item id="12141" left="0" top="0" width="263" height="19" visible="true"/>
+		<item id="12142" left="0" top="83" width="263" height="19" visible="true"/>
+		<item id="11001" left="23" top="113" width="42" height="39" icon="2d\view_11.ico" visible="true" type="button"/>
+		<item id="11003" left="81" top="113" width="42" height="39" icon="2d\view_22.ico" visible="true" type="button"/>
+		<item id="11006" left="138" top="113" width="42" height="39" icon="2d\view_33.ico" visible="true" type="button"/>
+		<item id="11008" left="196" top="113" width="42" height="39" icon="2d\view_44.ico" visible="true" type="button"/>
+		<item id="12090" left="24" top="161" width="32" height="28" visible="true"/><!--static row-->
+		<item id="12042" left="60" top="161" width="37" height="28" visible="true"/><!--edit row-->
+		<item id="12044" left="97" top="161" width="21" height="28" visible="true"/><!--increment radio row-->
+		<item id="12091" left="139" top="161" width="32" height="28" visible="true"/><!--static col-->
+		<item id="12043" left="175" top="161" width="37" height="28" visible="true"/><!--edit col-->
+		<item id="12045" left="212" top="161" width="21" height="28" visible="true"/><!--increment radio col-->
+		<item id="12143" left="0" top="203" width="263" height="19" visible="true"/>
+		<item id="12144" left="0" top="285" width="263" height="19" visible="true"/>
+		<item id="12119" left="196" top="233" width="42" height="39" icon="2d\flip_anticlockwise.ico" visible="true" type="button"/>
+		<item id="11015" left="28" top="362" width="42" height="39" icon="flim\reverse series.ico" visible="true"/>
+		<item id="11017" left="75" top="362" width="42" height="39" icon="flim\sort series.ico" visible="true"/>
+		<item id="12154" left="23" top="348" width="100" height="58" visible="true"/>
+	</layout>
+	<layout name="2dbatch">
+		<item id="12150" left="0" top="0" width="261" height="19" visible="true"/><!--Static Text Range-->
+		<item id="11014" left="25" top="32" width="46" height="38" icon="batch\from.ico" visible="true" type="button"/>
+		<item id="12157" left="22" top="73" width="52" height="21" visible="true"/><!--Static From-->
+		<item id="11015" left="79" top="32" width="46" height="38" icon="batch\to.ico" visible="true" type="button"/>
+		<item id="12158" left="76" top="73" width="52" height="21" visible="true"/><!--Static To-->
+		<item id="11017" left="133" top="32" width="46" height="38" icon="batch\all.ico" visible="true" type="button"/>
+		<item id="12159" left="130" top="73" width="52" height="21" visible="true"/><!--Static All-->
+		<item id="11018" left="187" top="32" width="46" height="38" icon="batch\clear.ico" visible="true" type="button"/>
+		<item id="12160" left="184" top="73" width="52" height="21" visible="true"/><!--Static Clear-->
+		<item id="12151" left="0" top="103" width="261" height="19" visible="true"/><!--Static Text Batch-->
+
+		<item id="12161" left="28" top="142" width="110" height="28" visible="true"/>
+		<!--Static Select Every-->
+		<item id="12126" left="149" top="142" width="39" height="28" visible="true"/>
+		<!--Edit image to skip-->
+		<item id="12129" left="188" top="142" width="21" height="28" visible="true"/>
+		<!--Radio Increment-->
+		
+		<item id="11019" left="28" top="186" width="40" height="38" visible="false"/><!--Button Save-->
+
+		<item id="11020" left="60" top="186" width="46" height="38" icon="batch\report.ico" visible="true" type="button"/>
+		<item id="12162" left="45" top="225" width="76" height="21" visible="true"/><!--Static Report-->
+		<item id="11021" left="162" top="186" width="46" height="38" icon="batch\film.ico" visible="true" type="button"/>
+		<item id="12163" left="147" top="225" width="76" height="21" visible="true"/><!--Static Film-->
+
+		<item id="12154" left="0" top="251" width="261" height="19" visible="true"/><!--Static Text Cine-->
+		<item id="12133" left="34" top="288" width="200" height="15" visible="true"/><!--Static Cine Speed-->
+		<item id="12052" left="26" top="314" width="201" height="37" visible="true"/><!--Spin Cine Speed-->
+		<item id="11016" left="35" top="359" width="49" height="38" icon="batch\forward.ico" visible="true" type="button"/>
+		<item id="11022" left="103" top="359" width="49" height="38" icon="batch\stop.ico" visible="true" type="button"/>
+		<item id="11024" left="173" top="359" width="49" height="38" icon="batch\backward.ico" visible="true" type="button"/>
+		<item id="12153" left="2" top="540" width="235" height="60" visible="false"/>
+		<item id="12131" left="0" top="574" width="235" height="26" visible="false"/>
+		<item id="12152" left="4" top="538" width="235" height="62" visible="false"/>
+		<item id="12130" left="0" top="546" width="235" height="26" visible="false"/>
+	</layout>
+	<layout name="mprpane">
+		<item id="16004" left="0" top="0" width="0" height="0" icon="mpr\curve.ico" visible="true" type="button"/>
+		<item id="16305" left="0" top="0" width="0" height="0" icon="mpr\oblique.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="mprbatch">
+		<item id="11014" left="0" top="0" width="0" height="0" icon="batch\from.ico" visible="true" type="button"/>
+		<item id="11015" left="0" top="0" width="0" height="0" icon="batch\to.ico" visible="true" type="button"/>
+		<item id="11017" left="0" top="0" width="0" height="0" icon="batch\all.ico" visible="true" type="button"/>
+		<item id="11018" left="0" top="0" width="0" height="0" icon="batch\clear.ico" visible="true" type="button"/>
+		<item id="11019" left="0" top="0" width="0" height="0" icon="batch\save.ico" visible="true" type="button"/>
+		<item id="11020" left="0" top="0" width="0" height="0" icon="batch\report.ico" visible="true" type="button"/>
+		<item id="11021" left="0" top="0" width="0" height="0" icon="batch\film.ico" visible="true" type="button"/>
+		<item id="11022" left="0" top="0" width="0" height="0" icon="batch\forward.ico" visible="true" type="button"/>
+		<item id="11023" left="0" top="0" width="0" height="0" icon="batch\stop.ico" visible="true" type="button"/>
+		<item id="11024" left="0" top="0" width="0" height="0" icon="batch\backward.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="rbform">
+		<item id="277" left="0" top="0" width="0" height="0" icon="report\new report.ico" visible="true" type="button"/>
+		<item id="278" left="0" top="0" width="0" height="0" icon="report\open report.ico" visible="true" type="button"/>
+		<item id="279" left="0" top="0" width="0" height="0" icon="report\add template.ico" visible="true" type="button"/>
+		<item id="218" left="0" top="0" width="0" height="0" icon="report\open case template.ico" visible="true" type="button"/>
+		<item id="283" left="0" top="0" width="0" height="0" icon="report\save case template.ico" visible="true" type="button"/>
+		<item id="284" left="0" top="0" width="0" height="0" icon="flim\flip_horizintal.ico" visible="true" type="button"/>
+		<item id="285" left="0" top="0" width="0" height="0" icon="flim\flip_vertical.ico" visible="true" type="button"/>
+		<item id="286" left="0" top="0" width="0" height="0" icon="flim\rotate.ico" visible="true" type="button"/>
+		<item id="306" left="0" top="0" width="0" height="0" icon="report\save report.ico" visible="true" type="button"/>
+		<item id="307" left="0" top="0" width="0" height="0" icon="report\preview report.ico" visible="true" type="button"/>
+		<item id="309" left="0" top="0" width="0" height="0" icon="report\print report.ico" visible="true" type="button"/>
+		<item id="308" left="0" top="0" width="0" height="0" icon="common\info.ico" visible="true" type="button"/>
+		<item id="310" left="0" top="0" width="0" height="0" icon="common\selector.ico" visible="true" type="button"/>
+		<item id="311" left="0" top="0" width="0" height="0" icon="common\move.ico" visible="true" type="button"/>
+		<item id="313" left="0" top="0" width="0" height="0" icon="common\zoom.ico" visible="true" type="button"/>
+		<item id="312" left="0" top="0" width="0" height="0" icon="report\delete image.ico" visible="true" type="button"/>
+		<item id="296" left="0" top="0" width="0" height="0" icon="common\polygon.ico" visible="true" type="button"/>
+		<item id="297" left="0" top="0" width="0" height="0" icon="common\rect.ico" visible="true" type="button"/>
+		<item id="298" left="0" top="0" width="0" height="0" icon="common\ellipse.ico" visible="true" type="button"/>
+		<item id="299" left="0" top="0" width="0" height="0" icon="common\length.ico" visible="true" type="button"/>
+		<item id="300" left="0" top="0" width="0" height="0" icon="common\text.ico" visible="true" type="button"/>
+		<item id="303" left="0" top="0" width="0" height="0" icon="common\angle.ico" visible="true" type="button"/>
+		<item id="304" left="0" top="0" width="0" height="0" icon="common\ct value.ico" visible="true" type="button"/>
+		<item id="305" left="0" top="0" width="0" height="0" icon="common\arrow.ico" visible="true" type="button"/>
+		<item id="57065" left="0" top="0" width="0" height="0" icon="" visible="false" type="button"/>
+	</layout>
+	<layout name="Report_OpenFileDlg">
+		<item id="88888" left="362" top="324" width="900" height="675" visible="true"/>
+		<item id="1" left="780" top="519" width="85" height="26" visible="true"/><!--Ok-->
+		<item id="2" left="780" top="559" width="85" height="26" visible="true"/><!--Cancel-->
+		<item id="32771" left="780" top="599" width="85" height="26" visible="true"/><!--Button Delete-->
+		<item id="266" left="18" top="18" width="737" height="607" visible="true"/><!--List-->
+	</layout>
+	<layout name="Report_UserTipsDlg">
+		<item id="88888" left="380" top="380" width="500" height="120" visible="true"/>
+		<item id="322" left="10" top="20" width="480" height="35" visible="true"/><!--Tips-->
+		<item id="1" left="200" top="60" width="85" height="26" visible="true"/><!--Ok-->
+	</layout>
+	<layout name="dentalpanoramic">
+		<item id="1003" left="0" top="0" width="0" height="0" icon="dental\edit curves.ico" visible="true" type="button"/>
+		<item id="1004" left="0" top="0" width="0" height="0" icon="dental\define curves.ico" visible="true" type="button"/>
+		<item id="1005" left="0" top="0" width="0" height="0" icon="dental\show setional lines.ico" visible="true" type="button"/>
+		<item id="1006" left="0" top="0" width="0" height="0" icon="dental\select line set.ico" visible="true" type="button"/>
+		<item id="1013" left="0" top="0" width="0" height="0" icon="dental\add line set.ico" visible="true" type="button"/>
+		<item id="1014" left="0" top="0" width="0" height="0" icon="dental\delete line set.ico" visible="true" type="button"/>
+		<item id="1015" left="0" top="0" width="0" height="0" icon="dental\move line set.ico" visible="true" type="button"/>
+		<item id="1016" left="0" top="0" width="0" height="0" icon="dental\rotate line set.ico" visible="true" type="button"/>
+		<item id="1017" left="0" top="0" width="0" height="0" icon="dental\reset line set.ico" visible="true" type="button"/>
+		<item id="1018" left="0" top="0" width="0" height="0" icon="dental\3d window.ico" visible="true" type="button"/>
+		<item id="1019" left="0" top="0" width="0" height="0" icon="dental\show setional lines.ico" visible="true" type="button"/>
+		<item id="1020" left="0" top="0" width="0" height="0" icon="dental\change length.ico" visible="true" type="button"/>
+		<item id="1021" left="0" top="0" width="0" height="0" icon="dental\imgno panoramic.ico" visible="true" type="button"/>
+		<item id="1022" left="0" top="0" width="0" height="0" icon="dental\imgno sectional.ico" visible="true" type="button"/>
+		<item id="1023" left="0" top="0" width="0" height="0" icon="dental\ruler.ico" visible="true" type="button"/>
+		<item id="1028" left="0" top="0" width="0" height="0" icon="dental\film pair.ico" visible="true" type="button"/>
+		<item id="1029" left="0" top="0" width="0" height="0" icon="dental\print preview.ico" visible="true" type="button"/>
+		<item id="1030" left="0" top="0" width="0" height="0" icon="dental\calibration.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="dentalvolume">
+		<item id="12038" left="0" top="0" width="0" height="0" icon="3d\axial.ico" visible="true" type="button"/>
+		<item id="12039" left="0" top="0" width="0" height="0" icon="3d\coronal.ico" visible="true" type="button"/>
+		<item id="12063" left="0" top="0" width="0" height="0" icon="3d\sagittal.ico" visible="true" type="button"/>
+		<item id="12064" left="0" top="0" width="0" height="0" icon="3d\show.ico" visible="true" type="button"/>
+		<item id="1015" left="0" top="0" width="0" height="0" icon="3d\cut.ico" visible="true" type="button"/>
+		<item id="1016" left="0" top="0" width="0" height="0" icon="3d\reset.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="AVANPane">
+		<item id="4014" left="233" top="0" width="30" height="23" icon="right.ico" visible="true"/>
+		<item id="4015" left="0" top="0" width="30" height="23" icon="left.ico" visible="true"/>
+		<item id="0" left="0" top="20" width="263" height="430" visible="false"/><item id="4024" left="28" top="0" width="205" height="23" visible="true"/></layout>
+	<layout name="AVABoneRemovePane">
+		<item id="12037" left="23" top="15" width="39" height="41" icon="axial.ico" visible="true"/>
+		<item id="12039" left="68" top="15" width="39" height="41" icon="coronal.ico" visible="true"/>
+		<item id="12063" left="112" top="15" width="39" height="41" icon="sagittal.ico" visible="true"/>
+		<item id="4048" left="194" top="15" width="39" height="41" icon="flip.ico" visible="true"/>
+		<item id="4016" left="21" top="163" width="49" height="36" icon="boneremove.ico" visible="true"/>
+		<item id="4046" left="67" top="334" width="49" height="32" icon="cut.ico" visible="true"/>
+		<item id="4025" left="163" top="334" width="49" height="32" icon="cutreset.ico" visible="true"/>
+		<item id="4047" left="194" top="83" width="39" height="41" icon="show.ico" visible="true"/>
+		<item id="4017" left="21" top="206" width="49" height="36" icon="BoneRemoveUndo.ico" visible="true"/>
+		<item id="14114" left="26" top="56" width="32" height="15" visible="true"/><item id="14115" left="63" top="56" width="46" height="15" visible="true"/><item id="14116" left="110" top="56" width="46" height="15" visible="true"/><item id="14120" left="194" top="56" width="40" height="15" visible="true"/><item id="4026" left="182" top="396" width="49" height="32" visible="false"/><item id="14122" left="75" top="206" width="65" height="32" visible="true"/><item id="14124" left="208" top="212" width="35" height="19" visible="true"/><item id="4117" left="33" top="253" width="88" height="17" visible="true"/><item id="4034" left="130" top="253" width="86" height="19" visible="true"/><item id="12076" left="201" top="128" width="40" height="15" visible="true"/><item id="4054" left="142" top="206" width="46" height="26" visible="true"/><item id="12000" left="186" top="206" width="21" height="26" visible="true"/><item id="14121" left="75" top="167" width="63" height="36" visible="true"/><item id="14123" left="208" top="173" width="35" height="19" visible="true"/><item id="4055" left="142" top="167" width="46" height="26" visible="true"/><item id="12104" left="186" top="167" width="21" height="26" visible="true"/><item id="4118" left="33" top="131" width="135" height="17" visible="true"/><item id="4119" left="33" top="279" width="179" height="17" visible="true"/><item id="14125" left="37" top="399" width="47" height="17" visible="false"/><item id="4081" left="95" top="394" width="46" height="26" visible="false"/><item id="4082" left="138" top="394" width="21" height="26" visible="false"/><item id="4187" left="33" top="79" width="151" height="19" visible="true"/><item id="4191" left="33" top="105" width="130" height="15" visible="true"/><item id="14112" left="7" top="148" width="250" height="159" visible="true"/><item id="14113" left="7" top="306" width="250" height="81" visible="true"/></layout>
+	<layout name="AVAVolumeTracingPane">
+		<item id="4063" left="54" top="116" width="47" height="30" icon="Dye.ico" visible="true"/>
+		<item id="4067" left="140" top="116" width="47" height="30" icon="Eraser.ico" visible="true"/>
+		<item id="4101" left="0" top="0" width="0" height="0" icon="Fill.ico" visible="true"/>
+		<item id="4102" left="103" top="341" width="49" height="32" icon="Reset.ico" visible="true"/>
+		<item id="4088" left="0" top="0" width="0" height="0" icon="Expand.ico" visible="true"/>
+		<item id="4068" left="21" top="8" width="68" height="17" visible="true"/><item id="4069" left="98" top="8" width="61" height="19" visible="true"/><item id="4031" left="177" top="8" width="63" height="19" visible="true"/><item id="4037" left="9" top="167" width="242" height="23" visible="true"/><item id="14129" left="11" top="182" width="240" height="135" visible="true"/><item id="14126" left="37" top="118" width="26" height="17" visible="true"/><item id="4127" left="30" top="281" width="44" height="17" visible="true"/><item id="4142" left="37" top="204" width="33" height="17" visible="true"/><item id="14133" left="184" top="203" width="53" height="21" visible="true"/><item id="4070" left="96" top="199" width="46" height="26" visible="true"/><item id="4064" left="140" top="199" width="21" height="26" visible="true"/><item id="4120" left="37" top="233" width="56" height="17" visible="true"/><item id="4032" left="112" top="233" width="74" height="19" visible="true"/><item id="4103" left="189" top="233" width="54" height="19" visible="true"/><item id="4131" left="23" top="341" width="49" height="32" visible="true"/><item id="4140" left="191" top="377" width="53" height="17" visible="true"/><item id="4105" left="21" top="403" width="46" height="26" visible="false"/><item id="12017" left="65" top="403" width="21" height="26" visible="false"/><item id="4138" left="42" top="377" width="33" height="17" visible="true"/><item id="4139" left="110" top="375" width="39" height="17" visible="true"/><item id="4038" left="9" top="167" width="242" height="23" visible="false"/><item id="14130" left="11" top="182" width="240" height="79" visible="false"/><item id="4141" left="35" top="206" width="42" height="17" visible="false"/><item id="14132" left="184" top="204" width="53" height="21" visible="false"/><item id="4072" left="96" top="203" width="46" height="26" visible="false"/><item id="4173" left="140" top="203" width="21" height="26" visible="false"/><item id="4121" left="35" top="236" width="56" height="17" visible="false"/><item id="4033" left="110" top="236" width="74" height="19" visible="false"/><item id="4104" left="187" top="236" width="56" height="19" visible="false"/><item id="4174" left="21" top="41" width="61" height="17" visible="true"/><item id="4076" left="21" top="81" width="61" height="19" visible="true"/><item id="4128" left="30" top="38" width="51" height="17" visible="true"/><item id="4083" left="16" top="270" width="226" height="24" visible="true"/><item id="14134" left="26" top="255" width="70" height="17" visible="true"/><item id="4135" left="224" top="255" width="14" height="15" visible="true"/><item id="4136" left="30" top="296" width="39" height="15" visible="true"/><item id="4137" left="205" top="296" width="37" height="17" visible="true"/><item id="4188" left="184" top="341" width="49" height="32" visible="true"/><item id="4168" left="95" top="77" width="65" height="32" visible="true"/><item id="4176" left="228" top="84" width="35" height="19" visible="true"/><item id="4170" left="161" top="79" width="46" height="26" visible="true"/><item id="4272" left="205" top="79" width="21" height="26" visible="true"/><item id="4167" left="95" top="38" width="63" height="32" visible="true"/><item id="4275" left="228" top="45" width="35" height="19" visible="true"/><item id="4169" left="161" top="39" width="46" height="26" visible="true"/><item id="4171" left="205" top="39" width="21" height="26" visible="true"/></layout>
+	<layout name="AVANVesExtPane">
+		<item id="4013" left="14" top="96" width="53" height="38" icon="ADDSEED.ico" visible="true"/>
+		<item id="4021" left="72" top="96" width="53" height="38" icon="AUTOTRACK.ico" visible="true"/>
+		<item id="4053" left="14" top="163" width="53" height="38" icon="MANUALTRACK.ico" visible="true"/>
+		<item id="4022" left="187" top="96" width="53" height="38" icon="SEEDRESET.ico" visible="true"/>
+		<item id="4065" left="130" top="96" width="53" height="38" icon="Manual_AddSeed.ico" visible="true"/>
+		<item id="4073" left="72" top="163" width="53" height="38" icon="SEEDUNDO.ico" visible="true"/>
+		<item id="4085" left="130" top="163" width="53" height="38" icon="AddPoint.ico" visible="true"/>
+		<item id="4074" left="198" top="51" width="32" height="32" icon="AddVessel.ico" visible="true"/>
+		<item id="4109" left="187" top="163" width="53" height="38" icon="DelPoint.ico" visible="true"/>
+		<item id="4162" left="0" top="0" width="250" height="146" visible="true"/><item id="4040" left="19" top="246" width="184" height="15" visible="true"/><item id="4039" left="19" top="321" width="42" height="28" visible="true"/><item id="4023" left="198" top="15" width="32" height="32" visible="true"/><item id="4159" left="72" top="323" width="63" height="23" visible="true"/><item id="12010" left="135" top="323" width="49" height="24" visible="true"/><item id="4160" left="207" top="323" width="33" height="24" visible="true"/><item id="12014" left="182" top="323" width="21" height="26" visible="true"/><item id="4002" left="200" top="384" width="40" height="28" visible="false"/><item id="5041" left="19" top="298" width="179" height="15" visible="true"/><item id="4156" left="16" top="60" width="61" height="34" visible="true"/><item id="4158" left="151" top="68" width="32" height="19" visible="true"/><item id="4060" left="84" top="62" width="46" height="26" visible="true"/><item id="12201" left="128" top="62" width="21" height="26" visible="true"/><item id="4155" left="16" top="21" width="61" height="32" visible="true"/><item id="4157" left="151" top="28" width="32" height="19" visible="true"/><item id="4059" left="84" top="23" width="46" height="26" visible="true"/><item id="12103" left="128" top="23" width="21" height="26" visible="true"/><item id="4163" left="0" top="144" width="250" height="71" visible="true"/><item id="4006" left="0" top="418" width="263" height="24" visible="false"/><item id="4078" left="135" top="366" width="53" height="38" visible="false"/><item id="12076" left="79" top="356" width="107" height="17" visible="true"/><item id="4190" left="19" top="353" width="42" height="28" visible="true"/><item id="4110" left="19" top="272" width="186" height="15" visible="true"/><item id="4166" left="19" top="219" width="151" height="19" visible="true"/></layout>
+	<layout name="AVANMeasurementsPane">
+		<item id="4049" left="26" top="109" width="39" height="41" icon="MinusROI.ico" visible="true"/>
+		<item id="4050" left="79" top="109" width="39" height="41" icon="AddROI.ico" visible="true"/>
+		<item id="4051" left="131" top="109" width="39" height="41" icon="edgefind.ico" visible="true"/>
+		<item id="5052" left="184" top="109" width="39" height="41" icon="flexicontour.ico" visible="true"/>
+		<item id="4045" left="46" top="176" width="114" height="15" visible="true"/><item id="4044" left="46" top="203" width="116" height="15" visible="true"/>
+	</layout>
+	<layout name="AVANStentPlanPane">
+		<item id="4035" left="0" top="0" width="0" height="0" icon="ADDLINE.ico" visible="true"/>
+		<item id="4036" left="0" top="0" width="0" height="0" icon="MINUSLINE.ico" visible="true"/>
+		<item id="4056" left="0" top="0" width="0" height="0" icon="AddROI.ico" visible="true"/>
+		<item id="4057" left="0" top="0" width="0" height="0" icon="edgefind.ico" visible="true"/>
+		<item id="4058" left="0" top="0" width="0" height="0" icon="flexicontour.ico" visible="true"/>
+		<item id="4204" left="0" top="0" width="0" height="0" icon="MinusROI.ico" visible="true"/>
+	</layout>
+	<layout name="SmartView_CSaveProgressDialog">
+		<item id="88888" left="321" top="316" width="420" height="155" visible="true"/><!--itself-->
+		<item id="1241" left="20" top="28" width="280" height="30" visible="true"/><!--Static: title-->
+		<item id="1242" left="20" top="68" width="270" height="30" visible="true"/><!--Progress bar-->
+		<item id="1244" left="312" top="18" width="88" height="30" visible="true"/><!--Button Cancel-->
+		<item id="1" left="312" top="68" width="88" height="30" visible="true"/><!--Button OK-->
+	</layout>
+	<layout name="Dental_NVolumePanel">
+		<item id="12038" left="19" top="15" width="39" height="41" icon="axial.ico" visible="true" type="button"/>
+		<item id="12039" left="68" top="15" width="39" height="41" icon="coronal.ico" visible="true" type="button"/>
+		<item id="12063" left="118" top="15" width="39" height="41" icon="sagittal.ico" visible="true" type="button"/>
+		<item id="12064" left="200" top="13" width="39" height="41" icon="show.ico" visible="true" type="button"/>
+		<item id="1107" left="22" top="56" width="32" height="15" visible="true"/><!--IDC_Static_AXIAL-->
+		<item id="1108" left="65" top="56" width="42" height="15" visible="true"/><!--IDC_Static_CORONAL-->
+		<item id="1109" left="118" top="56" width="40" height="15" visible="true"/><!--IDC_Static_SAGITTAL-->
+		<item id="12076" left="202" top="54" width="33" height="15" visible="true"/><!--IDC_Static_SHOW-->
+		<item id="1015" left="49" top="114" width="42" height="41" icon="cut.ico" visible="true" type="button"/>
+		<item id="1016" left="173" top="114" width="42" height="41" icon="reset.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="Dental_NFilmPairDlg">
+		<item id="1028" left="7" top="8" width="89" height="24" visible="true"/>
+		<item id="1018" left="116" top="8" width="119" height="24" visible="true"/>
+		<item id="2" left="256" top="8" width="88" height="24" visible="true"/>
+	</layout>
+	<layout name="Dental_NPanoramicPanel">
+		<item id="1107" left="12" top="17" width="238" height="88" visible="true"/>
+		<item id="1002" left="12" top="4" width="238" height="21" visible="true"/>
+		<item id="1003" left="107" top="32" width="42" height="32" icon="edit curves.ico" visible="true" type="button"/>
+		<item id="1004" left="32" top="34" width="42" height="32" icon="define curves.ico" visible="true" type="button"/>
+		<item id="1005" left="198" top="32" width="42" height="32" icon="show setional lines.ico" visible="true" type="button"/>
+		<item id="1108" left="19" top="75" width="48" height="15" visible="true"/>
+		<item id="1007" left="72" top="71" width="40" height="26" visible="true"/>
+		<item id="1008" left="112" top="71" width="24" height="26" visible="true"/>
+		<item id="1109" left="140" top="75" width="35" height="15" visible="true"/>
+		<item id="1009" left="179" top="71" width="40" height="26" visible="true"/>
+		<item id="1010" left="219" top="71" width="24" height="26" visible="true"/>
+		<item id="1110" left="12" top="122" width="238" height="96" visible="true"/>
+		<item id="1011" left="12" top="109" width="238" height="21" visible="true"/>
+		<item id="1006" left="23" top="137" width="42" height="32" icon="select line set.ico" visible="true" type="button"/>
+		<item id="1013" left="109" top="137" width="42" height="32" icon="add line set.ico" visible="true" type="button"/>
+		<item id="1014" left="198" top="137" width="42" height="32" icon="delete line set.ico" visible="true" type="button"/>
+		<item id="1015" left="23" top="178" width="42" height="32" icon="move line set.ico" visible="true" type="button"/>
+		<item id="1016" left="109" top="178" width="42" height="32" icon="rotate line set.ico" visible="true" type="button"/>
+		<item id="1017" left="198" top="178" width="42" height="32" icon="reset line set.ico" visible="true" type="button"/>
+		<item id="1111" left="12" top="240" width="238" height="126" visible="true"/>
+		<item id="1012" left="12" top="227" width="238" height="21" visible="true"/>
+		<item id="1018" left="23" top="255" width="42" height="32" icon="3d window.ico" visible="true" type="button"/>
+		<item id="1019" left="109" top="255" width="42" height="32" icon="show setional lines.ico" visible="true" type="button"/>
+		<item id="1020" left="198" top="255" width="42" height="32" icon="change length.ico" visible="true" type="button"/>
+		<item id="1112" left="26" top="300" width="30" height="15" visible="true"/>
+		<item id="1024" left="63" top="294" width="40" height="26" visible="true"/>
+		<item id="1025" left="102" top="294" width="24" height="26" visible="true"/>
+		<item id="1113" left="137" top="300" width="29" height="15" visible="true"/>
+		<item id="1026" left="179" top="294" width="40" height="26" visible="true"/>
+		<item id="1027" left="219" top="294" width="24" height="26" visible="true"/>
+		<item id="1021" left="23" top="326" width="42" height="32" icon="imgno panoramic.ico" visible="true" type="button"/>
+		<item id="1022" left="109" top="326" width="42" height="32" icon="imgno sectional.ico" visible="true" type="button"/>
+		<item id="1023" left="198" top="326" width="42" height="32" icon="ruler.ico" visible="true" type="button"/>
+		<item id="1028" left="25" top="375" width="42" height="32" icon="film pair.ico" visible="true" type="button"/>
+		<item id="1029" left="110" top="375" width="42" height="32" icon="print preview.ico" visible="true" type="button"/>
+		<item id="1030" left="198" top="375" width="42" height="32" icon="calibration.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="Dental_NFilmDlg">
+		<item id="1107" left="11" top="0" width="270" height="148" visible="true"/>
+		<item id="1024" left="21" top="19" width="35" height="32" visible="true"/>
+		<item id="1025" left="151" top="23" width="35" height="32" visible="true"/>
+		<item id="1026" left="21" top="62" width="35" height="32" visible="true"/>
+		<item id="1027" left="151" top="62" width="35" height="32" visible="true"/>
+		<item id="1028" left="21" top="103" width="35" height="32" visible="true"/>
+		<item id="1029" left="151" top="101" width="35" height="32" visible="true"/>
+		<item id="1030" left="282" top="58" width="39" height="41" visible="true"/>
+		<item id="1111" left="312" top="28" width="62" height="15" visible="true"/>
+		<item id="1108" left="11" top="146" width="270" height="148" visible="true"/>
+		<item id="1031" left="21" top="167" width="35" height="32" visible="true"/>
+		<item id="1032" left="151" top="171" width="35" height="32" visible="true"/>
+		<item id="1033" left="21" top="210" width="35" height="32" visible="true"/>
+		<item id="1034" left="151" top="210" width="35" height="32" visible="true"/>
+		<item id="1035" left="21" top="249" width="35" height="32" visible="true"/>
+		<item id="1036" left="151" top="248" width="35" height="32" visible="true"/>
+		<item id="1037" left="282" top="208" width="39" height="41" visible="true"/>
+		<item id="1112" left="317" top="174" width="62" height="15" visible="true"/>
+		<item id="1109" left="11" top="291" width="270" height="148" visible="true"/>
+		<item id="1038" left="21" top="309" width="35" height="32" visible="true"/>
+		<item id="1039" left="151" top="313" width="35" height="32" visible="true"/>
+		<item id="1040" left="21" top="353" width="35" height="32" visible="true"/>
+		<item id="1041" left="151" top="353" width="35" height="32" visible="true"/>
+		<item id="1042" left="21" top="394" width="35" height="32" visible="true"/>
+		<item id="1043" left="151" top="392" width="35" height="32" visible="true"/>
+		<item id="1044" left="282" top="351" width="39" height="41" visible="true"/>
+		<item id="1113" left="317" top="319" width="62" height="15" visible="true"/>
+		<item id="1110" left="11" top="437" width="270" height="148" visible="true"/>
+		<item id="1045" left="21" top="458" width="35" height="32" visible="true"/>
+		<item id="1046" left="151" top="461" width="35" height="32" visible="true"/>
+		<item id="1047" left="21" top="499" width="35" height="32" visible="true"/>
+		<item id="1048" left="151" top="499" width="35" height="32" visible="true"/>
+		<item id="1049" left="21" top="540" width="35" height="32" visible="true"/>
+		<item id="1050" left="151" top="538" width="35" height="32" visible="true"/>
+		<item id="1051" left="282" top="497" width="39" height="41" visible="true"/>
+		<item id="1114" left="317" top="465" width="62" height="15" visible="true"/>
+		<item id="1116" left="12" top="583" width="270" height="148" visible="true"/>
+		<item id="1052" left="23" top="602" width="35" height="32" visible="true"/>
+		<item id="1053" left="151" top="604" width="35" height="32" visible="true"/>
+		<item id="1054" left="23" top="645" width="35" height="32" visible="true"/>
+		<item id="1055" left="151" top="645" width="35" height="32" visible="true"/>
+		<item id="1056" left="23" top="686" width="35" height="32" visible="true"/>
+		<item id="1057" left="151" top="683" width="35" height="32" visible="true"/>
+		<item id="1058" left="284" top="641" width="39" height="41" visible="true"/>
+		<item id="1117" left="317" top="611" width="62" height="15" visible="true"/>
+		<item id="1118" left="12" top="729" width="270" height="148" visible="true"/>
+		<item id="1059" left="23" top="743" width="35" height="32" visible="true"/>
+		<item id="1060" left="151" top="748" width="35" height="32" visible="true"/>
+		<item id="1061" left="23" top="784" width="35" height="32" visible="true"/>
+		<item id="1062" left="151" top="784" width="35" height="32" visible="true"/>
+		<item id="1063" left="23" top="827" width="35" height="32" visible="true"/>
+		<item id="1064" left="151" top="827" width="35" height="32" visible="true"/>
+		<item id="1065" left="284" top="784" width="39" height="41" visible="true"/>
+		<item id="1119" left="317" top="752" width="62" height="15" visible="true"/>
+		<item id="1066" left="61" top="30" width="84" height="15" visible="true"/>
+		<item id="1072" left="61" top="178" width="84" height="15" visible="true"/>
+		<item id="1078" left="61" top="321" width="84" height="15" visible="true"/>
+		<item id="1084" left="61" top="469" width="84" height="15" visible="true"/>
+		<item id="1090" left="61" top="611" width="84" height="15" visible="true"/>
+		<item id="1096" left="61" top="756" width="84" height="15" visible="true"/>
+		<item id="1067" left="191" top="30" width="84" height="15" visible="true"/>
+		<item id="1068" left="61" top="71" width="84" height="15" visible="true"/>
+		<item id="1069" left="191" top="71" width="84" height="15" visible="true"/>
+		<item id="1070" left="61" top="111" width="84" height="15" visible="true"/>
+		<item id="1071" left="191" top="111" width="84" height="15" visible="true"/>
+		<item id="1073" left="191" top="178" width="84" height="15" visible="true"/>
+		<item id="1074" left="61" top="219" width="84" height="15" visible="true"/>
+		<item id="1075" left="191" top="219" width="84" height="15" visible="true"/>
+		<item id="1076" left="61" top="257" width="84" height="15" visible="true"/>
+		<item id="1077" left="191" top="257" width="84" height="15" visible="true"/>
+		<item id="1079" left="191" top="321" width="84" height="15" visible="true"/>
+		<item id="1080" left="61" top="364" width="84" height="15" visible="true"/>
+		<item id="1081" left="191" top="364" width="84" height="15" visible="true"/>
+		<item id="1082" left="61" top="403" width="84" height="15" visible="true"/>
+		<item id="1083" left="191" top="403" width="84" height="15" visible="true"/>
+		<item id="1086" left="61" top="508" width="84" height="15" visible="true"/>
+		<item id="1085" left="191" top="469" width="84" height="15" visible="true"/>
+		<item id="1087" left="191" top="508" width="84" height="15" visible="true"/>
+		<item id="1088" left="61" top="549" width="84" height="15" visible="true"/>
+		<item id="1089" left="191" top="549" width="84" height="15" visible="true"/>
+		<item id="1092" left="61" top="656" width="84" height="15" visible="true"/>
+		<item id="1091" left="191" top="611" width="84" height="15" visible="true"/>
+		<item id="1093" left="191" top="656" width="84" height="15" visible="true"/>
+		<item id="1094" left="61" top="696" width="84" height="15" visible="true"/>
+		<item id="1095" left="191" top="696" width="84" height="15" visible="true"/>
+		<item id="1097" left="191" top="756" width="84" height="15" visible="true"/>
+		<item id="1098" left="61" top="793" width="84" height="15" visible="true"/>
+		<item id="1099" left="191" top="793" width="84" height="15" visible="true"/>
+		<item id="1100" left="61" top="838" width="84" height="15" visible="true"/>
+		<item id="1101" left="191" top="838" width="84" height="15" visible="true"/>
+	</layout>
+	<layout name="Dental_NPrintPreviewDlg">
+		<item id="1" left="12" top="634" width="88" height="26" visible="true"/>
+		<item id="2" left="438" top="634" width="88" height="26" visible="true"/>
+		<item id="1021" left="154" top="634" width="88" height="26" visible="true"/>
+		<item id="1023" left="296" top="634" width="88" height="26" visible="true"/>
+		<item id="1107" left="23" top="30" width="100" height="15" visible="true"/>
+		<item id="1031" left="308" top="13" width="427" height="609" visible="true"/>
+		<item id="1108" left="12" top="13" width="252" height="609" visible="true"/>
+		<item id="0" left="309" top="14" width="425" height="607" visible="true"/>
+		<item id="60000" left="20" top="60" width="180" height="30" visible="true"/>
+		<item id="60001" left="20" top="92" width="180" height="30" visible="true"/>
+		<item id="60002" left="20" top="124" width="180" height="30" visible="true"/>
+		<item id="60010" left="20" top="156" width="180" height="30" visible="true"/>
+		<item id="60011" left="20" top="188" width="180" height="30" visible="true"/>
+		<item id="60030" left="20" top="220" width="180" height="30" visible="true"/>
+	</layout>
+	<layout name="Dental_NChangeSectionLength">
+		<item id="1107" left="35" top="28" width="79" height="23" visible="true"/>
+		<item id="1013" left="156" top="24" width="70" height="26" visible="true"/>
+		<item id="1014" left="226" top="24" width="21" height="26" visible="true"/>
+		<item id="1" left="51" top="73" width="54" height="26" visible="true"/>
+		<item id="2" left="170" top="73" width="54" height="26" visible="true"/>
+	</layout>
+	<layout name="Dental_NVRProtocolDlg">
+		<item id="12069" left="3" top="35" width="105" height="743" visible="true"/>
+		<item id="12038" left="3" top="765" width="35" height="35" visible="true"/>
+		<item id="12039" left="38" top="765" width="35" height="35" visible="true"/>
+		<item id="12072" left="73" top="765" width="35" height="35" visible="true"/>
+		<item id="1104" left="3" top="5" width="108" height="228" visible="true"/>
+	</layout>
+	<layout name="Dental_NProtocolEditor">
+		<item id="1" left="200" top="263" width="73" height="35" visible="true"/>
+		<item id="6" left="290" top="263" width="73" height="35" visible="true"/>
+		<item id="206" left="8" top="10" width="983" height="225" visible="false"/>
+		<item id="4" left="18" top="263" width="73" height="35" visible="true"/>
+		<item id="1102" left="108" top="263" width="73" height="35" visible="true"/>
+		<item id="1120" left="520" top="263" width="73" height="35" visible="true"/>
+	</layout>
+	<layout name="Dental_NCalibrationDlg">
+		<item id="65535" left="14" top="23" width="158" height="21" visible="true"/>
+		<item id="1019" left="187" top="17" width="63" height="26" visible="true"/>
+		<item id="1020" left="250" top="17" width="21" height="26" visible="true"/>
+		<item id="1" left="44" top="62" width="77" height="26" visible="true"/>
+		<item id="2" left="172" top="62" width="77" height="26" visible="true"/>
+	</layout>
+	<layout name="MPR_NMPRPane">
+		<item id="16004" left="16" top="167" width="47" height="36" icon="curve.ico" visible="true" type="button"/>
+		<item id="16336" left="7" top="276" width="67" height="23" visible="true"/>
+		<item id="12010" left="79" top="276" width="49" height="24" visible="true"/>
+		<item id="16337" left="151" top="274" width="28" height="24" visible="true"/>
+		<item id="12014" left="126" top="276" width="21" height="26" visible="true"/>
+		<item id="12015" left="179" top="272" width="65" height="28" visible="true"/>
+		<item id="16306" left="23" top="75" width="158" height="19" visible="true"/>
+		<item id="16308" left="23" top="32" width="168" height="23" visible="true"/>
+		<item id="16309" left="21" top="364" width="47" height="36" visible="true"/>
+		<item id="16310" left="70" top="364" width="47" height="36" visible="true"/>
+		<item id="16311" left="119" top="364" width="47" height="36" visible="true"/>
+		<item id="16312" left="168" top="364" width="47" height="36" visible="true"/>
+		<item id="16334" left="21" top="124" width="144" height="19" visible="true"/>
+	</layout>
+	<layout name="MPR_NBatchPan">
+		<item id="11014" left="28" top="32" width="40" height="38" icon="from.ico" visible="true" type="button"/>
+		<item id="11015" left="81" top="32" width="40" height="38" icon="to.ico" visible="true" type="button"/>
+		<item id="11017" left="133" top="32" width="40" height="38" icon="all.ico" visible="true" type="button"/>
+		<item id="16338" left="133" top="73" width="40" height="15" visible="true"/><!--static all-->
+		<item id="11018" left="189" top="32" width="40" height="38" icon="clear.ico" visible="true" type="button"/>
+		<item id="12126" left="182" top="103" width="39" height="28" visible="true"/>
+		<item id="12129" left="221" top="103" width="21" height="28" visible="true"/>
+		<item id="11019" left="37" top="186" width="40" height="38" icon="save.ico" visible="true" type="button"/>
+		<item id="16342" left="37" top="225" width="40" height="15" visible="true"/><!--static save-->
+		<item id="11020" left="109" top="186" width="40" height="38" icon="report.ico" visible="true" type="button"/>
+		<item id="16343" left="107" top="225" width="44" height="15" visible="true"/><!--static report-->
+		<item id="11021" left="186" top="186" width="40" height="38" icon="film.ico" visible="true" type="button"/>
+		<item id="11022" left="39" top="336" width="47" height="38" icon="forward.ico" visible="true" type="button"/>
+		<item id="12130" left="0" top="409" width="235" height="26" visible="false"/>
+		<item id="65535" left="12" top="225" width="235" height="158" visible="true"/>
+		<item id="16341" left="124" top="103" width="51" height="30" visible="true"/>
+		<item id="11023" left="110" top="336" width="49" height="38" icon="stop.ico" visible="true" type="button"/>
+		<item id="11024" left="187" top="336" width="47" height="38" icon="backward.ico" visible="true" type="button"/>
+		<item id="12131" left="0" top="414" width="235" height="26" visible="false"/>
+		<item id="16314" left="32" top="296" width="186" height="36" visible="true"/>
+		<item id="12127" left="75" top="103" width="44" height="28" visible="true"/>
+		<item id="16340" left="19" top="103" width="54" height="30" visible="true"/>
+		<item id="16336" left="35" top="71" width="35" height="15" visible="true"/>
+		<item id="16337" left="89" top="71" width="33" height="15" visible="true"/>
+		<item id="16339" left="191" top="75" width="49" height="15" visible="true"/>
+		<item id="16344" left="189" top="225" width="37" height="15" visible="true"/>
+		<item id="16345" left="42" top="276" width="84" height="15" visible="true"/>
+		<item id="-1" left="9" top="409" width="235" height="28" visible="false"/>
+		<item id="16327" left="0" top="0" width="261" height="19" visible="true"/>
+		<item id="16328" left="0" top="150" width="261" height="19" visible="true"/>
+		<item id="16329" left="0" top="251" width="261" height="19" visible="true"/>
+	</layout>
+	<layout name="MPR_CBatchSaveDlg">
+		<item id="1" left="45" top="170" width="125" height="35" visible="true"/>
+		<item id="2" left="215" top="170" width="125" height="35" visible="true"/>
+		<item id="16336" left="95" top="35" width="173" height="120" visible="true"/>
+		<item id="16328" left="140" top="73" width="73" height="25" visible="true"/>
+		<item id="16329" left="140" top="108" width="95" height="25" visible="true"/>
+		<item id="16330" left="268" top="60" width="83" height="25" visible="true"/>
+		<item id="16337" left="160" top="35" width="190" height="120" visible="true"/>
+		<item id="16331" left="275" top="88" width="75" height="25" visible="true"/>
+		<item id="16332" left="248" top="120" width="103" height="25" visible="true"/>
+		<item id="16335" left="283" top="75" width="68" height="45" visible="true"/>
+	</layout>
+	<layout name="MPR_NCopyFileProgress">
+		<item id="12089" left="75" top="13" width="317" height="23" visible="true"/>
+		<item id="10500" left="12" top="45" width="427" height="23" visible="true"/>
+		<item id="10122" left="481" top="45" width="70" height="26" visible="true"/>
+		<item id="12893" left="123" top="11" width="21" height="26" visible="false"/>
+	</layout>
+	<layout name="3D_N3DPane">
+		<item id="1007" left="46" top="143" width="49" height="32" visible="true"/>
+		<item id="1004" left="72" top="109" width="49" height="32" visible="true"/>
+		<item id="1008" left="121" top="109" width="49" height="32" visible="true"/>
+		<item id="10127" left="170" top="109" width="49" height="32" visible="true"/>
+		<item id="1006" left="23" top="109" width="49" height="32" visible="true"/>
+		<item id="1010" left="144" top="143" width="49" height="32" icon="reset.ico" visible="true" type="button"/>
+		<item id="1009" left="95" top="143" width="49" height="32" icon="cut.ico" visible="true" type="button"/>
+		<item id="10119" left="16" top="15" width="49" height="41" icon="axial.ico" visible="true" type="button"/>
+		<item id="10125" left="65" top="15" width="51" height="41" icon="coronal.ico" visible="true" type="button"/>
+		<item id="10142" left="117" top="15" width="47" height="41" icon="sagittal.ico" visible="true" type="button"/>
+		<item id="10143" left="198" top="15" width="39" height="41" icon="show.ico" visible="true" type="button"/>
+		<item id="24063" left="21" top="56" width="35" height="15" visible="true"/>
+		<item id="24064" left="65" top="56" width="49" height="15" visible="true"/>
+		<item id="24065" left="114" top="56" width="60" height="15" visible="true"/>
+		<item id="12076" left="203" top="56" width="32" height="15" visible="true"/>
+		<item id="24010" left="26" top="203" width="67" height="15" visible="true"/>
+		<item id="12004" left="110" top="197" width="42" height="23" visible="true"/>
+		<item id="12030" left="166" top="197" width="42" height="23" visible="true"/>
+		<item id="24039" left="46" top="227" width="182" height="19" visible="true"/>
+		<item id="24040" left="44" top="253" width="133" height="19" visible="true"/>
+		<item id="24045" left="44" top="279" width="217" height="19" visible="true"/>
+		<item id="10118" left="18" top="302" width="50" height="30" icon="boneremove.ico" visible="true" type="button"/>
+		<item id="10123" left="18" top="353" width="50" height="30" icon="BoneRemoveUndo.ico" visible="true" type="button"/>
+		<item id="24067" left="70" top="310" width="80" height="20" visible="true"/><!--static Max Threshold-->
+		<item id="24068" left="70" top="361" width="80" height="20" visible="true"/><!--static Min Threshold-->
+		<item id="24041" left="154" top="306" width="56" height="26" visible="true"/>
+		<item id="24042" left="154" top="353" width="56" height="26" visible="true"/>
+		<item id="10148" left="207" top="304" width="21" height="26" visible="true"/>
+		<item id="24043" left="208" top="351" width="21" height="26" visible="true"/>
+		<item id="24069" left="229" top="308" width="30" height="19" visible="true"/>
+		<item id="24070" left="229" top="356" width="28" height="19" visible="true"/>
+	</layout>
+	<layout name="3D_NBatchPane">
+		<item id="11014" left="26" top="32" width="46" height="38" icon="from.ico" visible="true" type="button"/>
+		<item id="11015" left="107" top="32" width="46" height="38" icon="to.ico" visible="true" type="button"/>
+		<item id="11018" left="186" top="32" width="46" height="38" icon="clear.ico" visible="true" type="button"/>
+		<item id="12028" left="0" top="0" width="0" height="0" icon="save.ico" visible="true" type="button"/>
+		<item id="11020" left="107" top="186" width="46" height="38" icon="report.ico" visible="true" type="button"/>
+		<item id="11021" left="186" top="186" width="46" height="38" icon="film.ico" visible="true" type="button"/>
+		<item id="11022" left="35" top="336" width="49" height="38" icon="forward.ico" visible="true" type="button"/>
+		<item id="12037" left="105" top="336" width="49" height="38" icon="stop.ico" visible="true" type="button"/>
+		<item id="-1" left="5" top="403" width="238" height="19" visible="false"/>
+		<item id="12130" left="5" top="401" width="235" height="26" visible="false"/>
+		<item id="24065" left="19" top="101" width="86" height="28" visible="true"/>
+		<item id="12126" left="109" top="96" width="35" height="28" visible="true"/>
+		<item id="10149" left="144" top="96" width="21" height="28" visible="true"/>
+		<item id="10115" left="26" top="186" width="46" height="38" visible="true"/>
+		<item id="10121" left="4" top="399" width="236" height="26" visible="false"/>
+		<item id="12087" left="25" top="296" width="207" height="35" visible="true"/>
+		<item id="10147" left="173" top="336" width="49" height="38" icon="backward.ico" visible="true" type="button"/>
+		<item id="12090" left="35" top="71" width="30" height="15" visible="true"/>
+		<item id="24063" left="116" top="71" width="37" height="15" visible="true"/>
+		<item id="24064" left="191" top="71" width="37" height="15" visible="true"/>
+		<item id="24071" left="35" top="225" width="32" height="15" visible="true"/>
+		<item id="24067" left="112" top="225" width="47" height="15" visible="true"/>
+		<item id="24068" left="196" top="225" width="28" height="15" visible="true"/>
+		<item id="24069" left="37" top="276" width="96" height="15" visible="true"/>
+		<item id="12091" left="0" top="0" width="261" height="19" visible="true"/>
+		<item id="12092" left="0" top="150" width="261" height="19" visible="true"/>
+		<item id="12093" left="0" top="251" width="261" height="19" visible="true"/>
+	</layout>
+	<layout name="3D_NBoneRemovePane">
+		<item id="10118" left="4" top="171" width="263" height="24" visible="true"/>
+		<item id="24074" left="7" top="189" width="252" height="111" visible="false"/>
+		<item id="24015" left="7" top="2" width="66" height="23" visible="true"/>
+		<!--static exclude-->
+		<item id="24016" left="102" top="2" width="61" height="23" visible="true"/>
+		<item id="24017" left="187" top="4" width="63" height="21" visible="true"/>
+		<item id="10145" left="53" top="113" width="49" height="34" icon="Dye.ico" visible="true"/>
+		<item id="24018" left="140" top="113" width="49" height="34" icon="Eraser.ico" visible="true"/>
+		<item id="24063" left="60" top="150" width="35" height="15" visible="true"/>
+		<item id="24064" left="144" top="150" width="42" height="15" visible="true"/>
+		<item id="24065" left="46" top="210" width="35" height="15" visible="true"/>
+		<item id="24021" left="105" top="203" width="54" height="26" visible="true"/>
+		<item id="24071" left="180" top="208" width="56" height="15" visible="true"/>
+		<item id="24023" left="35" top="238" width="42" height="19" visible="true"/>
+		<item id="24024" left="103" top="238" width="68" height="15" visible="true"/>
+		<item id="24025" left="186" top="238" width="53" height="19" visible="true"/>
+		<item id="24068" left="46" top="304" width="51" height="23" visible="true"/>
+		<item id="24069" left="182" top="302" width="47" height="21" visible="true"/>
+		<item id="24067" left="25" top="257" width="51" height="24" visible="true"/>
+		<item id="24078" left="221" top="263" width="46" height="17" visible="true"/>
+		<item id="24027" left="26" top="278" width="210" height="23" visible="true"/>
+		<item id="10148" left="159" top="203" width="21" height="28" visible="true"/>
+		<item id="24030" left="4" top="173" width="263" height="24" visible="false"/>
+		<item id="24070" left="7" top="188" width="252" height="139" visible="true"/>
+		<item id="24072" left="42" top="231" width="61" height="21" visible="false"/>
+		<item id="24031" left="102" top="225" width="56" height="30" visible="false"/>
+		<item id="24032" left="158" top="221" width="21" height="32" visible="false"/>
+		<item id="24073" left="189" top="231" width="56" height="15" visible="false"/>
+		<item id="24033" left="35" top="266" width="53" height="19" visible="false"/>
+		<item id="24034" left="105" top="266" width="63" height="19" visible="false"/>
+		<item id="24035" left="186" top="266" width="51" height="19" visible="false"/>
+		<item id="24036" left="26" top="343" width="47" height="32" icon="Fill.ico" visible="true"/>
+		<item id="1010" left="96" top="343" width="47" height="32" icon="reset.ico" visible="true"/>
+		<item id="24038" left="166" top="343" width="47" height="32" icon="Expand.ico" visible="true"/>
+		<item id="24075" left="26" top="377" width="47" height="15" visible="true"/>
+		<item id="24076" left="96" top="377" width="47" height="15" visible="true"/>
+		<item id="24077" left="166" top="377" width="47" height="15" visible="true"/>
+		<item id="24080" left="32" top="41" width="86" height="15" visible="true"/>
+		<item id="24079" left="33" top="81" width="81" height="15" visible="true"/>
+		<item id="24081" left="130" top="34" width="54" height="26" visible="true"/>
+		<item id="24086" left="217" top="39" width="35" height="15" visible="true"/>
+		<item id="24087" left="217" top="86" width="33" height="15" visible="true"/>
+		<item id="24088" left="180" top="34" width="21" height="26" visible="true"/>
+		<item id="24082" left="130" top="73" width="54" height="26" visible="true"/>
+		<item id="24089" left="179" top="73" width="21" height="26" visible="true"/>
+	</layout>
+	<layout name="3D_NGenImgProgress">
+		<item id="12089" left="14" top="13" width="200" height="23" visible="true"/>
+		<item id="10114" left="12" top="45" width="558" height="23" visible="true"/>
+		<item id="10122" left="593" top="43" width="70" height="26" visible="true"/>
+	</layout>
+	<layout name="3D_CBatchSaveDlg">
+		<item id="1" left="60" top="188" width="110" height="35" visible="true"/>
+		<item id="2" left="243" top="188" width="110" height="35" visible="true"/>
+		<item id="24064" left="225" top="40" width="205" height="135" visible="true"/>
+		<item id="12099" left="268" top="100" width="65" height="25" visible="true"/>
+		<item id="12100" left="268" top="133" width="103" height="25" visible="true"/>
+		<item id="24012" left="335" top="83" width="90" height="48" visible="true"/>
+		<item id="24063" left="98" top="33" width="188" height="133" visible="true"/>
+		<item id="12098" left="163" top="70" width="90" height="25" visible="true"/>
+		<item id="24047" left="163" top="113" width="68" height="25" visible="true"/>
+		<item id="12101" left="268" top="60" width="83" height="25" visible="true"/>
+	</layout>
+	<layout name="3D_NVRProtocolDlg">
+		<item id="12069" left="3" top="38" width="105" height="740" visible="true"/>
+		<item id="10120" left="3" top="765" width="35" height="35" visible="true"/>
+		<item id="10126" left="38" top="765" width="35" height="35" visible="true"/>
+		<item id="10146" left="73" top="765" width="35" height="35" visible="true"/>
+		<item id="12066" left="3" top="8" width="108" height="228" visible="true"/>
+	</layout>
+	<layout name="3D_NProtocolEditor">
+		<item id="1" left="208" top="263" width="73" height="35" visible="true"/>
+		<item id="6" left="303" top="263" width="73" height="35" visible="true"/>
+		<item id="206" left="8" top="10" width="983" height="225" visible="false"/>
+		<item id="4" left="18" top="263" width="73" height="35" visible="true"/>
+		<item id="36690" left="118" top="263" width="73" height="35" visible="true"/>
+		<item id="24013" left="520" top="255" width="170" height="35" visible="true"/>
+	</layout>
+	<layout name="3D_NCopyFileProgress">
+		<item id="12089" left="54" top="13" width="317" height="23" visible="true"/>
+		<item id="10500" left="12" top="45" width="427" height="23" visible="true"/>
+		<item id="10122" left="481" top="45" width="70" height="26" visible="true"/>
+	</layout>
+	<layout name="VE_NVEPane">
+		<item id="12870" left="58" top="30" width="46" height="30" icon="ve\Interactive_mode.ico" visible="true" type="button"/>
+		<item id="12871" left="137" top="30" width="46" height="30" icon="ve\playback _mode.ico" visible="true" type="button"/>
+		<item id="12866" left="98" top="75" width="51" height="32" icon="ve\direction.ico" visible="true" type="button"/>
+		<item id="12865" left="28" top="75" width="51" height="32" icon="ve\view_pos.ico" visible="true" type="button"/>
+		<item id="12869" left="205" top="38" width="51" height="32" icon="ve\high_quality.ico" visible="false" type="button"/>
+		<item id="12861" left="172" top="120" width="44" height="38" icon="3d\show.ico" visible="true" type="button"/>
+		<item id="12867" left="28" top="124" width="51" height="32" icon="mpr\curve.ico" visible="true" type="button"/>
+		<item id="12879" left="172" top="73" width="44" height="38" icon="ve\save_avi.ico" visible="true" type="button"/>
+		<item id="12863" left="175" top="394" width="37" height="28" icon="ve\camera_rear.ico" visible="true" type="button"/>
+		<item id="12864" left="210" top="394" width="37" height="28" icon="ve\camera_front.ico" visible="true" type="button"/>
+		<item id="12868" left="98" top="124" width="51" height="32" icon="ve\Path.ico" visible="true" type="button"/>
+		<item id="12847" left="18" top="263" width="28" height="26" visible="true"/>
+		<item id="12849" left="58" top="263" width="28" height="26" visible="true"/>
+		<item id="12848" left="95" top="263" width="28" height="26" visible="true"/>
+		<item id="12813" left="135" top="263" width="28" height="26" visible="true"/>
+		<item id="12846" left="172" top="263" width="28" height="26" visible="true"/>
+		<item id="12008" left="212" top="263" width="28" height="26" visible="true"/>
+		<item id="12891" left="12" top="313" width="93" height="21" visible="true"/>
+		<item id="12851" left="105" top="308" width="28" height="26" visible="true"/>
+		<item id="12855" left="137" top="308" width="20" height="26" visible="true"/>
+		<item id="12906" left="11" top="0" width="245" height="234" visible="true"/>
+		<item id="12909" left="11" top="248" width="247" height="182" visible="true"/>
+		<item id="12892" left="172" top="311" width="35" height="19" visible="true"/>
+		<item id="12872" left="35" top="420" width="16" height="23" visible="false"/>
+		<item id="16306" left="25" top="390" width="135" height="19" visible="true"/>
+		<item id="12874" left="16" top="324" width="177" height="28" visible="false"/>
+		<item id="12876" left="193" top="332" width="44" height="19" visible="false"/>
+		<item id="12877" left="18" top="300" width="88" height="19" visible="false"/>
+		<item id="12878" left="-4" top="426" width="56" height="17" visible="false"/>
+		<item id="12889" left="58" top="178" width="128" height="19" visible="true"/>
+		<item id="12907" left="26" top="186" width="25" height="19" visible="true"/>
+		<item id="12908" left="198" top="186" width="40" height="19" visible="true"/>
+		<item id="12890" left="5" top="0" width="256" height="24" visible="false"/>
+		<item id="12896" left="95" top="424" width="86" height="19" visible="false"/>
+		<item id="12897" left="180" top="163" width="42" height="15" visible="true"/>
+		<item id="12900" left="25" top="362" width="154" height="19" visible="true"/>
+		<item id="12914" left="98" top="201" width="121" height="15" visible="true"/>
+	</layout>
+	<layout name="VE_CBatchSaveDlg">
+		<item id="1" left="55" top="170" width="125" height="35" visible="true"/>
+		<item id="2" left="238" top="170" width="125" height="35" visible="true"/>
+		<item id="12906" left="103" top="33" width="278" height="130" visible="true"/>
+		<item id="12099" left="163" top="60" width="75" height="25" visible="true"/>
+		<item id="12100" left="160" top="120" width="103" height="25" visible="true"/>
+		<item id="12899" left="245" top="60" width="83" height="60" visible="true"/>
+	</layout>
+	<layout name="VE_NGenAVIProgress">
+		<item id="12089" left="75" top="13" width="317" height="23" visible="true"/>
+		<item id="12022" left="12" top="45" width="427" height="23" visible="true"/>
+		<item id="12038" left="481" top="45" width="70" height="26" visible="true"/>
+		<item id="12893" left="123" top="11" width="21" height="26" visible="false"/>
+	</layout>
+	<layout name="VE_NProtocolEditor">
+		<item id="1" left="213" top="263" width="73" height="35" visible="true"/>
+		<item id="6" left="303" top="263" width="73" height="35" visible="true"/>
+		<item id="206" left="8" top="10" width="983" height="225" visible="false"/>
+		<item id="4" left="18" top="263" width="73" height="35" visible="true"/>
+		<item id="36690" left="108" top="263" width="88" height="35" visible="true"/>
+		<item id="12898" left="698" top="255" width="203" height="33" visible="true"/>
+	</layout>
+	<layout name="VE_NVRProtocolDlg">
+		<item id="12069" left="3" top="3" width="113" height="750" visible="true"/>
+		<item id="12038" left="5" top="765" width="35" height="35" visible="true"/>
+		<item id="12039" left="35" top="765" width="35" height="35" visible="true"/>
+		<item id="12072" left="80" top="765" width="35" height="35" visible="true"/>
+		<item id="12066" left="3" top="8" width="113" height="28" visible="false"/>
+	</layout>
+	<layout name="HeartCS_NHeartCSPane">
+		<item id="12091" left="121" top="75" width="32" height="34" icon="NMSCCSShowTable.ico" visible="true"/>
+		<item id="12079" left="11" top="424" width="32" height="34" icon="NMSCCSSeed.ico" visible="true"/>
+		<item id="12084" left="112" top="424" width="32" height="34" icon="NMSCCSDelROI.ico" visible="true"/>
+		<item id="1002" left="61" top="424" width="32" height="34" icon="NMSCCSManaulROI.ico" visible="true"/>
+		<item id="1037" left="214" top="424" width="32" height="34" icon="NMSCCSReset.ico" visible="true"/>
+		<item id="1025" left="163" top="424" width="32" height="34" icon="NMSCCSDelVessel.ico" visible="true"/>
+		<item id="1008" left="12" top="4" width="235" height="26" visible="true"/>
+		<item id="5000" left="12" top="21" width="235" height="94" visible="true"/>
+		<item id="5001" left="21" top="36" width="93" height="19" visible="true"/>
+		<item id="17004" left="121" top="34" width="81" height="223" visible="true"/>
+		<item id="5002" left="18" top="88" width="102" height="19" visible="true"/>
+		<item id="1012" left="12" top="118" width="235" height="26" visible="true"/>
+		<item id="4999" left="21" top="156" width="67" height="19" visible="true"/>
+		<item id="12121" left="91" top="152" width="102" height="223" visible="true"/>
+		<item id="12122" left="207" top="148" width="32" height="34" visible="true"/>
+		<item id="12123" left="207" top="223" width="32" height="34" visible="true"/>
+		<item id="1018" left="207" top="186" width="32" height="34" visible="true"/>
+		<item id="12074" left="23" top="212" width="126" height="21" visible="true"/>
+		<item id="12117" left="16" top="261" width="228" height="23" visible="true"/>
+		<item id="12113" left="16" top="285" width="228" height="88" visible="true"/>
+		<item id="12108" left="12" top="386" width="235" height="26" visible="true"/>
+		<item id="5003" left="12" top="133" width="235" height="249" visible="true"/>
+	</layout>
+	<layout name="HeartCS_NDlgProtocol">
+		<item id="5000" left="18" top="19" width="124" height="23" visible="true"/>
+		<item id="1015" left="152" top="19" width="114" height="23" visible="true"/>
+		<item id="5001" left="18" top="94" width="124" height="23" visible="true"/>
+		<item id="12103" left="152" top="94" width="114" height="223" visible="true"/>
+		<item id="5002" left="18" top="131" width="124" height="23" visible="true"/>
+		<item id="1006" left="152" top="131" width="114" height="223" visible="true"/>
+		<item id="5003" left="18" top="169" width="124" height="23" visible="true"/>
+		<item id="1010" left="152" top="169" width="114" height="223" visible="true"/>
+		<item id="5004" left="18" top="206" width="124" height="23" visible="true"/>
+		<item id="12127" left="152" top="203" width="98" height="23" visible="true"/>
+		<item id="12130" left="247" top="201" width="21" height="23" visible="true"/>
+		<item id="5005" left="18" top="244" width="124" height="23" visible="true"/>
+		<item id="12126" left="152" top="244" width="98" height="23" visible="true"/>
+		<item id="12129" left="247" top="242" width="21" height="23" visible="true"/>
+		<item id="1" left="53" top="296" width="63" height="26" visible="true"/>
+		<item id="2" left="168" top="296" width="63" height="26" visible="true"/>
+		<item id="5006" left="18" top="56" width="124" height="23" visible="true"/>
+		<item id="57096" left="152" top="56" width="114" height="223" visible="true"/>
+	</layout>
+	<layout name="HeartCS_TissueDlg">
+		<item id="5000" left="18" top="21" width="46" height="21" visible="true"/>
+		<item id="1027" left="72" top="19" width="54" height="23" visible="true"/>
+		<item id="1" left="26" top="62" width="63" height="26" visible="true"/>
+		<item id="2" left="105" top="62" width="63" height="26" visible="true"/>
+		<item id="12118" left="126" top="19" width="21" height="23" visible="true"/>
+	</layout>
+	<layout name="HeartCS_CDialogFormat">
+		<item id="5000" left="14" top="6" width="51" height="19" visible="true"/>
+		<item id="5001" left="7" top="21" width="285" height="186" visible="true"/>
+		<item id="57073" left="37" top="51" width="68" height="23" visible="true"/>
+		<item id="57076" left="37" top="83" width="68" height="23" visible="true"/>
+		<item id="57077" left="37" top="114" width="68" height="23" visible="true"/>
+		<item id="57078" left="37" top="146" width="68" height="23" visible="true"/>
+		<item id="57079" left="37" top="178" width="68" height="23" visible="true"/>
+		<item id="57080" left="121" top="51" width="68" height="23" visible="true"/>
+		<item id="57081" left="121" top="83" width="68" height="23" visible="true"/>
+		<item id="57082" left="121" top="114" width="68" height="23" visible="true"/>
+		<item id="57083" left="121" top="146" width="68" height="23" visible="true"/>
+		<item id="57084" left="121" top="178" width="68" height="23" visible="true"/>
+		<item id="57085" left="205" top="51" width="68" height="23" visible="true"/>
+		<item id="57086" left="205" top="83" width="68" height="23" visible="true"/>
+		<item id="57087" left="205" top="114" width="68" height="23" visible="true"/>
+		<item id="1" left="126" top="219" width="77" height="24" visible="true"/>
+		<item id="2" left="210" top="219" width="77" height="24" visible="true"/>
+	</layout>
+	<layout name="FC_CBtnBoardView">
+		<item id="278" left="23" top="36" width="42" height="34" icon="flim\flip_vertical.ico" visible="true" type="button"/>
+		<item id="282" left="107" top="36" width="42" height="34" icon="flim\flip_horizintal.ico" visible="true" type="button"/>
+		<item id="283" left="193" top="36" width="42" height="34" icon="flim\rotate.ico" visible="true" type="button"/>
+		<item id="8478" left="23" top="116" width="42" height="34" icon="flim\select_single.ico" visible="true" type="button"/>
+		<item id="331" left="107" top="116" width="42" height="34" icon="flim\select_series.ico" visible="false" type="button"/>
+		<item id="1203" left="107" top="116" width="42" height="34" icon="flim\select_series.ico" visible="false" type="button"/>
+		<item id="389" left="193" top="116" width="42" height="34" icon="flim\select_all.ico" visible="true" type="button"/>
+		<item id="332" left="108" top="197" width="42" height="34" icon="flim\dicom print.ico" visible="true" type="button"/>
+		<item id="333" left="108" top="197" width="42" height="34" icon="flim\dicom color print.ico" visible="false" type="button"/>
+		<item id="316" left="193" top="197" width="42" height="34" icon="flim\print.ico" visible="false" type="button"/>
+		
+		<item id="8476" left="12" top="300" width="32" height="34" icon="common\report.ico" visible="true" type="button"/>
+		<item id="280" left="79" top="300" width="32" height="34" icon="common\move.ico" visible="true" type="button"/>
+		<item id="57126" left="79" top="300" width="32" height="34" icon="common\move.ico" visible="false" type="button"/>
+		<item id="286" left="145" top="300" width="32" height="34" icon="common\zoom.ico" visible="true" type="button"/>
+		<item id="388" left="212" top="300" width="32" height="34" icon="report\delete image.ico" visible="true" type="button"/>
+		
+		<item id="208" left="12" top="360" width="32" height="34" icon="common\polygon.ico" visible="false" type="button"/>
+		<item id="206" left="12" top="360" width="32" height="34" icon="common\rect.ico" visible="true" type="button"/>
+		<item id="202" left="52" top="360" width="32" height="34" icon="common\ellipse.ico" visible="true" type="button"/>
+		<item id="200" left="92" top="360" width="32" height="34" icon="common\angle.ico" visible="true" type="button"/>
+		<item id="204" left="132" top="360" width="32" height="34" icon="common\length.ico" visible="true" type="button"/>		
+		<item id="205" left="172" top="360" width="32" height="34" icon="common\text.ico" visible="true" type="button"/>
+	  <item id="201" left="212" top="360" width="32" height="34" icon="common\arrow.ico" visible="true" type="button"/>
+
+		<item id="73" left="12" top="398" width="32" height="34" visible="true"/>
+		<item id="207" left="52" top="398" width="32" height="34" visible="true"/>
+		<item id="74" left="92" top="398" width="32" height="34" visible="true"/>
+		<item id="57116" left="126" top="398" width="14" height="34" visible="true"/>
+		<item id="210" left="212" top="398" width="32" height="34" icon="common\ct value.ico" visible="false" type="button"/>
+		
+		<item id="57065" left="26" top="583" width="205" height="45" icon="" visible="false" type="button"/>
+
+		<item id="8427" Left="11" top="257" width="47" height="23" visible="true"/>
+		<item id="57029" left="54" top="257" width="55" height="23" visible="true"/>
+		<item id="57037" left="107" top="257" width="22" height="23" visible="true"/>
+		<item id="226" left="151" top="257" width="93" height="23" visible="true"/>
+		
+		<item id="8425" left="26" top="473" width="98" height="19" visible="true"/>
+		
+		<item id="57053" left="12" top="83" width="233" height="26" visible="true"/>
+		<item id="8430" left="12" top="21" width="233" height="60" visible="true"/>
+		<item id="57057" left="12" top="5" width="233" height="26" visible="true"/>
+		<item id="8429" left="12" top="101" width="233" height="58" visible="true"/>		
+		<item id="57055" left="12" top="161" width="233" height="26" visible="true"/>
+		<item id="8428" left="12" top="178" width="233" height="60" visible="true"/>
+		
+		<item id="8431" left="5" top="285" width="244" height="55" visible="true"/>
+		<item id="8432" left="5" top="346" width="244" height="93" visible="true"/>
+		
+		<item id="8426" left="5" top="448" width="244" height="60" visible="true"/>
+		
+		<item id="1202" left="135" top="469" width="95" height="26" visible="true"/>
+
+		<item id="1195" left="26" top="538" width="98" height="19" visible="true"/>
+		<item id="8481" left="163" top="532" width="67" height="26" visible="true"/>
+
+		<item id="8433" left="5" top="580" width="300" height="19" visible="false"/>
+		<item id="264" left="20" top="605" width="200" height="25" visible="false"/>
+
+		<item id="-1" left="26" top="471" width="67" height="15" visible="true"/>
+	</layout>
+	<layout name="FC_CGridSpaceInputDlg">
+		<item id="1259" left="10" top="15" width="100" height="26" visible="true"/>
+		<!--grid spacing title-->
+		<item id="1251" left="120" top="15" width="70" height="26" visible="true"/>
+		<!--input edit-->
+		<item id="1260" left="10" top="53" width="194" height="2" visible="true"/>
+		<!--seperate-->
+		<item id="1" left="10" top="65" width="88" height="26" visible="true"/>
+		<!--ok-->
+		<item id="2" left="115" top="65" width="88" height="26" visible="true"/>
+		<!--cancel-->
+		<item id="88888" left="538" top="400" width="220" height="130" visible="true"/>
+		<!--itself-->
+	</layout>
+	<layout name="FC_CGridOriginSelectDlg">
+		<item id="1257" left="10" top="15" width="150" height="26" visible="true"/>
+		<!--grid origin title-->
+		<item id="1255" left="30" top="35" width="80" height="26" visible="true"/>
+		<!--center radio-->
+		<item id="1256" left="110" top="35" width="100" height="26" visible="true"/>
+		<!--left bottom radio-->
+		<item id="1258" left="10" top="65" width="194" height="2" visible="true"/>
+		<!--seperate-->
+		<item id="1" left="10" top="75" width="88" height="26" visible="true"/>
+		<!--ok-->
+		<item id="2" left="115" top="75" width="88" height="26" visible="true"/>
+		<!--cancel-->
+		<item id="88888" left="538" top="400" width="220" height="140" visible="true"/>
+		<!--itself-->
+	</layout>
+	<layout name="FC_CBtnBoardLayout">
+		<item id="241" left="23" top="58" width="42" height="34" icon="flim\layout_11.ico" visible="true" type="button"/>
+		<item id="248" left="79" top="58" width="42" height="34" icon="flim\layout_45.ico" visible="true" type="button"/>
+		<item id="251" left="135" top="58" width="42" height="34" icon="flim\layout_57.ico" visible="true" type="button"/>
+		<item id="57069" left="191" top="58" width="42" height="34" icon="flim\layout_custom.ico" visible="true" type="button"/>
+
+		<item id="8479" left="79" top="107" width="42" height="34" icon="flim\select box.ico" visible="true" type="button"/>
+		<item id="302" left="135" top="107" width="42" height="34" icon="flim\expand.ico" visible="true" type="button"/>
+
+		<item id="8488" left="23" top="156" width="42" height="34" icon="flim\combine_21.ico" visible="true" type="button"/>
+		<item id="8489" left="79" top="156" width="42" height="34" icon="flim\combine_12.ico" visible="true" type="button"/>
+		<item id="8487" left="135" top="156" width="42" height="34" icon="flim\combine_3.ico" visible="true" type="button"/>
+		<item id="8486" left="191" top="156" width="42" height="34" icon="flim\combine_22.ico" visible="true" type="button"/>
+		
+		<item id="8485" left="79" top="141" width="42" height="34" icon="flim\combine_32.ico" visible="false" type="button"/>
+		<item id="300" left="135" top="189" width="42" height="34" icon="flim\pilot image.ico" visible="false" type="button"/>
+		<item id="315" left="79" top="189" width="42" height="34" icon="flim\location range.ico" visible="false" type="button"/>
+		<item id="301" left="23" top="189" width="42" height="34" icon="flim\location line.ico" visible="false" type="button"/>
+		<item id="8472" left="191" top="141" width="42" height="34" icon="flim\reverse series.ico" visible="false" type="button"/>
+		<item id="8480" left="191" top="189" width="42" height="34" icon="flim\sort series.ico" visible="false" type="button"/>
+		<item id="8428" left="186" top="128" width="54" height="99" visible="false"/>
+
+		<item id="57067" left="12" top="11" width="233" height="26" visible="true"/>
+		<item id="8430" left="12" top="26" width="233" height="184" visible="true"/>
+
+		<item id="298" left="39" top="244" width="81" height="19" visible="true"/>
+		<item id="299" left="156" top="244" width="87" height="19" visible="true"/>
+		<item id="72" left="14" top="238" width="20" height="24" visible="true"/>
+		<item id="8429" left="125" top="244" width="25" height="19" visible="true"/>
+
+	</layout>
+	<layout name="FC_PrintQueueControler">
+		<item id="57096" left="11" top="51" width="695" height="182" visible="true"/>
+		<item id="57097" left="191" top="13" width="88" height="26" visible="true"/>
+		<item id="57098" left="11" top="13" width="88" height="26" visible="true"/>
+		<item id="57099" left="100" top="13" width="88" height="26" visible="true"/>
+		<item id="57100" left="282" top="13" width="88" height="26" visible="true"/>
+		<item id="57101" left="373" top="13" width="88" height="26" visible="true"/>
+		<item id="57102" left="464" top="13" width="88" height="26" visible="true"/>
+		<item id="57103" left="553" top="13" width="88" height="26" visible="true"/>
+		<item id="57105" left="642" top="13" width="88" height="26" visible="true"/>
+	</layout>
+	<layout name="FC_NInfoSettingDlg">
+		<item id="273" left="4" top="0" width="499" height="23" visible="true"/>
+		<item id="1" left="257" top="294" width="77" height="24" visible="true"/>
+		<item id="2" left="338" top="294" width="77" height="24" visible="true"/>
+		<item id="314" left="420" top="294" width="77" height="24" visible="true"/>
+	</layout>
+	<layout name="FC_NSystemSettingDlg">
+		<item id="57027" left="42" top="99" width="357" height="19" visible="true"/>
+		<item id="57042" left="42" top="158" width="357" height="19" visible="true"/>
+	</layout>
+	<layout name="FC_NNetWorkSettingDlg">
+		<item id="261" left="14" top="4" width="467" height="203" visible="true"/>
+		<item id="215" left="14" top="218" width="77" height="24" visible="true"/>
+		<item id="309" left="96" top="218" width="77" height="24" visible="true"/>
+		<item id="310" left="179" top="218" width="77" height="24" visible="true"/>
+		<item id="312" left="261" top="218" width="77" height="24" visible="true"/>
+	</layout>
+	<layout name="FC_NPrintSettingDlg">
+		<item id="8430" left="21" top="4" width="473" height="68" visible="true"/>
+		<item id="8429" left="28" top="34" width="77" height="15" visible="true"/>
+		<item id="57029" left="114" top="26" width="94" height="23" visible="true"/>
+		<item id="57031" left="206" top="26" width="22" height="23" visible="true"/>
+		<item id="8428" left="249" top="34" width="89" height="15" visible="true"/>
+		<item id="228" left="345" top="26" width="140" height="1666" visible="true"/>
+		<item id="8427" left="21" top="75" width="473" height="173" visible="true"/>
+		<item id="8426" left="28" top="99" width="77" height="15" visible="true"/>
+		<item id="240" left="114" top="92" width="114" height="1666" visible="true"/>
+		<item id="233" left="249" top="92" width="238" height="23" visible="true"/>
+		<item id="8425" left="28" top="141" width="75" height="15" visible="true"/>
+		<item id="290" left="114" top="133" width="114" height="1666" visible="true"/>
+		<item id="8423" left="28" top="182" width="75" height="15" visible="true"/>
+		<item id="288" left="114" top="174" width="114" height="1666" visible="true"/>
+		<item id="8422" left="249" top="181" width="86" height="18" visible="true"/>
+		<item id="255" left="345" top="174" width="140" height="1666" visible="true"/>
+		<item id="8424" left="249" top="141" width="82" height="15" visible="true"/>
+		<item id="57068" left="345" top="133" width="140" height="1666" visible="true"/>
+		<item id="57094" left="28" top="219" width="207" height="19" visible="true"/>
+		<item id="57095" left="249" top="219" width="243" height="19" visible="false"/>
+		<item id="57132" left="259" top="219" width="100" height="19" visible="true"/>
+	</layout>
+	<layout name="FC_NNetWorkEditDlg">
+		<item id="8430" left="14" top="21" width="89" height="15" visible="true"/>
+		<item id="236" left="110" top="13" width="161" height="23" visible="true"/>
+		<item id="8429" left="14" top="60" width="89" height="15" visible="true"/>
+		<item id="260" left="110" top="51" width="161" height="24" visible="true"/>
+		<item id="8428" left="14" top="98" width="89" height="15" visible="true"/>
+		<item id="237" left="110" top="88" width="161" height="24" visible="true"/>
+		<item id="8427" left="14" top="137" width="89" height="15" visible="true"/>
+		<item id="234" left="110" top="126" width="161" height="26" visible="true"/>
+		<item id="1" left="110" top="174" width="77" height="24" visible="true"/>
+		<item id="2" left="194" top="174" width="77" height="24" visible="true"/>
+	</layout>
+	<layout name="FC_CDialogFormat">
+		<item id="8429" left="7" top="13" width="70" height="19" visible="true"/>
+		<item id="8430" left="7" top="32" width="285" height="178" visible="true"/>
+		<item id="57073" left="37" top="51" width="68" height="23" visible="true"/>
+		<item id="57076" left="37" top="83" width="68" height="23" visible="true"/>
+		<item id="57077" left="37" top="114" width="68" height="23" visible="true"/>
+		<item id="57078" left="37" top="146" width="68" height="23" visible="true"/>
+		<item id="57079" left="37" top="178" width="68" height="23" visible="true"/>
+		<item id="57080" left="121" top="51" width="68" height="23" visible="true"/>
+		<item id="57081" left="121" top="83" width="68" height="23" visible="true"/>
+		<item id="57082" left="121" top="114" width="68" height="23" visible="true"/>
+		<item id="57083" left="121" top="146" width="68" height="23" visible="true"/>
+		<item id="57084" left="121" top="178" width="68" height="23" visible="true"/>
+		<item id="57085" left="205" top="51" width="68" height="23" visible="true"/>
+		<item id="57086" left="205" top="83" width="68" height="23" visible="true"/>
+		<item id="57087" left="205" top="114" width="68" height="23" visible="true"/>
+		<item id="1" left="126" top="219" width="77" height="24" visible="true"/>
+		<item id="2" left="210" top="219" width="77" height="24" visible="true"/>
+	</layout>
+	<layout name="FC_NSelectImage">
+		<item id="8430" left="34" top="28" width="226" height="24" visible="true"/>
+		<item id="57041" left="34" top="56" width="226" height="390" visible="true"/>
+		<item id="-8497" left="280" top="56" width="286" height="208" visible="false"/>
+		<item id="8429" left="280" top="28" width="286" height="15" visible="true"/>
+		<item id="8428" left="280" top="270" width="286" height="15" visible="true"/>
+		<item id="57043" left="280" top="293" width="286" height="154" visible="true"/>
+		<item id="1" left="280" top="56" width="286" height="208" visible="true"/>
+	</layout>
+	<layout name="FC_NParentTest">
+		<item id="0" left="14" top="13" width="580" height="461" visible="true"/>
+		<item id="12320" left="14" top="13" width="552" height="6" visible="true"/>
+		<item id="12326" left="14" top="487" width="580" height="2" visible="true"/>
+		<item id="12323" left="280" top="504" width="100" height="26" visible="true"/>
+		<item id="12324" left="380" top="504" width="100" height="26" visible="true"/>
+		<item id="12325" left="380" top="504" width="100" height="26" visible="false"/>
+		<item id="2" left="494" top="504" width="100" height="26" visible="true"/>
+		<item id="9" left="608" top="504" width="100" height="26" visible="false"/>
+		<item id="12327" left="0" top="66" width="580" height="2" visible="false"/>
+	</layout>
+	<layout name="FC_NTestSetting">
+		<item id="8430" left="70" top="56" width="272" height="15" visible="true"/>
+		<item id="57044" left="206" top="107" width="136" height="23" visible="true"/>
+		<item id="57045" left="206" top="159" width="136" height="23" visible="true"/>
+		<item id="57046" left="206" top="264" width="286" height="23" visible="true"/>
+		<item id="57047" left="206" top="212" width="136" height="1666" visible="true"/>
+		<item id="8429" left="70" top="114" width="128" height="15" visible="true"/>
+		<item id="8428" left="70" top="167" width="128" height="15" visible="true"/>
+		<item id="8427" left="70" top="219" width="128" height="15" visible="true"/>
+		<item id="8426" left="70" top="272" width="128" height="15" visible="true"/>
+	</layout>
+	<layout name="Report_CControlForm">
+		<item id="250" left="7" top="11" width="147" height="21" visible="true"/>
+		<item id="215" left="7" top="34" width="238" height="1666" visible="true"/>
+		<item id="249" left="7" top="60" width="110" height="21" visible="true"/>
+		<item id="226" left="7" top="84" width="238" height="249" visible="true"/>
+		<item id="237" left="84" top="667" width="32" height="34" visible="true"/>
+		<item id="240" left="28" top="667" width="32" height="34" visible="true"/>
+		<item id="310" left="7" top="758" width="238" height="55" visible="true"/><!--Group Box-->
+		<item id="212" left="135" top="778" width="85" height="26" visible="true"/><!--WW modify button-->
+		<item id="309" left="28" top="785" width="103" height="25" visible="true"/><!--static: WW text-->
+		<item id="253" left="28" top="820" width="120" height="24" visible="true"/><!--info hide or display-->
+		<item id="241" left="135" top="856" width="85" height="26" visible="true"/><!--reset button-->
+		<item id="213" left="21" top="896" width="207" height="45" visible="false"/><!--timer-->
+		<item id="248" left="25" top="856" width="85" height="26" visible="true"/><!--Setting button-->
+		<item id="231" left="84" top="713" width="32" height="34" visible="true"/>
+		<item id="229" left="140" top="713" width="32" height="34" visible="true"/>
+		<item id="216" left="196" top="713" width="32" height="34" visible="true"/>
+		<item id="256" left="11" top="356" width="180" height="22" visible="true"/><!--Static Case Template-->
+		<item id="270" left="10" top="372" width="232" height="1666" visible="true"/><!--Combo Case-->
+		<item id="286" left="12" top="402" width="226" height="210" visible="true"/><!--List Case-->
+		<item id="257" left="7" top="645" width="238" height="113" visible="true"/>
+		<item id="245" left="28" top="713" width="32" height="34" visible="true"/>
+		<item id="281" left="7" top="333" width="238" height="318" visible="true"/><!--Case Group-->
+		<item id="291" left="12" top="617" width="85" height="26" visible="true"/><!--save button-->
+	</layout>
+	<layout name="Report_TemplatePage">
+		<item id="273" left="28" top="34" width="206" height="377" visible="true"/>
+		<item id="276" left="286" top="34" width="206" height="377" visible="true"/>
+		<item id="318" left="276" top="13" width="150" height="15" visible="true"/><!--static Usable template-->
+		<item id="317" left="14" top="13" width="150" height="19" visible="true"/><!--static Template library-->
+		<item id="267" left="508" top="330" width="85" height="26" visible="true"/><!--button new-->
+		<item id="259" left="508" top="366" width="85" height="26" visible="true"/><!--button modify-->
+		<item id="264" left="508" top="402" width="85" height="26" visible="true"/><!--button apply-->
+		<item id="268" left="244" top="154" width="34" height="30" visible="true"/>
+		<item id="271" left="244" top="214" width="34" height="30" visible="true"/>
+		<item id="290" left="20" top="437" width="570" height="69" visible="true"/>
+		<item id="319" left="14" top="415" width="150" height="21" visible="true"/><!--static Description-->
+	</layout>
+	<layout name="Report_SettingSheet">
+		<item id="0" left="12" top="32" width="616" height="529" visible="true"/>
+		<item id="1" left="316" top="572" width="100" height="26" visible="false"/>
+		<item id="2" left="424" top="572" width="100" height="26" visible="false"/>
+		<item id="12321" left="532" top="572" width="100" height="26" visible="false"/>
+		<item id="9" left="640" top="572" width="100" height="26" visible="false"/>
+		<item id="12320" left="8" top="8" width="624" height="557" visible="true"/>
+		<item id="292" left="325" top="577" width="80" height="25" visible="true"/>
+		<item id="293" left="435" top="577" width="80" height="25" visible="true"/>
+	</layout>
+	<layout name="Report_CCaseTemplatePage">
+		<item id="278" left="30" top="43" width="204" height="332" visible="true"/>
+		<item id="274" left="294" top="43" width="204" height="332" visible="true"/>
+		<item id="285" left="30" top="398" width="278" height="118" visible="true"/>
+		<item id="289" left="506" top="330" width="82" height="19" visible="true"/>
+		<item id="265" left="506" top="356" width="82" height="19" visible="true"/>
+		<item id="317" left="14" top="13" width="96" height="23" visible="true"/>
+		<item id="318" left="284" top="13" width="96" height="23" visible="true"/>
+		<item id="319" left="14" top="379" width="96" height="17" visible="true"/>
+		<item id="272" left="244" top="126" width="38" height="32" visible="true"/>
+		<item id="284" left="244" top="182" width="38" height="32" visible="true"/>
+		<item id="288" left="326" top="398" width="268" height="118" visible="true"/>
+		<item id="320" left="316" top="379" width="96" height="17" visible="true"/>
+	</layout>
+	<layout name="Report_OpenFileDlg">
+		<item id="1" left="468" top="248" width="70" height="23" visible="true"/>
+		<item id="2" left="468" top="313" width="70" height="23" visible="true"/>
+		<item id="266" left="18" top="18" width="445" height="320" visible="true"/>
+		<item id="32771" left="468" top="280" width="70" height="23" visible="true"/>
+	</layout>
+	<layout name="Report_ReportNameInputDlg">
+		<item id="311" left="15" top="8" width="320" height="58" visible="false"/><!--static tips 1-->
+		<item id="312" left="15" top="63" width="228" height="30" visible="true"/>
+		<item id="1" left="258" top="33" width="90" height="28" visible="true"/>
+		<item id="2" left="258" top="65" width="90" height="28" visible="true"/>
+		<item id="327" left="15" top="33" width="223" height="25" visible="true"/>
+	</layout>
+	<layout name="Report_PrinterDlg">
+		<item id="1" left="25" top="120" width="88" height="25" visible="true"/>
+		<item id="2" left="158" top="120" width="88" height="25" visible="true"/>
+		<item id="313" left="8" top="15" width="125" height="23" visible="true"/>
+		<item id="314" left="8" top="64" width="123" height="23" visible="true"/>
+		<item id="315" left="8" top="35" width="238" height="1666" visible="true"/>
+		<item id="316" left="8" top="84" width="188" height="1666" visible="true"/>
+	</layout>
+	<layout name="Report_ImageEditDlg">
+	<item id="1" left="12" top="456" width="67" height="26" visible="true"/>
+	<item id="2" left="12" top="488" width="67" height="26" visible="true"/>
+	<item id="224" left="85" top="10" width="512" height="512" visible="false"/>
+	<item id="295" left="44" top="17" width="32" height="34" visible="true" icon="common/length.ico" type="button"/>
+	<item id="296" left="44" top="17" width="32" height="34" visible="false" icon="common/polygon.ico" type="button"/>
+	<item id="202" left="44" top="321" width="32" height="34" visible="false" icon="common/ct value.ico" type="button"/>
+	<item id="203" left="44" top="60" width="32" height="34" visible="true" icon="common/ellipse.ico" type="button"/>
+	<item id="207" left="44" top="103" width="32" height="34" visible="true" icon="common/rect.ico" type="button"/>
+	<item id="200" left="44" top="146" width="32" height="34" visible="true" icon="common/angle.ico" type="button"/>
+	<item id="209" left="44" top="189" width="32" height="34" visible="true" icon="common/text.ico" type="button"/>
+        <item id="201" left="44" top="233" width="32" height="34" visible="true" icon="common/arrow.ico" type="button"/>
+        <item id="303" left="5" top="17" width="32" height="34" visible="true" icon="2d/flip_horizintal.ico" type="button"/>
+        <item id="304" left="5" top="233" width="32" height="34" visible="true" icon="common/zoom.ico" type="button"/>
+        <item id="298" left="5" top="364" width="32" height="34" visible="false"/><!--Anno delete-->
+        <item id="301" left="5" top="60" width="32" height="34" visible="true" type="button" icon="2d/flip_vertical.ico"/>
+	<item id="305" left="5" top="189" width="32" height="34" visible="true" type="button" icon="common/move.ico"/>
+	<item id="297" left="5" top="233" width="32" height="34" visible="false"/><!--Select button-->
+	<item id="299" left="5" top="103" width="32" height="34" visible="true" type="button" icon="2d/flip_anticlockwise.ico"/>
+	<item id="300" left="5" top="146" width="32" height="34" visible="true" type="button" icon="2d/flip_clockwise.ico"/>
+	<item id="223" left="85" top="10" width="512" height="512" visible="true"/>
+	</layout>
+	<layout name="Report_SaveAsDlg">
+		<item id="1" left="65" top="198" width="78" height="23" visible="true"/>
+		<item id="2" left="165" top="198" width="78" height="23" visible="true"/>
+		<item id="324" left="8" top="18" width="288" height="73" visible="true"/>
+		<item id="325" left="23" top="55" width="83" height="20" visible="true"/>
+		<item id="328" left="108" top="55" width="98" height="20" visible="false"/><!--Remote-->
+		<item id="326" left="208" top="55" width="73" height="20" visible="true"/><!--DVD-->
+		<item id="1239" left="8" top="103" width="288" height="85" visible="true"/>
+		<item id="1232" left="8" top="125" width="288" height="55" visible="true"/>
+	</layout>
+	<layout name="VA_BatchPane">
+		<item id="4295" left="12" top="13" width="238" height="24" visible="true"/>
+		<item id="4147" left="12" top="32" width="238" height="199" visible="true"/>
+		<item id="4296" left="19" top="49" width="40" height="38" icon="from.ico" visible="true" type="button"/>
+		<item id="4297" left="79" top="49" width="40" height="38" icon="to.ico" visible="true" type="button"/>
+		<item id="4298" left="138" top="49" width="40" height="38" icon="all.ico" visible="true" type="button"/>
+		<item id="4099" left="196" top="49" width="40" height="38" icon="clear.ico" visible="true" type="button"/>
+		<item id="4153" left="18" top="122" width="54" height="24" visible="true"/>
+		<item id="12227" left="74" top="118" width="44" height="28" visible="true"/>
+		<item id="4154" left="124" top="120" width="60" height="24" visible="true"/>
+		<item id="12226" left="182" top="118" width="39" height="28" visible="true"/>
+		<item id="12229" left="221" top="118" width="21" height="28" visible="true"/>
+		<item id="4143" left="26" top="92" width="30" height="15" visible="true"/>
+		<item id="4144" left="89" top="92" width="33" height="15" visible="true"/>
+		<item id="4145" left="147" top="92" width="28" height="15" visible="true"/>
+		<item id="4146" left="201" top="92" width="30" height="15" visible="true"/>
+		<item id="4200" left="37" top="159" width="40" height="38" icon="save.ico" visible="true" type="button"/>
+		<item id="4201" left="112" top="158" width="40" height="38" icon="report.ico" visible="true" type="button"/>
+		<item id="4202" left="187" top="158" width="40" height="38" icon="film.ico" visible="true" type="button"/>
+		<item id="4149" left="44" top="208" width="30" height="15" visible="true"/>
+		<item id="4150" left="117" top="208" width="40" height="15" visible="true"/>
+		<item id="4151" left="193" top="208" width="32" height="15" visible="true"/>
+		<item id="4203" left="11" top="240" width="238" height="23" visible="true"/>
+		<item id="4148" left="12" top="253" width="235" height="137" visible="true"/>
+		<item id="4152" left="26" top="270" width="65" height="15" visible="true"/>
+		<item id="16324" left="32" top="287" width="186" height="36" visible="true"/>
+		<item id="4206" left="37" top="332" width="40" height="38" icon="forward.ico" visible="true" type="button"/>
+		<item id="4205" left="112" top="332" width="40" height="38" icon="stop.ico" visible="true" type="button"/>
+		<item id="4106" left="187" top="332" width="40" height="38" icon="backward.ico" visible="true" type="button"/>
+	</layout>
+	<layout name="VA_NVRProtocolDlg">
+		<item id="12069" left="3" top="38" width="105" height="740" visible="true"/>
+		<item id="12038" left="3" top="765" width="35" height="35" visible="true"/>
+		<item id="12030" left="38" top="765" width="35" height="35" visible="true"/>
+		<item id="12072" left="73" top="765" width="35" height="35" visible="true"/>
+		<item id="12066" left="3" top="8" width="108" height="2800" visible="true"/>
+	</layout>
+	<layout name="VA_NProtocolEditor">
+		<item id="1" left="208" top="263" width="73" height="35" visible="true"/>
+		<item id="1006" left="303" top="263" width="73" height="35" visible="true"/>
+		<item id="206" left="8" top="10" width="983" height="225" visible="false"/>
+		<item id="1004" left="18" top="263" width="73" height="35" visible="true"/>
+		<item id="36691" left="118" top="263" width="73" height="35" visible="true"/>
+		<item id="24013" left="520" top="255" width="170" height="35" visible="true"/>
+		<item id="88888" left="68" top="200" width="1050" height="350" visible="true"/>
+	</layout>
+	<layout name="VA_AddVesselNamePane">
+		<item id="1" left="33" top="111" width="67" height="30" visible="true"/>
+		<item id="2" left="130" top="111" width="67" height="30" visible="true"/>
+		<item id="4165" left="33" top="30" width="127" height="17" visible="true"/>
+		<item id="4175" left="32" top="58" width="165" height="32" visible="true"/>
+		<item id="4164" left="12" top="4" width="205" height="101" visible="true"/>
+		<item id="88888" left="1020" top="90" width="250" height="198" visible="true"/>
+	</layout>
+	<layout name="VA_BatchSaveDlg">
+		<item id="1" left="55" top="175" width="125" height="35" visible="true"/>
+		<item id="2" left="238" top="175" width="125" height="35" visible="true"/>
+		<item id="4111" left="378" top="40" width="35" height="35" visible="false"/>
+		<item id="12099" left="405" top="100" width="20" height="20" visible="false"/>
+		<item id="12100" left="375" top="160" width="43" height="20" visible="false"/>
+		<item id="24012" left="330" top="18" width="38" height="60" visible="false"/>
+		<item id="65535" left="138" top="33" width="170" height="133" visible="true"/>
+		<item id="12098" left="175" top="73" width="90" height="25" visible="true"/>
+		<item id="24047" left="175" top="115" width="68" height="25" visible="true"/>
+		<item id="12101" left="328" top="110" width="38" height="20" visible="false"/>
+		<item id="88888" left="360" top="340" width="440" height="290" visible="true"/>
+	</layout>
+	<layout name="VA_GenImgProgressPane">
+		<item id="4132" left="14" top="13" width="167" height="23" visible="true"/>
+		<item id="10214" left="12" top="45" width="558" height="23" visible="true"/>
+		<item id="4107" left="593" top="43" width="70" height="26" visible="true"/>
+		<item id="88888" left="340" top="5" width="720" height="150" visible="true"/>
+	</layout>
+	<layout name="CAA_NVolumePane">
+		<item id="3007" left="18" top="19" width="39" height="41" icon="axial.ico" visible="true"/>
+		<item id="3008" left="72" top="19" width="39" height="41" icon="coronal.ico" visible="true"/>
+		<item id="3009" left="126" top="19" width="39" height="41" icon="sagittal.ico" visible="true"/>
+		<item id="6104" left="14" top="60" width="47" height="15" visible="true"/>
+		<item id="6106" left="68" top="60" width="47" height="15" visible="true"/>
+		<item id="6108" left="123" top="60" width="47" height="15" visible="true"/>
+		<item id="3010" left="72" top="124" width="39" height="41" icon="cut.ico" visible="true"/>
+		<item id="3011" left="126" top="124" width="39" height="41" icon="Undo.ico" visible="true"/>
+		<item id="3013" left="201" top="113" width="39" height="41" icon="show.ico" visible="true"/>
+		<item id="6050" left="201" top="19" width="39" height="41" icon="flip.ico" visible="true"/>
+		<item id="3012" left="18" top="124" width="39" height="41" icon="Removecage.ico" visible="true"/>
+		<item id="6051" left="193" top="236" width="21" height="26" visible="true"/>
+		<item id="6053" left="147" top="236" width="46" height="26" visible="true"/>
+		<item id="6100" left="58" top="242" width="86" height="24" visible="true"/>
+		<item id="6113" left="217" top="244" width="25" height="17" visible="true"/>
+		<item id="6054" left="147" top="279" width="46" height="26" visible="true"/>
+		<item id="6102" left="58" top="285" width="86" height="21" visible="true"/>
+		<item id="6115" left="217" top="285" width="26" height="21" visible="true"/>
+		<item id="6052" left="193" top="279" width="21" height="26" visible="true"/>
+		<item id="4013" left="18" top="227" width="39" height="41" icon="Segtree.ico" visible="true"/>
+		<item id="6071" left="5" top="197" width="249" height="19" visible="true"/>
+		<item id="6003" left="100" top="349" width="126" height="203" visible="true"/>
+		<item id="6074" left="5" top="94" width="175" height="19" visible="true"/>
+		<item id="6116" left="5" top="353" width="93" height="24" visible="true"/>
+		<item id="6112" left="201" top="154" width="40" height="17" visible="true"/>
+		<item id="6110" left="200" top="60" width="40" height="17" visible="true"/>
+		<item id="4015" left="18" top="274" width="39" height="41" icon="ResetSegtree.ico" visible="true"/>
+		<item id="6119" left="5" top="204" width="249" height="126" visible="true"/>
+		<item id="6120" left="5" top="101" width="175" height="77" visible="true"/>
+	</layout>
+	<layout name="CAA_NTreeSegPane">
+		<item id="4014" left="30" top="32" width="37" height="38" icon="Addseed.ico" visible="true"/>
+		<item id="5999" left="67" top="347" width="170" height="15" visible="true"/>
+		<item id="5200" left="189" top="32" width="37" height="38" icon="Resetvessel.ico" visible="true"/>
+		<item id="6008" left="30" top="111" width="142" height="23" visible="true"/>
+		<item id="6007" left="30" top="144" width="142" height="84" visible="true"/>
+		<item id="4090" left="194" top="111" width="32" height="28" icon="Adjustcentpnt.ico" visible="true"/>
+		<item id="4097" left="194" top="141" width="32" height="28" icon="Deletecentpnt.ico" visible="true"/>
+		<item id="4094" left="30" top="270" width="32" height="28" icon="Addcentpnt.ico" visible="true"/>
+		<item id="4102" left="194" top="171" width="32" height="28" icon="AddPoint.ico" visible="true"/>
+		<item id="6011" left="137" top="32" width="37" height="38" icon="Addvessel.ico" visible="true"/>
+		<item id="6125" left="105" top="315" width="60" height="23" visible="true"/>
+		<item id="6004" left="165" top="315" width="53" height="24" visible="true"/>
+		<item id="6124" left="238" top="315" width="25" height="24" visible="true"/>
+		<item id="6005" left="217" top="315" width="21" height="24" visible="true"/>
+		<item id="6012" left="60" top="358" width="166" height="15" visible="true"/>
+		<item id="6069" left="84" top="32" width="37" height="38" icon="SelectPnt.ico" visible="true"/>
+		<item id="12091" left="5" top="6" width="249" height="19" visible="true"/>
+		<item id="12092" left="5" top="84" width="249" height="19" visible="true"/>
+		<item id="12093" left="5" top="246" width="249" height="19" visible="true"/>
+		<item id="6075" left="5" top="315" width="100" height="24" visible="true"/>
+		<item id="4067" left="82" top="270" width="32" height="28" icon="Eraser.ico" visible="true"/>
+		<item id="6001" left="67" top="369" width="173" height="15" visible="true"/>
+		<item id="4096" left="194" top="201" width="32" height="28" icon="Extendves.ico" visible="true"/>
+		<item id="6123" left="5" top="13" width="249" height="64" visible="true"/>
+		<item id="6121" left="5" top="92" width="249" height="146" visible="true"/>
+		<item id="6122" left="5" top="253" width="249" height="53" visible="true"/>
+		<item id="-1" left="5" top="334" width="249" height="62" visible="true"/></layout>
+	<layout name="CAA_NStentPane">
+		<item id="3014" left="74" top="320" width="177" height="15" visible="true"/>
+		<item id="3021" left="74" top="340" width="177" height="15" visible="true"/>
+		<item id="3022" left="74" top="360" width="177" height="15" visible="true"/>
+		<item id="3016" left="84" top="240" width="39" height="41" icon="Addroi.ico" visible="true"/>
+		<item id="3017" left="137" top="240" width="39" height="41" icon="Edgefind.ico" visible="true"/>
+		<item id="3018" left="189" top="240" width="39" height="41" icon="Flexicontour.ico" visible="true"/>
+		<item id="3015" left="32" top="240" width="39" height="41" icon="MinusROI.ico" visible="true"/>
+		<item id="6058" left="37" top="53" width="182" height="116" visible="true"/>
+		<item id="6063" left="67" top="353" width="151" height="15" visible="true"/>
+		<item id="6127" left="7" top="214" width="247" height="83" visible="true"/>
+		<item id="6128" left="7" top="26" width="247" height="161" visible="true"/>
+		<item id="6130" left="7" top="304" width="247" height="80" visible="true"/>
+		<item id="6126" left="7" top="204" width="247" height="21" visible="true"/>
+		<item id="6129" left="7" top="17" width="247" height="21" visible="true"/>
+	</layout>
+	<layout name="CAA_NBATPane">
+		<item id="6133" left="7" top="23" width="245" height="201" visible="true"/>
+		<item id="4296" left="23" top="47" width="40" height="38" icon="from.ico" visible="true"/>
+		<item id="4297" left="79" top="47" width="40" height="38" icon="to.ico" visible="true"/>
+		<item id="4298" left="137" top="47" width="40" height="38" icon="all.ico" visible="true"/>
+		<item id="4099" left="193" top="47" width="40" height="38" icon="clear.ico" visible="true"/>
+		<item id="6136" left="9" top="122" width="56" height="24" visible="true"/>
+		<item id="12227" left="70" top="116" width="44" height="28" visible="true"/>
+		<item id="6135" left="118" top="122" width="60" height="24" visible="true"/>
+		<item id="12226" left="181" top="116" width="39" height="28" visible="true"/>
+		<item id="12229" left="217" top="116" width="21" height="28" visible="true"/>
+		<item id="6141" left="16" top="90" width="53" height="15" visible="true"/>
+		<item id="6142" left="74" top="90" width="53" height="15" visible="true"/>
+		<item id="6143" left="131" top="90" width="53" height="15" visible="true"/>
+		<item id="6144" left="187" top="90" width="53" height="15" visible="true"/>
+		<item id="4210" left="33" top="158" width="40" height="38" icon="save.ico" visible="true"/>
+		<item id="4211" left="109" top="156" width="40" height="38" icon="report.ico" visible="true"/>
+		<item id="4212" left="184" top="156" width="40" height="38" icon="film.ico" visible="true"/>
+		<item id="6137" left="28" top="201" width="53" height="15" visible="true"/>
+		<item id="6138" left="103" top="201" width="53" height="15" visible="true"/>
+		<item id="6139" left="179" top="201" width="53" height="15" visible="true"/>
+		<item id="6132" left="7" top="248" width="245" height="133" visible="true"/>
+		<item id="6140" left="46" top="268" width="131" height="15" visible="true"/>
+		<item id="16324" left="35" top="287" width="186" height="36" visible="true"/>
+		<item id="4216" left="33" top="328" width="40" height="38" icon="forward.ico" visible="true"/>
+		<item id="4205" left="109" top="328" width="40" height="38" icon="stop.ico" visible="true"/>
+		<item id="4106" left="184" top="328" width="40" height="38" icon="backward.ico" visible="true"/>
+		<item id="6134" left="7" top="15" width="245" height="21" visible="true"/>
+		<item id="6131" left="7" top="240" width="245" height="21" visible="true"/>
+	</layout>
+	<layout name="CAA_NPane">
+		<item id="0" left="0" top="20" width="263" height="430" visible="false"/>
+		<item id="3001" left="233" top="0" width="30" height="24" visible="true"/>
+		<item id="3002" left="0" top="0" width="30" height="24" visible="true"/>
+		<item id="3000" left="28" top="0" width="205" height="24" visible="true"/>
+	</layout>
+	<layout name="CAA_NBatchSaveDlg">
+		<item id="88888" left="360" top="340" width="500" height="290" visible="true"/>
+		<item id="1" left="108" top="170" width="98" height="35" visible="true"/>
+		<item id="2" left="278" top="170" width="103" height="35" visible="true"/>
+		<item id="6145" left="158" top="25" width="170" height="133" visible="true"/>
+		<item id="12098" left="195" top="65" width="90" height="25" visible="true"/>
+		<item id="24047" left="195" top="108" width="68" height="25" visible="true"/>
+	</layout>
+	<layout name="CAA_NProtocolEditor">
+		<item id="88888" left="257" top="615" width="1008" height="349" visible="true"/>
+		<item id="1" left="208" top="263" width="73" height="35" visible="true"/>
+		<item id="3059" left="303" top="263" width="73" height="35" visible="true"/>
+		<item id="3056" left="8" top="10" width="983" height="225" visible="false"/>
+		<item id="3057" left="18" top="263" width="73" height="35" visible="true"/>
+		<item id="3058" left="113" top="263" width="73" height="35" visible="true"/>
+		<item id="5110" left="520" top="263" width="170" height="35" visible="true"/>
+	</layout>
+	<layout name="CAA_NVRProtocolDlg">
+		<item id="3051" left="3" top="3" width="105" height="775" visible="true"/>
+		<item id="3052" left="3" top="765" width="35" height="35" visible="true"/>
+		<item id="3053" left="38" top="765" width="35" height="35" visible="true"/>
+		<item id="3054" left="73" top="765" width="35" height="35" visible="true"/>
+	</layout>
+	<layout name="CAA_GenImgProgressPane">
+		<item id="4132" left="14" top="13" width="170" height="23" visible="true"/>
+		<item id="10214" left="12" top="45" width="558" height="23" visible="true"/>
+		<item id="4107" left="593" top="43" width="70" height="26" visible="true"/>
+		<item id="88888" left="340" top="5" width="720" height="150" visible="true"/>
+	</layout>
+	<layout name="Perfusion_NPerfusionPaneNdmPhilipsDlg"><item id="15131" left="28" top="28" width="47" height="34" visible="true"/><item id="15132" left="107" top="28" width="47" height="34" visible="false"/><item id="15133" left="187" top="28" width="47" height="34" visible="true"/><item id="15134" left="28" top="107" width="47" height="34" visible="true"/><item id="15135" left="187" top="107" width="47" height="34" visible="true"/><item id="15139" left="28" top="186" width="207" height="23" visible="true"/><item id="15138" left="28" top="208" width="207" height="23" visible="true"/><item id="15140" left="28" top="276" width="207" height="23" visible="true"/><item id="15141" left="28" top="231" width="207" height="23" visible="true"/><item id="15142" left="28" top="253" width="207" height="23" visible="true"/><item id="15246" left="35" top="334" width="116" height="24" visible="true"/><item id="15145" left="39" top="381" width="217" height="24" visible="false"/><item id="15146" left="40" top="362" width="44" height="15" visible="false"/><item id="15147" left="208" top="362" width="44" height="15" visible="false"/><item id="15156" left="30" top="317" width="205" height="11" visible="false"/><item id="15148" left="95" top="409" width="26" height="23" visible="false"/><item id="15149" left="175" top="409" width="26" height="23" visible="false"/><item id="15154" left="67" top="409" width="26" height="23" visible="false"/><item id="15155" left="203" top="409" width="26" height="23" visible="false"/><item id="15157" left="123" top="409" width="49" height="23" visible="false"/><item id="15144" left="7" top="383" width="28" height="21" visible="true"/><item id="15251" left="159" top="336" width="98" height="23" visible="true"/><item id="15317" left="2" top="0" width="254" height="19" visible="true"/><item id="15318" left="2" top="79" width="254" height="19" visible="true"/><item id="15319" left="2" top="158" width="254" height="19" visible="true"/><item id="21110" left="39" top="381" width="217" height="24" visible="false"/></layout><layout name="Perfusion_CCerebralWindowSettingPage"><item id="15348" left="36" top="70" width="146" height="17" visible="true"/><item id="15349" left="36" top="98" width="146" height="17" visible="true"/><item id="15350" left="36" top="125" width="146" height="17" visible="true"/><item id="15323" left="36" top="153" width="146" height="17" visible="true"/><item id="15296" left="36" top="183" width="146" height="17" visible="true"/><item id="15218" left="36" top="266" width="146" height="17" visible="true"/><item id="15293" left="36" top="238" width="146" height="17" visible="true"/><item id="15219" left="196" top="268" width="36" height="17" visible="true"/><item id="15079" left="239" top="261" width="77" height="26" visible="true"/><item id="15220" left="320" top="268" width="36" height="17" visible="true"/><item id="15080" left="358" top="261" width="77" height="26" visible="true"/><item id="15019" left="448" top="264" width="36" height="21" visible="false"/><item id="15321" left="196" top="70" width="36" height="17" visible="true"/><item id="15082" left="239" top="66" width="77" height="26" visible="true"/><item id="15322" left="320" top="70" width="36" height="17" visible="true"/><item id="15083" left="358" top="66" width="77" height="26" visible="true"/><item id="15020" left="448" top="68" width="36" height="21" visible="false"/><item id="15341" left="196" top="98" width="36" height="17" visible="true"/><item id="15081" left="239" top="94" width="77" height="26" visible="true"/><item id="15324" left="320" top="98" width="36" height="17" visible="true"/><item id="15084" left="358" top="94" width="77" height="26" visible="true"/><item id="15021" left="448" top="96" width="36" height="21" visible="true"/><item id="15325" left="196" top="125" width="36" height="17" visible="true"/><item id="15085" left="239" top="121" width="77" height="26" visible="true"/><item id="15326" left="320" top="125" width="36" height="17" visible="true"/><item id="15086" left="358" top="121" width="77" height="26" visible="true"/><item id="15022" left="448" top="123" width="36" height="21" visible="true"/><item id="15294" left="196" top="238" width="36" height="17" visible="true"/><item id="15087" left="239" top="149" width="77" height="26" visible="true"/><item id="15295" left="320" top="238" width="36" height="17" visible="true"/><item id="15088" left="358" top="149" width="77" height="26" visible="true"/><item id="15023" left="448" top="151" width="36" height="21" visible="true"/><item id="15327" left="196" top="153" width="36" height="17" visible="true"/><item id="15089" left="239" top="176" width="77" height="26" visible="true"/><item id="15328" left="320" top="153" width="36" height="17" visible="true"/><item id="15090" left="358" top="176" width="77" height="26" visible="true"/><item id="15024" left="448" top="181" width="36" height="21" visible="true"/><item id="15297" left="196" top="183" width="36" height="17" visible="true"/><item id="15298" left="320" top="183" width="36" height="17" visible="true"/><item id="15093" left="239" top="234" width="77" height="26" visible="true"/><item id="15094" left="358" top="234" width="77" height="26" visible="true"/><item id="15026" left="448" top="238" width="36" height="21" visible="false"/><item id="15347" left="36" top="43" width="146" height="17" visible="true"/><item id="15319" left="196" top="43" width="36" height="17" visible="true"/><item id="15096" left="239" top="38" width="77" height="26" visible="true"/><item id="15320" left="320" top="43" width="36" height="17" visible="true"/><item id="15097" left="358" top="38" width="77" height="26" visible="true"/><item id="15027" left="448" top="40" width="36" height="21" visible="false"/><item id="15102" left="14" top="266" width="20" height="17" visible="true"/><item id="15103" left="14" top="70" width="20" height="17" visible="false"/><item id="15104" left="14" top="98" width="20" height="17" visible="false"/><item id="15105" left="14" top="125" width="20" height="17" visible="false"/><item id="15106" left="14" top="238" width="20" height="17" visible="true"/><item id="15107" left="14" top="153" width="20" height="17" visible="false"/><item id="15108" left="14" top="183" width="20" height="17" visible="false"/><item id="15111" left="14" top="43" width="20" height="17" visible="true"/><item id="15317" left="14" top="17" width="218" height="17" visible="true"/><item id="15095" left="239" top="11" width="77" height="26" visible="true"/><item id="15098" left="358" top="11" width="77" height="26" visible="true"/><item id="15318" left="320" top="17" width="36" height="17" visible="true"/><item id="15292" left="36" top="213" width="146" height="17" visible="true"/><item id="15099" left="239" top="206" width="77" height="26" visible="true"/><item id="15100" left="358" top="206" width="77" height="26" visible="true"/><item id="15028" left="448" top="210" width="36" height="21" visible="true"/><item id="15290" left="196" top="213" width="36" height="17" visible="true"/><item id="15291" left="320" top="213" width="36" height="17" visible="true"/><item id="15110" left="14" top="213" width="20" height="17" visible="false"/></layout><layout name="Perfusion_CCerebralPerfusionSettingPage"><item id="1031" left="14" top="53" width="90" height="21" visible="true"/><item id="1025" left="108" top="49" width="59" height="26" visible="true"/><item id="1032" left="176" top="49" width="59" height="26" visible="true"/><item id="1030" left="14" top="106" width="90" height="21" visible="true"/><item id="1037" left="108" top="104" width="59" height="26" visible="true"/><item id="1038" left="176" top="104" width="59" height="26" visible="true"/><item id="1033" left="106" top="30" width="63" height="17" visible="true"/><item id="1034" left="173" top="30" width="63" height="17" visible="true"/><item id="1035" left="108" top="85" width="63" height="17" visible="true"/><item id="1036" left="176" top="85" width="63" height="17" visible="true"/><item id="15317" left="7" top="4" width="236" height="138" visible="true"/><item id="15215" left="387" top="83" width="99" height="26" visible="true"/><item id="15318" left="248" top="4" width="245" height="138" visible="true"/><item id="15069" left="128" top="227" width="106" height="26" visible="true"/><item id="15319" left="7" top="147" width="236" height="140" visible="true"/><item id="1048" left="23" top="232" width="101" height="17" visible="true"/><item id="15224" left="387" top="55" width="99" height="26" visible="true"/><item id="15242" left="254" top="60" width="128" height="17" visible="true"/><item id="15320" left="254" top="87" width="128" height="17" visible="true"/><item id="15338" left="248" top="147" width="245" height="140" visible="true"/><item id="15300" left="254" top="259" width="128" height="17" visible="false"/><item id="15289" left="387" top="255" width="70" height="26" visible="false"/><item id="15301" left="461" top="261" width="18" height="17" visible="false"/><item id="15305" left="128" top="170" width="108" height="1021" visible="true"/><item id="15307" left="128" top="200" width="108" height="1021" visible="true"/><item id="15322" left="20" top="172" width="101" height="19" visible="true"/><item id="15323" left="20" top="202" width="101" height="17" visible="true"/><item id="15060" left="32" top="79" width="65" height="21" visible="true"/><item id="15072" left="261" top="172" width="194" height="19" visible="true"/><item id="15321" left="254" top="32" width="128" height="17" visible="true"/><item id="15313" left="387" top="28" width="99" height="1021" visible="true"/><item id="15316" left="254" top="230" width="128" height="17" visible="false"/><item id="15225" left="387" top="227" width="99" height="1021" visible="false"/><item id="15326" left="254" top="200" width="128" height="17" visible="true"/><item id="15226" left="387" top="198" width="99" height="1021" visible="true"/></layout><layout name="Perfusion_CViewLayoutSettingPage"><item id="12007" left="151" top="57" width="86" height="19" visible="false"/><item id="12008" left="16" top="57" width="131" height="19" visible="true"/><item id="12009" left="16" top="34" width="131" height="19" visible="true"/><item id="12010" left="151" top="34" width="86" height="19" visible="true"/><item id="15211" left="9" top="4" width="236" height="81" visible="true"/><item id="15074" left="383" top="111" width="101" height="26" visible="true"/><item id="15213" left="9" top="87" width="484" height="57" visible="true"/><item id="15319" left="254" top="115" width="124" height="19" visible="true"/><item id="12011" left="261" top="57" width="203" height="21" visible="true"/><item id="12012" left="261" top="34" width="203" height="19" visible="true"/><item id="15317" left="252" top="4" width="241" height="81" visible="true"/><item id="15320" left="9" top="147" width="484" height="142" visible="true"/><item id="15324" left="254" top="172" width="124" height="19" visible="true"/><item id="15230" left="383" top="168" width="101" height="26" visible="true"/><item id="15321" left="16" top="172" width="122" height="19" visible="true"/><item id="15322" left="16" top="202" width="122" height="19" visible="true"/><item id="15326" left="254" top="202" width="124" height="19" visible="true"/><item id="15233" left="383" top="198" width="101" height="26" visible="true"/><item id="15302" left="144" top="227" width="50" height="26" visible="true"/><item id="15304" left="144" top="113" width="104" height="1021" visible="true"/><item id="15303" left="198" top="227" width="50" height="26" visible="true"/><item id="15323" left="16" top="232" width="122" height="17" visible="true"/><item id="15318" left="18" top="115" width="122" height="19" visible="true"/><item id="15327" left="254" top="232" width="225" height="17" visible="true"/><item id="15314" left="144" top="170" width="104" height="23" visible="true"/><item id="15315" left="144" top="200" width="104" height="23" visible="true"/></layout><layout name="Perfusion_NPerfusionPresettingDlg"><item id="1" left="542" top="227" width="135" height="30" visible="true"/><item id="2" left="542" top="266" width="135" height="30" visible="true"/><item id="15067" left="11" top="11" width="511" height="332" visible="true"/><item id="15059" left="542" top="40" width="135" height="30" visible="true"/><item id="15019" left="542" top="83" width="135" height="30" visible="false"/><item id="15225" left="529" top="155" width="162" height="1021" visible="false"/><item id="15317" left="529" top="132" width="137" height="17" visible="false"/><item id="3" left="542" top="304" width="135" height="30" visible="true"/></layout><layout name="Perfusion_CPseudoColorSettingDlg"><item id="15255" left="484" top="125" width="81" height="30" visible="true"/><item id="15286" left="484" top="170" width="81" height="30" visible="true"/><item id="15317" left="29" top="4" width="27" height="17" visible="true"/><item id="15318" left="29" top="340" width="27" height="17" visible="true"/><item id="15261" left="169" top="113" width="77" height="26" visible="true"/><item id="15279" left="326" top="115" width="77" height="23" visible="true"/><item id="15262" left="169" top="140" width="77" height="26" visible="true"/><item id="15280" left="326" top="142" width="77" height="23" visible="true"/><item id="15263" left="169" top="168" width="77" height="26" visible="true"/><item id="15281" left="326" top="170" width="77" height="23" visible="true"/><item id="15265" left="169" top="223" width="77" height="26" visible="true"/><item id="15283" left="326" top="225" width="77" height="23" visible="true"/><item id="15266" left="169" top="251" width="77" height="26" visible="true"/><item id="15284" left="326" top="253" width="77" height="23" visible="true"/><item id="15267" left="169" top="278" width="77" height="26" visible="true"/><item id="15285" left="326" top="281" width="77" height="23" visible="true"/><item id="15264" left="169" top="196" width="77" height="26" visible="true"/><item id="15282" left="326" top="198" width="77" height="23" visible="true"/><item id="15260" left="169" top="85" width="77" height="26" visible="true"/><item id="15278" left="326" top="87" width="77" height="23" visible="true"/><item id="15259" left="169" top="57" width="77" height="26" visible="true"/><item id="15277" left="326" top="60" width="77" height="23" visible="true"/><item id="15256" left="484" top="83" width="81" height="30" visible="true"/><item id="2" left="484" top="213" width="81" height="30" visible="true"/><item id="15258" left="18" top="21" width="50" height="317" visible="false"/><item id="15319" left="149" top="32" width="124" height="17" visible="true"/><item id="15320" left="299" top="32" width="124" height="17" visible="true"/></layout></UILayout>

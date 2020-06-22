@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SystemSetting>
+     <DisplayEngine>0</DisplayEngine>
+     <Language>Chinese</Language>
+     <LoadOptionIndex>4</LoadOptionIndex>
+     <DataFilterOption>0</DataFilterOption>
+     <OnlyOneInstance>1</OnlyOneInstance>
+     <PrinterType>0</PrinterType>
+     <TopMost>0</TopMost>
+     <PrintSetting>0</PrintSetting>
+     <ShowSettingDlg>0</ShowSettingDlg>
+     <SCDeviceManufacturer>PNMS</SCDeviceManufacturer>
+     <SCDeviceManufacturersModelName>DRAGON</SCDeviceManufacturersModelName>
+     <DBPath>Spiral CT Database.mdb</DBPath>
+     <FileLog>0</FileLog>
+     <FileLogPath>log\SmartView</FileLogPath>
+     <FileLogLevel>LEVEL_INFO</FileLogLevel>
+     <RemoteServerInfoConfigXMLFile>D:\Config\ConfigHost\System\DICOM_Storage_CONFIG.xml</RemoteServerInfoConfigXMLFile>
+     <MaxImageNumberCanLoaded>1000</MaxImageNumberCanLoaded>
+     <LeastMemorySoftwareNeed>200</LeastMemorySoftwareNeed>
+     <ShowOnStatusBar>0</ShowOnStatusBar>
+     <ExternalLogger>
+         <Logger path="CTDatabaseLog10.dll" description="CTDatabaseLogAdapter" />
+     </ExternalLogger>
+</SystemSetting>

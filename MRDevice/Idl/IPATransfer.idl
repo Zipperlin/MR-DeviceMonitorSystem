@@ -1,0 +1,39 @@
+	[
+		object,
+		uuid(8FDD9FF8-2B05-4ef6-B4B4-38AAA485B619),
+	
+		helpstring("IPATransfer Interface"),
+		pointer_default(unique)
+	]
+	interface IPATransfer : IUnknown
+	{
+		[helpstring("method AutoTransfer")] HRESULT AutoTransfer([in] BSTR bsUID, [in] PatientAdminUIDType enumUIDType);
+		[helpstring("method ManualTransfer")] HRESULT ManualTransfer([in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsUIDList, [in] PatientAdminUIDType enumUIDType, [in] TransferJobSettingsByUID* pTransferJobSettings);
+		[helpstring("method ManualTransferWithMultiServers")] HRESULT ManualTransferWithMultiServers([in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsUIDList, [in] PatientAdminUIDType enumUIDType, [in] long lServerNum, [in, size_is(lServerNum)] TransferJobSettingsByUID* pTransferJobSettings);
+
+		[helpstring("method GetSendJobInfo")] HRESULT GetSendJobInfo([in] BSTR bsJobID, [out] JobInfo* pJobInfo, [out, size_is(,*pPSSILen)] PSSIInfo** ppPSSIList, [out] long* pPSSILen, [out, size_is(,*pNodeLen)] NetworkNode** ppNodeList, [out] long* pNodeLen, [out, size_is(,*pDetailLen)] JobDetailStruct** ppDetailList, [out] long* pDetailLen);
+
+		[helpstring("method GetTransferSubModuleState")] HRESULT GetTransferSubModuleState([out] SubModuleState* pSubModuleState);
+
+		[helpstring("method IsUnfinishedTrnasferJobExist")] HRESULT IsUnfinishedTrnasferJobExist([out] BOOL* pbExist);
+
+		// Configuration
+		[helpstring("method GetAutoServers")] HRESULT GetAutoServers([out, size_is(,*pLen)] NetworkNode** ppServers, [out] long* pLen);
+		[helpstring("method SetAutoServers")] HRESULT SetAutoServers([in, size_is(lLen)] NetworkNode* pServers, [in] long lLen);
+		[helpstring("method IsAutoSendValid")] HRESULT IsAutoSendValid([out] BOOL* pbValid);
+		[helpstring("method GetManualServers")] HRESULT GetManualServers([out, size_is(,*pLen)] NetworkNode** ppServers, [out] long* pLen);
+		[helpstring("method SetManualServers")] HRESULT SetManualServers([in, size_is(lLen)] NetworkNode* pServers, [in] long lLen);
+
+		[helpstring("method GetTransferNetworkNodes")] HRESULT ConnectTest([in] NetworkNode* pServer, [out] BOOL* pbResult);
+
+		//Auto Transfer Status
+		[helpstring("method SetEnableAutoTransferStatus")] HRESULT SetEnableAutoTransferStatus([in] BOOL bEnable);
+		[helpstring("method GetEnableAutoTransferStatus")] HRESULT GetEnableAutoTransferStatus([out] BOOL *bEnable);
+
+		//Ask for Auto Transfer 
+		[helpstring("method SetAskforAutoTransfer")] HRESULT SetAskforAutoTransfer([in] BOOL bAskfor);
+		[helpstring("method GetAskforAutoTransfer")] HRESULT GetAskforAutoTransfer([out] BOOL *bAskfor);
+
+
+
+	};

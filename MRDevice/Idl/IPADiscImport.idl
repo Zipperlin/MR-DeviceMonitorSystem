@@ -1,0 +1,27 @@
+	[
+		object,
+		uuid(05728D18-93CE-47b0-B0E4-C5BD332C9B1C),
+	
+		helpstring("IPADiscImport Interface"),
+		pointer_default(unique)
+	]
+	interface IPADiscImport : IUnknown
+	{		
+		// For Get
+		[helpstring("method GetDiscImportDevices")] HRESULT GetDiscImportDevices([out, size_is(,*pLen)] BSTR** ppbsDevices, [out] long* pLen);
+		[helpstring("method GetImportDiscInfoNotify")] HRESULT GetImportDiscInfoNotify(BSTR bsDevice);
+		[helpstring("method GetImportDiscInfo")] HRESULT GetImportDiscInfo([out, size_is(,*pPatientNum)] DiscImportPatientInfo** ppPatients, [out] long* pPatientNum, [out, size_is(,*pStudyNum)] DiscImportStudyInfo** ppStudies, [out] long* pStudyNum, [out, size_is(,*pSeriesNum)] DiscImportSeriesInfo** ppSeries, [out] long* pSeriesNum, [out, size_is(,*pImageNum)] DiscImportImageInfo** ppImages, [out] long* pImageNum);
+		[helpstring("method CancelGetImportDiscInfo")] HRESULT CancelGetImportDiscInfo();
+
+		[helpstring("method DiscImport")] HRESULT DiscImport([in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsUIDList, [in] PatientAdminUIDType enumUIDType);
+
+		[helpstring("method GetDiscImportJobInfo")] HRESULT GetDiscImportJobInfo([in] BSTR bsJobID, [out, size_is(,*pLen)] DiscImport_SeriesStruct** ppSeriesList, [out] long* pLen);
+
+		[helpstring("method IsUnfinishedDiscImportJobExist")] HRESULT IsUnfinishedDiscImportJobExist([out] BOOL* pbExist);
+
+		[helpstring("method GetDiscImportSubModuleState")] HRESULT GetDiscImportSubModuleState([out] SubModuleState* pSubModuleState);
+	};
+
+ 
+		
+

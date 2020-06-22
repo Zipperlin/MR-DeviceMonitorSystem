@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<disable_functions>
+<menu>
+<item id="57023"/>
+<item id="57035"/>
+<item id="57056"/>
+<item id="329"/>
+<item id="331"/>
+<item id="57049"/>
+<item id="57050"/>
+<item id="300"/>
+<item id="315"/>
+<item id="301"/>
+<item id="57009"/>
+<item id="210"/>
+<item id="57059"/>
+<item id="57607"/>
+<item id="57609"/>
+<item id="208"/>
+<item id="57126"/>
+</menu>
+<PrintQueue LoadFormerJob="false" RemoveJobWithoutConfirm ="true"/>
+<pane>
+</pane>
+</disable_functions>

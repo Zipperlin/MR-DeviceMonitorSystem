@@ -1,0 +1,44 @@
+	[
+		object,
+		uuid(C1DA2C81-616B-4a34-A2BE-0439A93E9A47),
+	
+		helpstring("IPAWLMPPS Interface"),
+		pointer_default(unique)
+	]
+	interface IPAWLMPPS : IUnknown
+	{		
+		[helpstring("method GetWlMppsSubModuleState")] HRESULT GetWlMppsSubModuleState([out] SubModuleState* pSubModuleState);
+
+		[helpstring("method GetWorkList")] HRESULT GetWorkList();
+		[helpstring("method RefreshWorkList")] HRESULT RefreshWorkList([in] WorkListQueryCond* pWorkListQueryCond);
+		[helpstring("method GetImportPatientStudyInfo")] HRESULT GetImportPatientStudyInfo([in] BSTR bsStudyInstanceUID, [out] WLPatientStudyStruct* pStruct);
+		[helpstring("method IsStudyImported")] HRESULT IsStudyImported([in] BSTR bsStudyInstanceUID, [out] WLPatientStudyStatusInDB* pStatus);
+		[helpstring("method StudyImported")] HRESULT StudyImported([in] BSTR bsStudyInstanceUID);
+
+ 		// Worklist Imported Study Record Operation
+ 		[helpstring("method DeleteAllImportedStudyRecords")] HRESULT DeleteAllImportedStudyRecords();
+
+		[helpstring("method IsMPPSValid")] HRESULT IsMPPSValid([out] BOOL* pbValid);
+		[helpstring("method IsSetMPPSStatusEnabled")] HRESULT IsSetMPPSStatusEnabled([in] BSTR bsStudyUID, [out] BOOL* pbEnabled);
+		[helpstring("method GetStudyMPPSStatus")] HRESULT GetStudyMPPSStatus([in] BSTR bsStudyUID, [out] WorkListStatus* penumStatus);
+		[helpstring("method SetMPPSStatus")] HRESULT SetMPPSStatus([in] BSTR bsStudyUID, [in] WorkListStatus enumStatus);
+
+		[helpstring("method IsWorkListWorking")] HRESULT IsWorkListWorking([out] BOOL* pbWorking);
+		[helpstring("method IsMppsWorking")] HRESULT IsMppsWorking([out] BOOL* pbWorking);
+
+		[helpstring("method IsClosingStudyMPPS")] HRESULT IsClosingStudyMPPS([in] BSTR bsStudyUID, [out] BOOL* pbClosing);
+		[helpstring("method IsSettingStudyMPPS")] HRESULT IsSettingPatientOrStudyMPPS([in] long lUIDNum, [in, size_is(lUIDNum)] BSTR* pbsUIDs, [in] PatientAdminUIDType enumUIDType, [out] BOOL* pbSetting);
+
+
+		// server configuration
+		[helpstring("method GetWlServers")] HRESULT GetWlServers([out, size_is(,*pLen)] NetworkNode** ppServers, [out] long* pLen);
+		[helpstring("method SetWlServers")] HRESULT SetWlServers([in, size_is(lLen)] NetworkNode* pServers, [in] long lLen);
+		[helpstring("method WlServerConnectTest")] HRESULT WlServerConnectTest([in] NetworkNode* pServer, [out] BOOL* pbResult);
+
+		[helpstring("method GetMppsServers")] HRESULT GetMppsServers([out, size_is(,*pLen)] NetworkNode** ppServers, [out] long* pLen);
+		[helpstring("method SetMppsServers")] HRESULT SetMppsServers([in, size_is(lLen)] NetworkNode* pServers, [in] long lLen);
+		[helpstring("method MppsServerConnectTest")] HRESULT MppsServerConnectTest([in] NetworkNode* pServer, [out] BOOL* pbResult);
+	};
+
+		
+

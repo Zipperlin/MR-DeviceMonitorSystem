@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+<assemblyIdentity
+    type="win32"
+    name="PNMS.MIC.DICOM.DicomEngine.sxs"
+    version="1.0.0.0" />
+
+<file name="PNMS.MIC.DICOM.DicomEngine.dll">
+
+    <comClass
+        description="DicomDir Class"
+        clsid="{BF68DFC6-32B6-419E-8809-8BE46546060E}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.DicomDir"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="DicomFile Class"
+        clsid="{68D43F14-A564-483D-8712-4A8AD7CC95D0}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.DicomFile"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="EventReportSCP Class"
+        clsid="{64E93D10-52B9-4852-A28F-741AD305535D}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.EventReportSCP"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="MppsSCU Class"
+        clsid="{1223BAB1-B58E-4CAC-AD9A-97FE04FD0D1C}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.MppsSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="PrintSCU Class"
+        clsid="{B15E41D0-2239-454B-BB48-3BFC1DC776DB}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.PrintSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="QueryRetrieveSCP Class"
+        clsid="{679E3284-4819-46BF-A221-5947F4317815}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.QueryRetrieveSCP"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="QueryRetrieveSCU Class"
+        clsid="{70BF67B5-5AF8-4947-ACED-ADB0E27CC314}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.QueryRetrieveSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="StorageCommitmentSCU Class"
+        clsid="{37ECEEE6-E796-46F5-9EBE-A96CBECAE47E}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.StorageCommitmentSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="StorageSCP Class"
+        clsid="{69B72073-D7E9-453B-9FE0-5DB3E2099915}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.StorageSCP"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="StorageSCU Class"
+        clsid="{C4F8B1DF-5DEE-4568-9744-C331498A5B08}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.StorageSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="Utility Class"
+        clsid="{4CF5CA28-8404-46B7-B630-BEB919977D8B}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.Utility"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="VerificationSCU Class"
+        clsid="{8CA9B3F0-99A9-4681-87AF-15818F370DC2}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.VerificationSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="WorklistSCP Class"
+        clsid="{EA9ED0FC-EF1B-4399-821C-292D85B37734}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.WorklistSCP"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <comClass
+        description="WorklistSCU Class"
+        clsid="{7C8FF812-A038-4615-BFEE-56D423FFCD33}"
+        threadingModel="Both"
+        progid="PNMS.MIC.DICOM.DicomEngine.WorklistSCU"
+        tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+    <typelib tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}"
+        version="1.0"
+        helpdir="" />
+
+</file>
+
+<comInterfaceExternalProxyStub
+    name="IDicomFile"
+    iid="{0C4C95FC-A29E-48F6-9EA1-D6EDBF757CFB}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IDicomDirEvents"
+    iid="{32A7B5D6-8E86-4069-AEF8-B65361671AC8}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IDicomDir"
+    iid="{60F6C274-5B94-4602-BD0E-1551F852DEB9}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IErrorCode"
+    iid="{BBBF1BCA-40D7-4E7D-B280-8A5792A600E1}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="ILogger"
+    iid="{B2EA029C-1589-4715-8481-AB256EBFBF1F}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IHandlerTool"
+    iid="{713ADEAF-E5D5-4577-B39A-9F31196C20A4}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IEventReportSCPEvents"
+    iid="{F1EEAEBC-A47E-4833-A868-79A3129AB742}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IEventReportSCP"
+    iid="{145303F7-81B5-476D-B15A-BD6140A0168E}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IMppsSCU"
+    iid="{60FC85AF-0F03-4A16-BEAF-7AE81ABB542A}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IPrintSCUEvents"
+    iid="{1863185C-7F4D-4157-8E25-EBF37BEE4753}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IPrintSCU"
+    iid="{E017E110-123C-4EB4-BBD0-4419F55E9255}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IQueryRetrieveSCPEvents"
+    iid="{90F7E483-977B-4FED-B515-5F018F110178}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IQueryRetrieveSCP"
+    iid="{510FBD0F-6DE8-41F3-9D02-281EB97C42EF}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IQueryRetrieveSCUEvents"
+    iid="{CAB90818-525C-4DFF-A844-0E3928DE65EA}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IQueryRetrieveSCU"
+    iid="{4DEA2B2B-588F-4661-A8CE-AD68DCFB5339}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IStorageCommitmentSCUEvents"
+    iid="{06A24C84-5293-4A86-B80B-97FD10AF3207}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IStorageCommitmentSCU"
+    iid="{CE837144-0728-4CC4-8CBD-BF4425742A22}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IStorageSCPEvents"
+    iid="{37AABAC3-11F8-439D-B9AA-EC8D40632BF7}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IStorageSCP"
+    iid="{326C790C-63CD-4875-BA52-B9BD7410556C}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IStorageSCUEvents"
+    iid="{184184CF-A477-4BCD-8CCE-FE4BC7659777}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IStorageSCU"
+    iid="{858CF2BE-3D16-4ED0-8014-1531EE73E881}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IVerificationSCUEvents"
+    iid="{7E814923-766F-48CB-A121-3691DEEDE623}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IVerificationSCU"
+    iid="{DAE3DD0A-3F50-4F5B-8B79-3D06235EF4FA}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IWorklistSCPEvents"
+    iid="{65972938-1E5C-45F3-9B42-763D33B4DD6A}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IWorklistSCP"
+    iid="{4CE6982C-F450-40C0-BA1B-C834130A6E0F}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="_IWorklistSCUEvents"
+    iid="{1BBE414B-5A05-4638-BBC8-04DE8AC7B9FC}"
+    proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+<comInterfaceExternalProxyStub
+    name="IWorklistSCU"
+    iid="{555D3EC8-1A7F-4BA1-9C5D-23DF3FAB3349}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid="{45E9F286-2D03-4139-B65B-FE79885F65A7}" />
+
+</assembly>

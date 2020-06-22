@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<FILMCOMPOSER number="1">
+
+<system systemsave="false"/>
+
+<DISPLAY isdisplaygreyscale="true" isdisplayprintframe="false"/>
+
+<LOG filelog="false" filelogpath="log\FilmComposer" fileloglevel="LEVEL_INFO"/>
+
+<COMMPORT IsCombOneFilmPrt="1"/>
+
+<RESOLUTION width="695" height="708" topx="0" topy="0" viewbar="1" inphase="0" checkresolution="1" dpi="300"/>
+
+<ATTRIBUTE autoclear="1"/>
+
+<AELIST number="0"/>
+
+<SESSION priority="MED" copies="1" destination="PROCESSOR">
+
+<FILM format="STANDARD\1,1" customformat="ROW\1,2" orientation="PORTRAIT" sizeid="14INX17IN" mediumtype="BLUE FILM" magnification="CUBIC" lut="" dmax="300" dmin="10"/>
+
+</SESSION>
+
+<PAPERPRINT head="" foot=""/>
+
+<IMAGE bsized="0" imagemaxnum="400"/>
+
+<STYLE topmost="0" rememberpos="1"/>
+
+<PRINTNOTICE printnotice="false"/>
+
+<LAYOUT_CORNER_INFO defaultFontSize="29"  maxFontSize="60" minFontSize="15"/>
+</FILMCOMPOSER>
+

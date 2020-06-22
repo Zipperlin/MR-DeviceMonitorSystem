@@ -1,0 +1,1 @@
+@start MaxViewer\CDViewerApp.exe /f DICOMDIR

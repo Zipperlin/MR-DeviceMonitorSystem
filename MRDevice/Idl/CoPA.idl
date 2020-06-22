@@ -1,0 +1,8 @@
+	[
+		uuid(0A91E11A-C2AA-432B-A4E2-3ADF62B2F2B6),
+		helpstring("PA Class")
+	]
+	coclass PA
+	{
+		[default] interface IUnknown;
+	};

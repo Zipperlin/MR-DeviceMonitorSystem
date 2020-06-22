@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ParameterImage>
+
+<CT>
+<ImageLayout>
+<Width>512</Width><!--Unit is pix.Make sure divided by 4 the left number is zero-->
+<Height>512</Height>
+<TopSpace>20</TopSpace><!--The border of the left and right space in pix-->
+<LeftSpace>20</LeftSpace><!--The border of the upper and bottom space in pix-->
+<BottomSpace>20</BottomSpace>
+<RightSpace>20</RightSpace>
+<RowNumber>19</RowNumber>
+<ColumnNumber>2</ColumnNumber>
+<ItemTitleWidthRatio>0.5</ItemTitleWidthRatio><!--The width ratio of the title in one Row, left is content-->
+<FontName>Arial</FontName>
+<FontSize>16</FontSize>
+<RGBImage>Y</RGBImage>
+<FontColor>255,255,255</FontColor>
+<BackGroundColor>0,0,0</BackGroundColor>
+</ImageLayout>
+<ParameterOption>
+<ELEMENT Tag="0010,0010" Title="Patient Name in Image Parameters" 			Display="Y" Column="1" Row="1" />
+<ELEMENT Tag="0010,0040" Title="Gender" 		Display="Y" Column="1" Row="3" />
+<ELEMENT Tag="0010,0020" Title="ID" 			Display="Y" Column="1" Row="2" />
+<ELEMENT Tag="0018,1030" Title="Protocol Name" 		Display="Y" Column="1" Row="6" />
+<ELEMENT Tag="0018,0022" Title="Scan Protocol" 		Display="Y" Column="1" Row="7" />
+<ELEMENT Tag="0008,0020" Title="Exam Date" 		Display="Y" Column="1" Row="8" />
+<ELEMENT Tag="0008,0033" Title="Image Time" 		Display="Y" Column="1" Row="9" />
+<ELEMENT Tag="0018,5100" Title="Position in Image Parameters" 		Display="Y" Column="1" Row="10" />
+<ELEMENT Tag="0020,1041" Title="Table Position" 	Display="Y" Column="1" Row="11" />
+<ELEMENT Tag="0018,1130" Title="Table Height" 		Display="Y" Column="1" Row="12" />
+<ELEMENT Tag="0018,1120" Title="Tilt" 			Display="Y" Column="1" Row="13" />
+<ELEMENT Tag="0018,1302" Title="Scan Length" 		Display="Y" Column="1" Row="14" />
+<ELEMENT Tag="0018,1150" Title="Scan Time" 		Display="Y" Column="1" Row="15" />
+<ELEMENT Tag="0018,9309" Title="Table Speed" 		Display="Y" Column="1" Row="16" />
+<ELEMENT Tag="0018,1210" Title="Recon Algorithm" 	Display="Y" Column="1" Row="17" />
+<ELEMENT Tag="0028,0011" Title="Image Matrix in Image Parameters" 		Display="Y" Column="2" Row="19" />
+<ELEMENT Tag="0018,1183" Title="Center X . Y" 		Display="Y" Column="1" Row="19" />
+
+<ELEMENT Tag="0010,0030" Title="Date of Birth" 	Display="Y" Column="1" Row="4" />
+<ELEMENT Tag="0010,1010" Title="Age" 			Display="Y" Column="2" Row="3" />
+<ELEMENT Tag="0020,0013" Title="Image Number" 		Display="Y" Column="2" Row="4" />
+<ELEMENT Tag="01f1,1003" Title="Collimation" 		Display="Y" Column="2" Row="8" />
+<ELEMENT Tag="0018,0050" Title="Slice Thickness" 	Display="Y" Column="2" Row="9" />
+<ELEMENT Tag="0018,0088" Title="Slice Increment" 	Display="Y" Column="2" Row="10" />
+<ELEMENT Tag="0018,9311" Title="Pitch" 			Display="Y" Column="2" Row="11" />
+<ELEMENT Tag="0018,1100" Title="Field of View" 		Display="Y" Column="2" Row="12" />
+<ELEMENT Tag="0018,0060" Title="Voltage" 		Display="Y" Column="2" Row="13" />
+<ELEMENT Tag="0018,1151" Title="Current" 		Display="Y" Column="2" Row="14" />
+<ELEMENT Tag="01f1,1007" Title="Rotation Time" 		Display="Y" Column="2" Row="15" />
+<ELEMENT Tag="0018,1160" Title="Filter" 		Display="Y" Column="2" Row="16" />
+<ELEMENT Tag="0028,0010" Title="Image Matrix in Image Parameters" 		Display="Y" Column="2" Row="19" />
+<ELEMENT Tag="0018,1184" Title="Center X . Y" 		Display="Y" Column="1" Row="19" />
+</ParameterOption>
+
+</CT>
+</ParameterImage>

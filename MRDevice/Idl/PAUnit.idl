@@ -1,0 +1,28 @@
+
+cpp_quote("#ifndef __GENERALDEFINE_IDL__")
+cpp_quote("#define __GENERALDEFINE_IDL__")
+#include "GeneralDefine.idl"
+cpp_quote("#endif")
+
+
+#include "IGeneralInterface.idl"
+#include "IGeneralEvent.idl"
+#include "IGeneralSys.idl"
+#include "IPing.idl"
+#include "IUserGuidanceEvent.idl"
+#include "IUserWorkingMode.idl"
+
+#include "PATypes.idl"
+
+#include "IPAGeneral.idl"
+#include "IPAGeneralEvent.idl"
+#include "IPAPrint.idl"
+#include "IPAPrintEvent.idl"
+#include "IPABurn.idl"
+#include "IPABurnEvent.idl"
+#include "IPATransfer.idl"
+#include "IPATransferEvent.idl"
+#include "IPADiscImport.idl"
+#include "IPADiscImportEvent.idl"
+#include "IPAWLMPPS.idl"
+#include "IPAWLMPPSEvent.idl"

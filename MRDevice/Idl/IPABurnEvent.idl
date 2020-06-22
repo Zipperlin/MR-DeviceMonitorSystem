@@ -1,0 +1,29 @@
+    [
+		object,
+		uuid(2012F420-5CB4-4a89-9C35-E62B0E9EA5ED),
+	
+		helpstring("IPABurnEvent Interface"),
+		pointer_default(unique)
+	]
+	interface IPABurnEvent : IUnknown
+	{
+		[helpstring("method ReportBurnWorkStatus")] HRESULT ReportBurnWorkStatus([in]SubModule enumSubModule,[in]SubModuleState enumSubModuleStatus);
+//		[helpstring("method ReportRawToDICOMProgress")] HRESULT ReportBurnRawToDICOMProgress([in]UINT Completed, [in]UINT total);
+		[helpstring("method ReportBurnDeviceStatusChanged")] HRESULT ReportBurnDeviceStatusChanged();
+		[helpstring("method ReportBurnErrorCode")] HRESULT ReportBurnErrorCode([in] int iErrCode);
+
+		[helpstring("method ReportBurnPhase")] HRESULT ReportBurnPhase([in] BSTR bsBurnPhase);
+		[helpstring("method ReportBurnLogLine")] HRESULT ReportBurnLogLine([in] BSTR bsBurnLogLine);
+		[helpstring("method ReportBurnFileConflict")] HRESULT ReportBurnFileConflict([in] BSTR bsFirstFileName, [in] BSTR bsSecondFileName);
+
+
+		[helpstring("method ReportBurnPatientList")] HRESULT ReportBurnPatientList([in] long lItemNum, [in, size_is(lItemNum)] BurnPatientInfoStruct* pBurnPatientList);
+		[helpstring("method ReportBurnStudyList")] HRESULT ReportBurnStudyList([in] long lItemNum, [in, size_is(lItemNum)] BurnStudyInfoStruct* pBurnStudyList);
+		[helpstring("method ReportBurnSeriesList")] HRESULT ReportBurnSeriesList([in] long lItemNum, [in, size_is(lItemNum)] BurnSeriesInfoStruct* pBurnSeriesList);
+		[helpstring("method ReportBurnImageList")] HRESULT ReportBurnImageList([in] long lItemNum, [in, size_is(lItemNum)] BurnImageInfoStruct* pBurnImageList);
+
+
+		[helpstring("method ReportDeviceSpeedInfo")] HRESULT ReportDeviceSpeedInfo([in] long lItemNum, [in, size_is(lItemNum)] BurnSpeedInfo* pSpeedInfo);
+		[helpstring("method ReportMediaInfo")] HRESULT ReportMediaInfo([in] BurnMediaInfo* pMediaInfo);
+		[helpstring("method ReportBurnMediaNotReady")] HRESULT ReportBurnMediaNotReady([in] BSTR bsInfo);
+	};

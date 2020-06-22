@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<REPORT number="1">
+<STYLE topmost="0" rememberpos="1"/>
+<LOG filelog="true" filelogpath="log\ReportBuilder" fileloglevel="LEVEL_INFO"/>
+<DATAPath></DATAPath>
+<Printer></Printer>
+<disable_functions>
+<menu>
+<item id="228"/>
+<item id="59395"/>
+<item id="59398"/>
+</menu>
+</disable_functions>
+<BarCode ShowCharactor="0" ShowPrefix="0" BarCodePrefix="*" ShowPostfix="0" BarCodePostfix="*"/>
+</REPORT>

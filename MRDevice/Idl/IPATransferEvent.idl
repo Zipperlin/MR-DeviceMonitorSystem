@@ -1,0 +1,12 @@
+    [
+		object,
+		uuid(FA5E8DD5-2A58-478c-A9A6-EB884A758B71),
+	
+		helpstring("IPATransferEvent Interface"),
+		pointer_default(unique)
+	]
+	interface IPATransferEvent : IUnknown
+	{
+		[helpstring("method ReportTransferWorkStatus")] HRESULT ReportTransferWorkStatus([in]SubModule enumSubModule,[in]SubModuleState enumSubUnitStatus);
+		[helpstring("method ReportUITransferChangeDB")] HRESULT ReportUITransferChangeDB([in]BSTR bstPatientUID, [in]BSTR bstStudyUID);
+	};

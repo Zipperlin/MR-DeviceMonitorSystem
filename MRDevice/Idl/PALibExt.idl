@@ -1,0 +1,37 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+cpp_quote("#ifndef __GENERALDEFINE_IDL__")
+cpp_quote("#define __GENERALDEFINE_IDL__")
+#include "GeneralDefine.idl"
+cpp_quote("#endif")
+
+#include "DBStructDefine.h"
+#include "IDBPIM.idl"
+#include "IDBConfig.idl"
+#include "IDBSession.idl"
+
+#include "ISInfoDefine.idl"
+#include "ISExp.idl"
+
+#include "ICoSystemEventDefine.idl"
+#include "ISysEventsDBDataStruct.idl"
+#include "IStatisticsWorkflowLevel.idl"
+
+[
+	uuid(3677B7BF-473C-4907-B911-B5FC68064736),
+	version(1.0),
+	helpstring("PALibExt 1.0 Type Library")
+]
+library PALibExt
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+#include "CoDBPIM.idl"
+#include "CoDBConfig.idl"
+#include "CoDBSession.idl"
+#include "CoIS.idl"
+#include "CoSystemEventDB.idl"
+	
+};

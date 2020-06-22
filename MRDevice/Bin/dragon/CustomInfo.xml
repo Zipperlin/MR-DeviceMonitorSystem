@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+
+<CustomShow>
+
+;[Patient IOD]--------------------------------------------------------------------------------------------------------------------------------
+
+;PatientName
+<element TAG="0010,0010" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientID
+<element TAG="0010,0020" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientsBirthDate
+<element TAG="0010,0030" PREFIX_EN="" POSTFIX_EN="" FORMAT="YYYY/MM/DD" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientsBirthTime
+<element TAG="0010,0032" PREFIX_EN="" POSTFIX_EN="" FORMAT="HH:MM:SS" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientsSex
+<element TAG="0010,0040" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;OtherPatientIDs
+<element TAG="0010,1000" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;OtherPatientNames
+<element TAG="0010,1001" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;EthnicGroup
+<element TAG="0010,2160" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientComments
+<element TAG="0010,4000" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[General Study IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;StudyInstanceUID
+<element TAG="0020,000d" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;StudyDate
+<element TAG="0008,0020" PREFIX_EN="" POSTFIX_EN="" FORMAT="YYYY/MM/DD" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;StudyTime
+<element TAG="0008,0030" PREFIX_EN="" POSTFIX_EN="" FORMAT="HH:MM:SS" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;AccessionNumber
+<element TAG="0008,0050" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;ReferringPhysiciansName
+<element TAG="0008,0090" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;StudyID
+<element TAG="0020,0010" PREFIX_EN="¼ì²é " POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;StudyDescription
+<element TAG="0008,1030" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[Patient Study IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;PatientsAge
+<element TAG="0010,1010" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientsSize
+<element TAG="0010,1020" PREFIX_EN="" POSTFIX_EN="" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientsWeight
+<element TAG="0010,1030" PREFIX_EN="" POSTFIX_EN="" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;Occupation
+<element TAG="0010,2180" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;AdditionalPatientHistory
+<element TAG="0010,21b0" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[General Series IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;Modality
+<element TAG="0008,0060" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SeriesInstanceUID
+<element TAG="0020,000e" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SeriesDate
+<element TAG="0008,0021" PREFIX_EN="" POSTFIX_EN="" FORMAT="YYYY/MM/DD" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SeriesTime
+<element TAG="0008,0031" PREFIX_EN="" POSTFIX_EN="" FORMAT="HH:MM:SS" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;OperatorsName
+<element TAG="0008,1070" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PerformingPhysiciansName
+<element TAG="0008,1050" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SeriesNumber
+<element TAG="0020,0011" PREFIX_EN="Se:" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SeriesDescription
+<element TAG="0008,103e" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;BodyPartExamined
+<element TAG="0018,0015" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[DX Series IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;ReferencedPerformedProcedureStepSequence
+<element TAG="0008,1111" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PresentationIntentType
+<element TAG="0008,0068" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[General Equipment IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;Manufacturer
+<element TAG="0008,0070" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;InstitutionName
+<element TAG="0008,0080" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;StationName
+<element TAG="0008,1010" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;ManufacturersModelName
+<element TAG="0008,1090" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;DeviceSerialNumber
+<element TAG="0018,1000" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SoftwareVersions
+<element TAG="0018,1020" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+
+;[General Image IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;InstanceNumber
+<element TAG="0020,0013" PREFIX_EN="Í¼Ïñ " POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[Image Pixel IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;Rows
+<element TAG="0028,0010" PREFIX_EN="Rows:" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;Columns
+<element TAG="0028,0011" PREFIX_EN="Columns:" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SamplesPerPixel
+<element TAG="0028,0002" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PhotometricInterpretation
+<element TAG="0028,0004" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;BitsAllocated
+<element TAG="0028,0100" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;BitsStored
+<element TAG="0028,0101" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;HighBit
+<element TAG="0028,0102" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PixelRepresentation
+<element TAG="0028,0103" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SmallestImagePixelValue
+<element TAG="0028,0106" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;LargestImagePixelValue
+<element TAG="0028,0107" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PixelAspectRatio
+<element TAG="0028,0034" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[DX Anatomy Imaged IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;ImageLaterality
+<element TAG="0020,0062" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;AnatomicRegionSequence
+<element TAG="0008,2218" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[DX Image IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;ImageType
+<element TAG="0008,0008" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PixelIntensityRelationship
+<element TAG="0028,1040" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PixelIntensityRelationshipSign
+<element TAG="0028,1041" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;RescaleIntercept
+<element TAG="0028,1052" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;RescaleSlope
+<element TAG="0028,1053" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;RescaleType
+<element TAG="0028,1054" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PresentationLUTShape
+<element TAG="2050,0020" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;LossyImageCompression
+<element TAG="0028,2110" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PatientOrientation
+<element TAG="0020,0020" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;BurnedInAnnotation
+<element TAG="0028,0301" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;WL
+<element TAG="0028,1050" PREFIX_EN="´°Î»:" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;WW
+<element TAG="0028,1051" PREFIX_EN="´°¿í:" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[DX Detector IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;DetectorType
+<element TAG="0018,7004" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;ImagerPixelSpacing
+<element TAG="0018,1164" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PixelSpacing
+<element TAG="0028,0030" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[DX Positioning IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;PatientPosition
+<element TAG="0018,5100" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;ViewPosition
+<element TAG="0018,5101" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;PositionerType
+<element TAG="0018,1508" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[X-Ray Acquisition Dose IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;KVP
+<element TAG="0018,0060" PREFIX_EN="kV:" POSTFIX_EN="kV" FORMAT="%.0f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;MA
+<element TAG="0018,1151" PREFIX_EN="mA:" POSTFIX_EN="mA" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;ExposureTime
+<element TAG="0018,1150" PREFIX_EN="ms:" POSTFIX_EN="ms" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;Exposure
+<element TAG="0018,1152" PREFIX_EN="mAs:" POSTFIX_EN="mAs" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SID
+<element TAG="0018,1110" PREFIX_EN="SID:" POSTFIX_EN="mm" FORMAT="%.0f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;DAP
+<element TAG="0018,115e" PREFIX_EN="DAP:" POSTFIX_EN="¦ÌGy*m2" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[X-Ray Generation IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;FocalSpot
+<element TAG="0018,1190" PREFIX_EN="FocalSpot:" POSTFIX_EN="mm" FORMAT="%.1f" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[Acquisition Context IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;AcquisitionContextSequence
+<element TAG="0040,0555" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+;[SOP Common IOD]---------------------------------------------------------------------------------------------------------------------------
+
+;SOPClassUID
+<element TAG="0008,0016" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+;SOPInstanceUID
+<element TAG="0008,0018" PREFIX_EN="" POSTFIX_EN="" FORMAT="" type="" TEXTCOLOR="255,255,255" PRECOLOR="255,255,255" POSTCOLOR="255,255,255"/>
+
+</CustomShow>

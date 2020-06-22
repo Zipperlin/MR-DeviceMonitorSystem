@@ -1,0 +1,17 @@
+    [
+		object,
+		uuid(2A51CEFB-ABF4-42a6-81D7-9D3418CA493B),
+	
+		helpstring("IPAWLMPPSEvent Interface"),
+		pointer_default(unique) 
+	]
+	interface IPAWLMPPSEvent : IUnknown
+	{
+		[helpstring("method ReportWlMppsWorkStatus")] HRESULT ReportWlMppsWorkStatus([in]SubModule enumSubModule,[in]SubModuleState enumSubModuleStatus);
+
+		[helpstring("method ReportWorkList")] HRESULT ReportWorkList([in] long lItemNum, [in, size_is(lItemNum)] WorkListStruct* pWorkList);
+
+		[helpstring("method ReportSetMPPSStatusFinished")] HRESULT ReportSetMPPSStatusFinished([in] MppsSetResult* pResult);
+
+		[helpstring("method ReportMPPSStatusChanged")] HRESULT ReportMPPSStatusChanged([in] BSTR bsStudyUID, [in] WorkListStatus enumStatus);
+	};

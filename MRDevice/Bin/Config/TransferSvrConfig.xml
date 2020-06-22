@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<TRANSFERCONFIG number="1">
+	<MANUAL number="0">
+		<!-- state: 1 default selected server; 0 undefault selected server -->
+	</MANUAL>
+	<AUTO number="0">
+		<!-- state: 1 selected auto send server; 0 unselected auto send server -->
+	</AUTO>
+	<AUTOTRANSFERSTATUS value="0"/>
+	<ASKFORAUTOTRANSFER value="0"/>
+</TRANSFERCONFIG>

@@ -1,0 +1,103 @@
+<WLSetting version="3.5.4.0">
+    <Item>
+        <Name>头部</Name>
+        <WW>80</WW>
+        <WL>40</WL>
+    </Item>
+
+    <Item>
+        <Name>眼眶骨窗</Name>
+        <WW>1000</WW>
+        <WL>150</WL>
+    </Item>
+
+    <Item>
+        <Name>鼻咽部</Name>
+        <WW>350</WW>
+        <WL>35</WL>
+    </Item>
+
+    <Item>
+        <Name>内耳</Name>
+        <WW>3000</WW>
+        <WL>600</WL>
+    </Item>
+
+    <Item>
+        <Name>颈椎</Name>
+        <WW>300</WW>
+        <WL>35</WL>
+    </Item>
+
+    <Item>
+        <Name>纵隔窗</Name>
+        <WW>400</WW>
+        <WL>35</WL>
+    </Item>
+
+    <Item>
+        <Name>肺部</Name>
+        <WW>850</WW>
+        <WL>-700</WL>
+    </Item>
+
+    <Item>
+        <Name>椎体</Name>
+        <WW>300</WW>
+        <WL>35</WL>
+    </Item>
+
+    <Item>
+        <Name>肝脏</Name>
+        <WW>160</WW>
+        <WL>40</WL>
+    </Item>
+
+    <Item>
+        <Name>胰腺</Name>
+        <WW>300</WW>
+        <WL>40</WL>
+    </Item>
+
+    <Item>
+        <Name>骨盆</Name>
+        <WW>250</WW>
+        <WL>35</WL>
+    </Item>
+
+    <Item>
+        <Name>股骨头</Name>
+        <WW>300</WW>
+        <WL>40</WL>
+    </Item>
+
+    <Item>
+        <Name>四肢软组织窗</Name>
+        <WW>300</WW>
+        <WL>30</WL>
+    </Item>
+
+    <Item>
+        <Name>四肢骨窗</Name>
+        <WW>1500</WW>
+        <WL>300</WL>
+    </Item>
+
+    <Item>
+        <Name>AAPM</Name>
+        <WW>100</WW>
+        <WL>0</WL>
+    </Item>
+
+    <Item>
+        <Name>体模</Name>
+        <WW>100</WW>
+        <WL>100</WL>
+    </Item>
+
+    <Item>
+        <Name>喉部</Name>
+        <WW>300</WW>
+        <WL>35</WL>
+    </Item>
+</WLSetting>

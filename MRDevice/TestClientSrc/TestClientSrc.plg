@@ -1,0 +1,159 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestClientSrc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE87.bat" with contents
+[
+@echo off
+del temp.c
+midl /env win32 /Oicf /pack 8 /dlldata temp.c   /I "..\..\IDL\DB" /I "..\..\IDL\IS" /I "..\..\IDL\Printing&Archiving" /I "..\idl" /I " ..\..\IDL\ASBasis" /h "PATestClientLibExt_i.h" /iid "PATestClientLibExt_i.c" "PATestClientExt.idl"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE87.bat"
+Creating command line "rc.exe /l 0x804 /fo"Release/TestClientSrc.res" /d "NDEBUG" /d "_AFXDLL" "E:\DX0806\N Series\PrintingArchiving\TestClientSrc\TestClientSrc.rc"" 
+Performing Custom Build Step on .\PATestClientExt.idl
+找不到 E:\DX0806\N Series\PrintingArchiving\TestClientSrc\temp.c
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing .\PATestClientExt.idl
+PATestClientExt.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Processing C:\PROGRAM FILES\MICROSOFT PLATFORM SDK FOR WINDOWS XP SP2\INCLUDE\oaidl.acf
+oaidl.acf
+Processing C:\PROGRAM FILES\MICROSOFT PLATFORM SDK FOR WINDOWS XP SP2\INCLUDE\ocidl.acf
+ocidl.acf
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE94.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GR /GX /ZI /Od /I "..\src" /I "..\include" /I "..\..\Include\DcmProc" /I "..\..\Include\NFC\include" /I "..\..\include\NFC\include\NDicomUI20" /I "..\..\include\NFC\include\dcmtk352" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_AFXDLL" /Fp"Release/TestClientSrc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\BSTROpt.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\BurnDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\BurnJobDetailDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\BurnPatientInfo.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\ConfigDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\DcmReadDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\DiscImportDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\ImageDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\ImportDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\ImportJobDetailDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\PAGeneralDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\PASink.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\PatientAdminDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\PrintDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\ReportCtrl.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\SendJobDetailDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\SeriesImagesDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\ServerDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\TestClientSrc.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\TestClientSrcDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\TransferDlg.cpp"
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\WlMppsDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE94.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE95.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GR /GX /ZI /Od /I "..\src" /I "..\include" /I "..\..\Include\DcmProc" /I "..\..\Include\NFC\include" /I "..\..\include\NFC\include\NDicomUI20" /I "..\..\include\NFC\include\dcmtk352" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_AFXDLL" /Fp"Release/TestClientSrc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\DX0806\N Series\PrintingArchiving\TestClientSrc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE95.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE96.tmp" with contents
+[
+ws2_32.lib DcmProc.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"..\TestClientBin/PATestClient.pdb" /debug /machine:I386 /nodefaultlib:"libcmt.lib" /out:"..\TestClientBin/PATestClient.exe" /libpath:"..\lib" /libpath:"..\..\lib\DcmProc" 
+".\Release\BSTROpt.obj"
+".\Release\BurnDlg.obj"
+".\Release\BurnJobDetailDlg.obj"
+".\Release\BurnPatientInfo.obj"
+".\Release\ConfigDlg.obj"
+".\Release\DcmReadDlg.obj"
+".\Release\DiscImportDlg.obj"
+".\Release\ImageDlg.obj"
+".\Release\ImportDlg.obj"
+".\Release\ImportJobDetailDlg.obj"
+".\Release\PAGeneralDlg.obj"
+".\Release\PASink.obj"
+".\Release\PatientAdminDlg.obj"
+".\Release\PrintDlg.obj"
+".\Release\ReportCtrl.obj"
+".\Release\SendJobDetailDlg.obj"
+".\Release\SeriesImagesDlg.obj"
+".\Release\ServerDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\TestClientSrc.obj"
+".\Release\TestClientSrcDlg.obj"
+".\Release\TransferDlg.obj"
+".\Release\WlMppsDlg.obj"
+".\Release\TestClientSrc.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE96.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+warning C4786: 'fastdelegate::detail::ClosurePtr<void const * (__thiscall fastdelegate::detail::GenericClass::*)(void *,int,T_DIMSE_C_MoveRQ *,DcmDataset *,int,T_DIMSE_C_MoveRSP *,DcmDataset * *,DcmDataset * *),void (__cdecl*)(void *,int,T_DIMSE_C_MoveRQ *,DcmDataset *,int,T_DIMSE_C_MoveRSP *,DcmDataset * *,DcmDataset * *),void const * (__cdecl*)(void *,int,T_DIMSE_C_MoveRQ *,DcmDataset *,int,T_DIMSE_C_MoveRSP *,DcmDataset * *,DcmDataset * *)>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'fastdelegate::detail::ClosurePtr<void const * (__thiscall fastdelegate::detail::GenericClass::*)(void *,T_DIMSE_C_GetRQ *,int,T_DIMSE_C_GetRSP *),void (__cdecl*)(void *,T_DIMSE_C_GetRQ *,int,T_DIMSE_C_GetRSP *),void const * (__cdecl*)(void *,T_DIMSE_C_GetRQ *,int,T_DIMSE_C_GetRSP *)>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'fastdelegate::detail::ClosurePtr<void const * (__thiscall fastdelegate::detail::GenericClass::*)(void *,int,T_DIMSE_C_FindRQ *,DcmDataset *,int,T_DIMSE_C_FindRSP *,DcmDataset * *,DcmDataset * *),void (__cdecl*)(void *,int,T_DIMSE_C_FindRQ *,DcmDataset *,int,T_DIMSE_C_FindRSP *,DcmDataset * *,DcmDataset * *),void const * (__cdecl*)(void *,int,T_DIMSE_C_FindRQ *,DcmDataset *,int,T_DIMSE_C_FindRSP *,DcmDataset * *,DcmDataset * *)>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'fastdelegate::detail::ClosurePtr<void const * (__thiscall fastdelegate::detail::GenericClass::*)(void *,int,T_DIMSE_C_GetRQ *,DcmDataset *,int,T_DIMSE_C_GetRSP *,DcmDataset * *,DcmDataset * *),void (__cdecl*)(void *,int,T_DIMSE_C_GetRQ *,DcmDataset *,int,T_DIMSE_C_GetRSP *,DcmDataset * *,DcmDataset * *),void const * (__cdecl*)(void *,int,T_DIMSE_C_GetRQ *,DcmDataset *,int,T_DIMSE_C_GetRSP *,DcmDataset * *,DcmDataset * *)>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'fastdelegate::detail::ClosurePtr<void const * (__thiscall fastdelegate::detail::GenericClass::*)(void *,T_DIMSE_C_FindRQ *,int,T_DIMSE_C_FindRSP *,DcmDataset *),void (__cdecl*)(void *,T_DIMSE_C_FindRQ *,int,T_DIMSE_C_FindRSP *,DcmDataset *),void const * (__cdecl*)(void *,T_DIMSE_C_FindRQ *,int,T_DIMSE_C_FindRSP *,DcmDataset *)>' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'fastdelegate::detail::ClosurePtr<void const * (__thiscall fastdelegate::detail::GenericClass::*)(void *,T_DIMSE_C_MoveRQ *,int,T_DIMSE_C_MoveRSP *),void (__cdecl*)(void *,T_DIMSE_C_MoveRQ *,int,T_DIMSE_C_MoveRSP *),void const * (__cdecl*)(void *,T_DIMSE_C_MoveRQ *,int,T_DIMSE_C_MoveRSP *)>' : identifier was truncated to '255' characters in the debug information
+Compiling...
+BSTROpt.cpp
+BurnDlg.cpp
+BurnJobDetailDlg.cpp
+BurnPatientInfo.cpp
+ConfigDlg.cpp
+DcmReadDlg.cpp
+DiscImportDlg.cpp
+ImageDlg.cpp
+ImportDlg.cpp
+ImportJobDetailDlg.cpp
+PAGeneralDlg.cpp
+PASink.cpp
+PatientAdminDlg.cpp
+PrintDlg.cpp
+ReportCtrl.cpp
+SendJobDetailDlg.cpp
+SeriesImagesDlg.cpp
+ServerDlg.cpp
+TestClientSrc.cpp
+TestClientSrcDlg.cpp
+Generating Code...
+Compiling...
+TransferDlg.cpp
+WlMppsDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE98.bat" with contents
+[
+@echo off
+copy "..\TestClientbin\PATestClient.exe" "..\bin"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE98.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+PATestClient.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

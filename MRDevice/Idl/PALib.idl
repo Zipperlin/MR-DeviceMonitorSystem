@@ -1,0 +1,23 @@
+// PA.idl : IDL source for PA.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (PA.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+#include"PAUnit.idl"
+
+[
+	uuid(DE11085D-0BE2-4cdf-B23D-D1E6F4DDF667),
+	version(1.0),
+	helpstring("PA 1.0 Type Library")
+]
+library PALib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	#include"CoPA.idl"
+};
